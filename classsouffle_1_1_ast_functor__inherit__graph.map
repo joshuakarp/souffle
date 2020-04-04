@@ -1,0 +1,7 @@
+<map id="souffle::AstFunctor" name="souffle::AstFunctor">
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_intrinsic_functor.html" title="Intrinsic Functor. " alt="" coords="5,822,200,1017"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_user_defined_functor.html" title="User&#45;Defined Functor. " alt="" coords="225,800,447,1039"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_term.html" title="Abstract Term. " alt="" coords="147,417,290,583"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_argument.html" title="Argument. " alt="" coords="139,292,298,369"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="147,5,290,244"/>
+</map>

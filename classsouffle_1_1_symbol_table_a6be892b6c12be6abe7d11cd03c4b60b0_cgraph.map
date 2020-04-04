@@ -1,0 +1,5 @@
+<map id="souffle::SymbolTable::SymbolTable" name="souffle::SymbolTable::SymbolTable">
+<area shape="rect" id="node2" href="$classsouffle_1_1_symbol_table.html#a0e9cd8797c462161176e1179c7561634" title="Convenience method to place a new symbol in the table, if it does not exist. " alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_symbol_table.html#a872e436b5b29826d59c32bd4f63f8f12" title="Destructor, frees memory allocated for all strings. " alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_symbol_table.html#af10a87da32dbca31c798a5e975dbe267" title="Empty constructor. " alt="" coords="416,5,573,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::NodeGenerator::visitSubroutineReturnValue" name="souffle::NodeGenerator::visitSubroutineReturnValue">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_subroutine_return_value.html#aae415ea29d7a344bcb305551e19dd715" title="Getter for expressions. " alt="" coords="261,5,477,47"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="260,71,479,127"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="527,13,673,39"/>
+</map>

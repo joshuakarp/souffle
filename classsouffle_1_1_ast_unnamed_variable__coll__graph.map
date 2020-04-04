@@ -1,0 +1,6 @@
+<map id="souffle::AstUnnamedVariable" name="souffle::AstUnnamedVariable">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_argument.html" title="Argument. " alt="" coords="60,831,219,908"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="68,543,211,781"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_src_location.html" title="A class describing a range in an input file. " alt="" coords="65,359,214,480"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1_src_location_1_1_point.html" title="A class locating a single point in an input file. " alt="" coords="189,160,338,281"/>
+</map>

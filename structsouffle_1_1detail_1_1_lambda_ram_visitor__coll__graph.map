@@ -1,0 +1,4 @@
+<map id="souffle::detail::LambdaRamVisitor&lt; R, N &gt;" name="souffle::detail::LambdaRamVisitor&lt; R, N &gt;">
+<area shape="rect" id="node2" href="$structsouffle_1_1_ram_visitor.html" title="{souffle::RamVisitor\l\&lt; void \&gt;\n||+ operator()()\l+ operator()()\l+ visit()\l+ visit()\l+ ~RamVisitor()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\land 55 more...\l}" alt="" coords="20,132,167,444"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1ram__visitor__tag.html" title="A tag type required for the is_ram_visitor type trait to identify RamVisitors. " alt="" coords="5,5,181,83"/>
+</map>

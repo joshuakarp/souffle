@@ -1,0 +1,8 @@
+<map id="souffle::AstSemanticChecker::checkNamespaces" name="souffle::AstSemanticChecker::checkNamespaces">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="265,5,411,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_program.html#a71fb3c28c3a105637c22cbe6a9fb63ef" title="get relations " alt="" coords="263,71,413,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="263,136,413,177"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="275,202,401,229"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="461,5,661,47"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="488,110,635,137"/>
+</map>

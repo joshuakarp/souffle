@@ -1,0 +1,6 @@
+<map id="souffle::isRecordType" name="souffle::isRecordType">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="244,5,355,32"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_type_set.html#a2110dea550ae2c1eaf6ef65e2854f925" title="Emptiness check. " alt="" coords="212,56,387,83"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_type_set.html#ae26622401685d8ac9080b2f5a83d7eaa" title="Universality check. " alt="" coords="219,107,380,133"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a34c8a82b8d9ed840b32e93186002d18c" title="Determines whether the given type is a record type. " alt="" coords="220,157,379,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::NodeGenerator::visitConjunction" name="souffle::NodeGenerator::visitConjunction">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_conjunction.html#a53716fe1f2e5f0957ad574c8504445f5" title="Get left&#45;hand side of conjunction. " alt="" coords="245,5,427,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_conjunction.html#a267b5d0626993bd1931304a41d13cd1e" title="Get right&#45;hand side of conjunction. " alt="" coords="245,71,427,112"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="227,137,445,193"/>
+</map>

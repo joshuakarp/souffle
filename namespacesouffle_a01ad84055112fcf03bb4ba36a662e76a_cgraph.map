@@ -1,0 +1,34 @@
+<map id="souffle::isOrderableType" name="souffle::isOrderableType">
+<area shape="rect" id="node2" href="$namespacesouffle.html#ac810dd526309dc398254f53e18edf50a" title="Determines whether all types in s are subtypes of type b. " alt="" coords="278,134,449,160"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a8cc19c66d9d13ce64e65f14dcabb43b3" title="Determines whether type a is a subtype of type b. " alt="" coords="559,134,713,160"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a4e502e6abb9a3e9a8e4c1168dbf23743" title="Determines whether the given type is a number type. " alt="" coords="787,352,954,379"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#a11f6c352eec6bde7b5a0b143ffe64e3b" title="Determines whether the given type is a symbol type. " alt="" coords="789,16,953,43"/>
+<area shape="rect" id="node16" href="$namespacesouffle.html#a8aecaefb22443dc01bb4c208cb6aabdf" title="Computes the least common super types of the two given types. " alt="" coords="232,352,495,379"/>
+<area shape="rect" id="node20" href="$namespacesouffle.html#a732d351e2af0d4c5578be62e979a8a32" title="Is any value in the set float. " alt="" coords="284,682,443,708"/>
+<area shape="rect" id="node22" href="$namespacesouffle.html#a1a7d8cb2f6a29f825e650a7c98487718" title="Determines whether the given type is a float type. " alt="" coords="797,606,944,632"/>
+<area shape="rect" id="node24" href="$namespacesouffle.html#a31bb9767056b00fd49a4097b59cb07d9" title="Is any value in the set signed. " alt="" coords="278,580,449,607"/>
+<area shape="rect" id="node25" href="$namespacesouffle.html#a40316bc7e86831e18498b814b5af7fbc" title="Is any value in the set unsigned. " alt="" coords="269,631,457,658"/>
+<area shape="rect" id="node26" href="$namespacesouffle.html#a5c4839a38da22a968ab01e81a67d793c" title="Determines whether the given type is a number type. " alt="" coords="548,504,724,531"/>
+<area shape="rect" id="node28" href="$namespacesouffle.html#aa91abe89b1490abcc00848fc5d9daf3a" title="Check if type is numeric. " alt="" coords="278,783,449,810"/>
+<area shape="rect" id="node29" href="$namespacesouffle.html#a34c8a82b8d9ed840b32e93186002d18c" title="Determines whether the given type is a record type. " alt="" coords="284,834,443,860"/>
+<area shape="rect" id="node30" href="$namespacesouffle.html#ac79c60fce08f12e1f11d9d342c17ce56" title="Determines whether the given type is a recursive type. " alt="" coords="274,732,453,759"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="581,83,691,110"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_type.html#a2bc9172d0ce6390a7960b24b16172c79" title="souffle::Type::getTypeEnvironment" alt="" coords="1012,432,1259,459"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_type_environment.html#a5ead83575e9abfebb3a0b180a33a7d96" title="souffle::TypeEnvironment\l::isType" alt="" coords="777,286,964,328"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_type_environment.html#a5586a154835d2bfc076b9d5fcc11a50f" title="souffle::TypeEnvironment\l::getNumberType" alt="" coords="1042,345,1229,386"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_type_environment.html#a72fa419d33bf813f22efabec629a4627" title="souffle::TypeEnvironment\l::getSymbolType" alt="" coords="1042,60,1229,101"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_subset_type.html#ac5c52e503cbce42370d6ada3f050773d" title="souffle::SubsetType\l::getBaseType" alt="" coords="797,169,945,210"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="1307,418,1432,444"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="1503,388,1607,415"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1480,440,1631,481"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1679,447,1825,474"/>
+<area shape="rect" id="node17" href="$namespacesouffle.html#a34f8eecb81c090fca9e58d3357b63ed9" title="A generic test checking whether any elements within a container satisfy a certain predicate..." alt="" coords="577,656,695,683"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_type_environment.html#af9544bc93704955f168a0803f583ae19" title="souffle::TypeEnvironment\l::getAllTypes" alt="" coords="543,286,729,328"/>
+<area shape="rect" id="node19" href="$structsouffle_1_1_type_set.html#ad779397583248bcbf50b982e5314c2e2" title="Adds the given type to this set. " alt="" coords="785,403,956,430"/>
+<area shape="rect" id="node21" href="$structsouffle_1_1_type_set.html#ae26622401685d8ac9080b2f5a83d7eaa" title="Universality check. " alt="" coords="555,606,717,632"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_type_environment.html#a5569e54d58b6ca69f1fffbdd77143545" title="souffle::TypeEnvironment\l::getFloatType" alt="" coords="1042,569,1229,610"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_type_environment.html#a0b191b7782e170a23b54f7ec347a32ab" title="souffle::TypeEnvironment\l::getUnsignedType" alt="" coords="1042,490,1229,532"/>
+<area shape="rect" id="node31" href="$classsouffle_1_1_union_type.html#a0175bce933a70c1d3691114860ac17fc" title="souffle::UnionType\l::getElementTypes" alt="" coords="565,758,707,800"/>
+<area shape="rect" id="node33" href="$structsouffle_1_1_record_type.html#a338320267386a93ab482f1e25d50ef7a" title="souffle::RecordType\l::getFields" alt="" coords="562,824,710,865"/>
+<area shape="rect" id="node32" href="$classsouffle_1_1_type.html#a00437c665d598367ff16229c823c728f" title="souffle::Type::print" alt="" coords="799,798,942,824"/>
+</map>

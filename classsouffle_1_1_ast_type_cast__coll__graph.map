@@ -1,0 +1,7 @@
+<map id="souffle::AstTypeCast" name="souffle::AstTypeCast">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_argument.html" title="Argument. " alt="" coords="145,1061,303,1138"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="155,752,298,991"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_src_location.html" title="A class describing a range in an input file. " alt="" coords="153,359,303,480"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_qualified_name.html" title="Qualified Name class for fully/partially qualified names to identify objects in components. " alt="" coords="5,504,197,728"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1_src_location_1_1_point.html" title="A class locating a single point in an input file. " alt="" coords="237,160,387,281"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::SparseBitMap&lt; BITS &gt;::iterator" name="souffle::SparseBitMap&lt; BITS &gt;::iterator">
+<area shape="rect" id="node3" href="$classsouffle_1_1_sparse_array_1_1iterator.html" title="The iterator type to be utilized to iterate over the non&#45;default elements of this array..." alt="" coords="209,175,367,443"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1_sparse_array_1_1_node.html" title="The node type of the internally maintained tree. " alt="" coords="209,5,367,112"/>
+<area shape="rect" id="node6" href="$unionsouffle_1_1_sparse_array_1_1_cell.html" title="The value stored in a single cell of a inner or leaf node. " alt="" coords="435,255,594,362"/>
+</map>

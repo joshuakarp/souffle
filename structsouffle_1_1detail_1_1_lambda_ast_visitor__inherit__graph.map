@@ -1,0 +1,4 @@
+<map id="souffle::detail::LambdaAstVisitor&lt; R, N &gt;" name="souffle::detail::LambdaAstVisitor&lt; R, N &gt;">
+<area shape="rect" id="node2" href="$structsouffle_1_1_ast_visitor.html" title="{souffle::AstVisitor\l\&lt; void \&gt;\n||+ operator()()\l+ visit()\l+ ~AstVisitor()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# visitNode()\l}" alt="" coords="33,131,170,472"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1ast__visitor__tag.html" title="A tag type required for the is_ast_visitor type trait to identify AstVisitors. " alt="" coords="16,5,187,83"/>
+</map>

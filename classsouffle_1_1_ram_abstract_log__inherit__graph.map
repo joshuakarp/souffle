@@ -1,0 +1,5 @@
+<map id="souffle::RamAbstractLog" name="souffle::RamAbstractLog">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_debug_info.html" title="Debug statement. " alt="" coords="5,219,176,355"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_log_relation_timer.html" title="Execution time logger for a statement. " alt="" coords="200,219,419,355"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_log_timer.html" title="Execution time logger for a statement. " alt="" coords="443,219,608,355"/>
+</map>

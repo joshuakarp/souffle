@@ -1,0 +1,4 @@
+<map id="souffle::NullaryIndex::NullaryIndexView::contains" name="souffle::NullaryIndex::NullaryIndexView::contains">
+<area shape="rect" id="node2" href="$classsouffle_1_1_nullary_index.html#a35dd1aff2f2c6b46f560384ae7dc80c2" title="Tests whether the given tuple is present in this index or not. " alt="" coords="260,5,417,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_tuple_ref.html#a5d6eba97b1fdc8ac0cc01ea5d1da4525" title="Obtains the arity of the referenced tuple. " alt="" coords="465,13,628,39"/>
+</map>

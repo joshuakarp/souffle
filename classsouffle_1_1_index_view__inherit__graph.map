@@ -1,0 +1,5 @@
+<map id="souffle::IndexView" name="souffle::IndexView">
+<area shape="rect" id="node2" href="$structsouffle_1_1_generic_index_1_1_generic_index_view.html" title="{souffle::GenericIndex\l\&lt; Structure \&gt;::GenericIndexView\n|+ hints\l+ index\l|+ contains()\l+ contains()\l+ GenericIndexView()\l+ getArity()\l+ range()\l}" alt="" coords="5,189,243,355"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_indirect_index_1_1_indirect_index_view.html" title="{souffle::IndirectIndex\l::IndirectIndexView\n|+ hints\l+ index\l|+ contains()\l+ contains()\l+ getArity()\l+ IndirectIndexView()\l+ range()\l}" alt="" coords="267,189,431,355"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_nullary_index_1_1_nullary_index_view.html" title="{souffle::NullaryIndex\l::NullaryIndexView\n|+ index\l|+ contains()\l+ contains()\l+ getArity()\l+ NullaryIndexView()\l+ range()\l}" alt="" coords="456,197,619,347"/>
+</map>

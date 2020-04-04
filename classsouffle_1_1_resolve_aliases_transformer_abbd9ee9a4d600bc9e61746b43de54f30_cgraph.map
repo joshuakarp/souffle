@@ -1,0 +1,11 @@
+<map id="souffle::ResolveAliasesTransformer::transform" name="souffle::ResolveAliasesTransformer::transform">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_program.html#a776167026cb9e348e75a9e9caa02ef74" title="add a clause " alt="" coords="325,5,476,47"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="327,71,474,98"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="304,123,497,164"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_program.html#a0bde67af569811987d8e21929163d132" title="remove a clause " alt="" coords="325,188,476,229"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="317,254,485,281"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="554,64,705,105"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="783,71,930,98"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="545,247,713,288"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="761,247,952,288"/>
+</map>

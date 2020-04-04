@@ -1,0 +1,14 @@
+<map id="souffle::AstComponentChecker::checkComponentReference" name="souffle::AstComponentChecker::checkComponentReference">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="595,12,742,53"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_component_checker.html#a03814cc8ee0b29654283cbb8f305105f" title="souffle::AstComponentChecker\l::checkComponentNameReference" alt="" coords="276,71,523,112"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ast_component.html#a3223b0904c6c7502b368b4632d09bccc" title="get component type " alt="" coords="314,136,485,177"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_component_type.html#ab6a48675662dc445d033e354076eb5d0" title="get component name " alt="" coords="299,201,499,243"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ast_component_type.html#acb5df2d5589ce1bd858d08aa442256a4" title="get component type parameters " alt="" coords="299,267,499,308"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="815,5,1015,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_qualified_name.html#ab6a8a48aa56c1fcbc40aef38fbcc3737" title="check for emptiness " alt="" coords="819,253,1011,295"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_type_binding.html#ad3a49aa19869c50923d88ad3d43862d6" title="Returns binding for given name or empty string if such binding does not exist. " alt="" coords="838,71,991,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_component_lookup.html#a38f0a7d3b06c58e9f321258685e1cb1d" title="Performs a lookup operation for a component with the given name within the addressed scope..." alt="" coords="571,129,767,171"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_component.html#a2452704d4602f1681d90f07b98f31973" title="get components " alt="" coords="829,188,1000,229"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="852,137,977,163"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1063,195,1209,222"/>
+</map>

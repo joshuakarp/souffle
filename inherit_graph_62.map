@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1detail_1_1btree.html" title="souffle::detail::btree\l\&lt; TupleRef, comparator,\l std::allocator\&lt; TupleRef\l \&gt;, blockSize, typename souffle\l::detail::default_strategy\&lt; TupleRef\l \&gt;::type, false, comparator, souffle\l::detail::updater\&lt; TupleRef \&gt; \&gt;" alt="" coords="5,5,257,120"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1btree__multiset.html" title="souffle::btree_multiset\l\&lt; TupleRef, comparator,\l std::allocator\&lt; TupleRef\l \&gt;, 512 \&gt;" alt="" coords="305,27,487,98"/>
+</map>

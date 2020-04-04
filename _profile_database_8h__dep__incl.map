@@ -1,0 +1,13 @@
+<map id="ProfileDatabase.h" name="ProfileDatabase.h">
+<area shape="rect" id="node2" href="$_reader_8h.html" title="profile/Reader.h" alt="" coords="33,229,156,256"/>
+<area shape="rect" id="node8" href="$_event_processor_8h.html" title="EventProcessor.h" alt="" coords="132,80,265,107"/>
+<area shape="rect" id="node9" href="$_profile_event_8h.html" title="ProfileEvent.h" alt="" coords="195,155,307,181"/>
+<area shape="rect" id="node3" href="$_ast_profile_use_8cpp.html" title="AstProfileUse.cpp" alt="" coords="5,304,141,331"/>
+<area shape="rect" id="node4" href="$_tui_8h.html" title="profile/Tui.h" alt="" coords="166,304,263,331"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="main.cpp" alt="" coords="116,379,199,405"/>
+<area shape="rect" id="node6" href="$_cli_8h.html" title="profile/Cli.h" alt="" coords="223,379,319,405"/>
+<area shape="rect" id="node7" href="$souffle__prof_8cpp.html" title="souffle_prof.cpp" alt="" coords="208,453,333,480"/>
+<area shape="rect" id="node10" href="$_logger_8h.html" title="Logger.h" alt="" coords="431,229,508,256"/>
+<area shape="rect" id="node12" href="$_html_generator_8h.html" title="profile/HtmlGenerator.h" alt="" coords="231,229,406,256"/>
+<area shape="rect" id="node11" href="$_interpreter_engine_8cpp.html" title="InterpreterEngine.cpp" alt="" coords="388,304,551,331"/>
+</map>

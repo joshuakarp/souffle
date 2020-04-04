@@ -1,0 +1,8 @@
+<map id="souffle::tuple::operator&gt;&gt;" name="souffle::tuple::operator&gt;&gt;">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation.html#a2607e76650b5045cd84babfdd0bd64f3" title="Get the attribute type of a relation at the column specified by the parameter. " alt="" coords="259,5,393,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation.html#aafe66b5dd0bb775432f884bc47741a52" title="Get the symbol table of a relation. " alt="" coords="259,71,393,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_symbol_table.html#a438d450330bc4128144f08c6ae0c4989" title="Find a symbol in the table by its index, note that this gives an error if the index is out of bounds..." alt="" coords="247,136,405,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_relation.html#a7943e499688e4c73e293ed9db53bc329" title="Get the number of tuples in a relation. " alt="" coords="245,202,407,229"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="455,114,615,141"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_symbol_table.html#ab9b012e60e61e149cfc430a9eccc20ea" title="souffle::SymbolTable\l::size" alt="" coords="456,165,613,207"/>
+</map>

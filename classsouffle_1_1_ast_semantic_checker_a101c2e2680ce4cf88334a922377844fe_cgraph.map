@@ -1,0 +1,28 @@
+<map id="souffle::AstSemanticChecker::checkTypes" name="souffle::AstSemanticChecker::checkTypes">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="839,413,985,454"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_semantic_checker.html#a873c0e962a494a105840ffbf231fa93f" title="souffle::AstSemanticChecker\l::checkRecursiveUnionTypes" alt="" coords="529,318,739,359"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1353,135,1504,177"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#abe4e3f19879707216a2758b03f4e2deb" title="Creates an object to be forwarded to some output stream for printing sequences of elements interspers..." alt="" coords="863,43,961,69"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_ast_semantic_checker.html#a1e2cb5b3be7a4d4b8c65aa51b4e47584" title="souffle::AstSemanticChecker\l::checkType" alt="" coords="267,438,477,479"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_type_environment_analysis.html#a7626d9d1dfd82e94ea7b7daae2614d3b" title="souffle::TypeEnvironment\lAnalysis::getTypeEnvironment" alt="" coords="263,503,481,545"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_type_environment_analysis.html#a3a17e580bd64c9c25c32cc55056638f4" title="souffle::TypeEnvironment\lAnalysis::getUnionType" alt="" coords="279,569,465,610"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="1085,413,1285,454"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_type.html#a51fb73dfb862fd5c9d1c0754d99f81a8" title="get type name " alt="" coords="787,580,1037,607"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="812,631,1012,657"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ast_union_type.html#a7c744e5ac2b251f1150cd478ea8451c5" title="Obtains a reference to the list element types. " alt="" coords="831,347,993,389"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_graph.html#a8aa22759dcb069b37180e193b67a060c" title="Adds a new edge from the given vertex to the target vertex. " alt="" coords="833,296,991,323"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_graph.html#a74931613fa789b34e1c9e70684f7328e" title="Returns the set of vertices the given vertex has edges to. " alt="" coords="816,93,1008,120"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="849,681,975,708"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_graph.html#a5c23d2211b1834af2267607de97d1e04" title="Obtains a reference to the set of all vertices. " alt="" coords="825,245,999,272"/>
+<area shape="rect" id="node15" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="828,195,996,221"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1572,143,1719,169"/>
+<area shape="rect" id="node16" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="1101,198,1269,239"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="1333,201,1524,242"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_ast_semantic_checker.html#a1d6423db3eb84ddd53f12a5700550734" title="souffle::AstSemanticChecker\l::checkRecordType" alt="" coords="529,649,739,690"/>
+<area shape="rect" id="node24" href="$classsouffle_1_1_ast_semantic_checker.html#a4ec2ab886ea511b41a5bf6224e41bec4" title="souffle::AstSemanticChecker\l::checkUnionType" alt="" coords="529,522,739,563"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_ast_record_type.html#a3502cad2b8cb12d47b91fdeefcb4c133" title="get fields of record " alt="" coords="827,850,997,891"/>
+<area shape="rect" id="node21" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="1123,609,1248,636"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_type_environment.html#a61c5e103c9fd8677104db9b8dd58820c" title="souffle::TypeEnvironment\l::isPredefinedType" alt="" coords="819,733,1005,774"/>
+<area shape="rect" id="node22" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="1377,609,1481,636"/>
+<area shape="rect" id="node25" href="$namespacesouffle.html#a7f93cdf21f1a24b593da6691dc892828" title="A generic factory for constraints of the form. " alt="" coords="863,529,961,556"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="souffle::WhileTransformer::transform" name="souffle::WhileTransformer::transform">
+<area shape="rect" id="node2" href="$classsouffle_1_1_meta_transformer.html#adb680335d9dd617a58b9850bd7931899" title="souffle::MetaTransformer\l::applySubtransformer" alt="" coords="243,177,427,219"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_transformer.html#a32236031d6b2f0f8dc4bbe0a7aa90b43" title="souffle::AstTransformer\l::apply" alt="" coords="475,119,648,160"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_translation_unit.html#aec4a1cc2e03286db878a5d2f0377f894" title="get error report " alt="" coords="696,5,889,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_error_report.html#a43341b617858ddfafb8f893e32d9bd6e" title="souffle::ErrorReport\l::getNumErrors" alt="" coords="719,201,866,243"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_transformer.html#a5f0905c069a0a2cf54e46e92499ba95c" title="souffle::AstTransformer\l::getName" alt="" coords="475,236,648,277"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a1c65551944c7ecf6f44ec851b49bdbb0" title="souffle::now" alt="" coords="511,302,612,329"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_translation_unit.html#aa98655ac4e6bdd1a20d0c882c47508c8" title="destroy all cached analyses of translation unit " alt="" coords="696,71,889,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_transformer.html#a6f2bde49dc0c328e8ef86918322282dc" title="souffle::AstTransformer\l::transform" alt="" coords="706,136,879,177"/>
+</map>

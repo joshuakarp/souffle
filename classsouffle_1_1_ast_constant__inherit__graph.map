@@ -1,0 +1,7 @@
+<map id="souffle::AstConstant" name="souffle::AstConstant">
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_nil_constant.html" title="Nil Constant. " alt="" coords="5,631,176,723"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_numeric_constant.html" title="Numeric Constant. " alt="" coords="200,601,408,752"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_string_constant.html" title="String Constant. " alt="" coords="433,623,623,730"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_argument.html" title="Argument. " alt="" coords="225,292,383,369"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="233,5,375,244"/>
+</map>

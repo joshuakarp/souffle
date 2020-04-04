@@ -1,0 +1,4 @@
+<map id="souffle::Relation" name="souffle::Relation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_rel_interface.html" title="Wrapper class for interpreter relations. " alt="" coords="5,321,227,663"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation_wrapper.html" title="Relation wrapper used internally in the generated Datalog program. " alt="" coords="251,321,451,663"/>
+</map>

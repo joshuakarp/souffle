@@ -1,0 +1,18 @@
+<map id="souffle::AstArgument" name="souffle::AstArgument">
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_aggregator.html" title="An argument aggregating a value from a sub&#45;query. " alt="" coords="24,417,203,671"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_constant.html" title="Abstract Constant. " alt="" coords="227,476,381,612"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_counter.html" title="Counter. " alt="" coords="405,498,552,590"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ast_subroutine_argument.html" title="Subroutine Argument. " alt="" coords="576,476,805,612"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_term.html" title="Abstract Term. " alt="" coords="830,461,973,627"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_ast_type_cast.html" title="An argument capable of casting a value of one type into another. " alt="" coords="997,439,1152,649"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_ast_unnamed_variable.html" title="Unnamed Variable. " alt="" coords="1176,498,1387,590"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_ast_variable.html" title="Named Variable. " alt="" coords="1410,469,1558,619"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="725,5,867,244"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_nil_constant.html" title="Nil Constant. " alt="" coords="5,748,176,840"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_numeric_constant.html" title="Numeric Constant. " alt="" coords="200,719,408,869"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_string_constant.html" title="String Constant. " alt="" coords="433,741,623,847"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ast_functor.html" title="Functor class. " alt="" coords="742,733,885,855"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ast_record_init.html" title="Record. " alt="" coords="909,748,1069,840"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_intrinsic_functor.html" title="Intrinsic Functor. " alt="" coords="600,939,795,1134"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ast_user_defined_functor.html" title="User&#45;Defined Functor. " alt="" coords="819,917,1042,1156"/>
+</map>

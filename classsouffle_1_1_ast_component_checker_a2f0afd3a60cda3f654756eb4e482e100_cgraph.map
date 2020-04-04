@@ -1,0 +1,36 @@
+<map id="souffle::AstComponentChecker::getName" name="souffle::AstComponentChecker::getName">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_component_checker.html#af6cc0446aafd8dea15645f46cd0d2cef" title="souffle::AstComponentChecker\l::checkComponent" alt="" coords="817,487,1040,529"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_component_checker.html#a10a408c8d4bdebfe0594a9695b962b9d" title="souffle::AstComponentChecker\l::checkComponentInit" alt="" coords="1088,195,1311,237"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_component_checker.html#ad2160277bfa09f21e28e4f68a8a0b281" title="souffle::AstComponentChecker\l::checkComponentReference" alt="" coords="1359,145,1581,186"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_component_checker.html#a03814cc8ee0b29654283cbb8f305105f" title="souffle::AstComponentChecker\l::checkComponentNameReference" alt="" coords="1629,27,1876,69"/>
+<area shape="rect" id="node24" href="$classsouffle_1_1_ast_component_checker.html#a3c3bf99bdc83f2f69f34ed1dd1b4930f" title="souffle::AstComponentChecker\l::checkComponentNamespaces" alt="" coords="1639,873,1866,914"/>
+<area shape="rect" id="node29" href="$classsouffle_1_1_ast_component_checker.html#a0b366a51cbc896c34083e01e9d938154" title="souffle::AstComponentChecker\l::checkComponents" alt="" coords="547,681,769,722"/>
+<area shape="rect" id="node30" href="$classsouffle_1_1_ast_component_checker.html#aee6ba84da31634f4d55f9c25615382d1" title="souffle::AstComponentChecker\l::transform" alt="" coords="276,957,499,998"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="1958,554,2105,595"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_component_lookup.html#a38f0a7d3b06c58e9f321258685e1cb1d" title="Performs a lookup operation for a component with the given name within the addressed scope..." alt="" coords="1933,111,2129,153"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ast_component.html#a2452704d4602f1681d90f07b98f31973" title="get components " alt="" coords="2201,509,2372,550"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ast_component.html#a3223b0904c6c7502b368b4632d09bccc" title="get component type " alt="" coords="1667,253,1838,294"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_ast_component_type.html#ab6a48675662dc445d033e354076eb5d0" title="get component name " alt="" coords="1653,350,1853,391"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_ast_component_type.html#acb5df2d5589ce1bd858d08aa442256a4" title="get component type parameters " alt="" coords="1653,481,1853,522"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="1370,385,1570,412"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_type_binding.html#af4f3bf872cfb580ff934fec7f04f3474" title="souffle::TypeBinding\l::extend" alt="" coords="1123,313,1276,354"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_ast_component.html#a7e20cd8ed46d9f2658d918c99f73377d" title="get base components " alt="" coords="1385,698,1555,739"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1_ast_component.html#aa42fbd1f44d01fb1fb9cc5cabb5aa109" title="get instantiation " alt="" coords="1385,763,1555,805"/>
+<area shape="rect" id="node22" href="$classsouffle_1_1_ast_component.html#a64a1d72ea613f510295a40be36662eff" title="get override " alt="" coords="1114,378,1285,419"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_ast_component.html#a47dff11770636563588708cd60de66c0" title="get relations " alt="" coords="1114,1033,1285,1074"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="2187,574,2387,615"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_ast_component_init.html#aa0c76e05b44aeb150b1598cbf8a31c2e" title="get component type " alt="" coords="1375,210,1565,251"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_qualified_name.html#ab6a8a48aa56c1fcbc40aef38fbcc3737" title="check for emptiness " alt="" coords="2191,101,2383,142"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_type_binding.html#ad3a49aa19869c50923d88ad3d43862d6" title="Returns binding for given name or empty string if such binding does not exist. " alt="" coords="2210,14,2363,55"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="2224,651,2349,677"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="2435,884,2581,911"/>
+<area shape="rect" id="node25" href="$classsouffle_1_1_ast_program.html#a42172509a4f8a21c4031522a1c44a293" title="get component instantiation " alt="" coords="1924,671,2139,713"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_ast_program.html#a936a8b9d9a71fc53792d0933c6d8f6e3" title="get components " alt="" coords="1956,906,2107,947"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_ast_program.html#a71fb3c28c3a105637c22cbe6a9fb63ef" title="get relations " alt="" coords="2211,847,2362,889"/>
+<area shape="rect" id="node28" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1956,789,2107,830"/>
+<area shape="rect" id="node31" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="561,1165,755,1206"/>
+<area shape="rect" id="node32" href="$classsouffle_1_1_ast_translation_unit.html#af396e44c83e5ad410c9ec3e2f6b91758" title="get analysis: analysis is generated on the fly if not present " alt="" coords="561,1099,755,1141"/>
+<area shape="rect" id="node35" href="$classsouffle_1_1_ast_translation_unit.html#aec4a1cc2e03286db878a5d2f0377f894" title="get error report " alt="" coords="561,982,755,1023"/>
+<area shape="rect" id="node33" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="847,1241,1010,1268"/>
+<area shape="rect" id="node34" href="$classsouffle_1_1_debug_report.html#a4e6fe0a6d9854ce570d008772daa9aba" title="souffle::DebugReport\l::addSection" alt="" coords="849,1175,1008,1217"/>
+</map>

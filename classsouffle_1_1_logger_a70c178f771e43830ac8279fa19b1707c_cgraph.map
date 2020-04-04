@@ -1,0 +1,8 @@
+<map id="souffle::Logger::~Logger" name="souffle::Logger::~Logger">
+<area shape="rect" id="node2" href="$classsouffle_1_1_profile_event_singleton.html#adf94d78a9d87272b42a1fe4bc31f918d" title="get instance " alt="" coords="235,5,448,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_profile_event_singleton.html#ae3f7a2b9056dc228eff656b48ac3e02f" title="create an event for recording start and end times " alt="" coords="235,71,448,112"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a1c65551944c7ecf6f44ec851b49bdbb0" title="souffle::now" alt="" coords="291,137,392,163"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_event_processor_singleton.html#a3a6564631bccb96da84ccad7edfe4dc9" title="get instance " alt="" coords="496,37,719,79"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_event_processor_singleton.html#a537033bada68e176ff0b09239acd21fe" title="process a profile event " alt="" coords="496,103,719,144"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#aad78346252bf890fbf93de92aa4a2f73" title="souffle::escape" alt="" coords="767,110,887,137"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="souffle::RamParallelIndexChoice::print" name="souffle::RamParallelIndexChoice::print">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation.html#a445819695b0b607dd8605137edc69971" title="Get name. " alt="" coords="270,5,427,47"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ada252aa15afbf7d703a11b000dfd4048" title="Returns the relation with the given name in the program. " alt="" coords="275,71,423,98"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_nested_operation.html#a7f1de7f9dc546bc2be4dd4dca0f0f0a9" title="Pretty print with indentation. " alt="" coords="241,123,456,164"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a0fff2be077dd5d1105f3a6e718339f2f" title="A utility printing a given value multiple times. " alt="" coords="293,189,404,215"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="536,13,640,39"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_program.html#a71fb3c28c3a105637c22cbe6a9fb63ef" title="get relations " alt="" coords="513,64,663,105"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="720,71,867,98"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_operation.html#a8cfcdd4732315954ab4238e0c509ec69" title="Print RAM node. " alt="" coords="504,129,672,171"/>
+</map>

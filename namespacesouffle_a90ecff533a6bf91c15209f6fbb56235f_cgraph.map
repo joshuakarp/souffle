@@ -1,0 +1,6 @@
+<map id="souffle::isValidMove" name="souffle::isValidMove">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_clause.html#a1b5199df425ba5839383a75c5bb8a254" title="Obtains a copy of the internally maintained body literals. " alt="" coords="264,5,403,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_clause.html#a5a29a4f9ba5d0e4aea869cf71a6efbbf" title="Return the atom that represents the head of the clause. " alt="" coords="264,71,403,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_atom.html#a2fcd569fa7d8ed8c0c2dfd0d1c362e50" title="get qualified name " alt="" coords="205,137,461,163"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="509,13,656,39"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::MaxMatching::solve" name="souffle::MaxMatching::solve">
+<area shape="rect" id="node2" href="$classsouffle_1_1_max_matching.html#a8ddaeeb5af558ffc94bb54d7b3bc1734" title="perform a breadth first search in the graph " alt="" coords="213,71,373,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_max_matching.html#a7d0fa4618c13ea5213fec6673d8ee875" title="get match for a search signature " alt="" coords="421,71,581,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_max_matching.html#a6dc9b5b814b48decdcb78bc140c84185" title="perform a depth first search in the graph " alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_max_matching.html#aff96c4d7f21ef8df2b4f3b91870d7e3a" title="get distance of a node " alt="" coords="421,5,581,47"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="souffle::TypeEnvironmentAnalysis::updateTypeEnvironment" name="souffle::TypeEnvironmentAnalysis::updateTypeEnvironment">
+<area shape="rect" id="node2" href="$classsouffle_1_1_union_type.html#a980e743dd021a43aa1ab0548a1ad6faf" title="souffle::UnionType::add" alt="" coords="302,5,477,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_type_environment.html#a5ead83575e9abfebb3a0b180a33a7d96" title="souffle::TypeEnvironment\l::isType" alt="" coords="531,49,717,90"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_record_type.html#a44e9c68ca7f7428f44c6f6ac9fd48181" title="The list of contained fields. " alt="" coords="299,107,479,133"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_type_environment.html#a0f0c4c0371cf62e7f32d11234ac51ff0" title="souffle::TypeEnvironment\l::createRecordType" alt="" coords="296,158,483,199"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="765,217,916,258"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_type_environment.html#ae15510ad5cb82c10bf06aee7f558d8d7" title="souffle::TypeEnvironment\l::createSubsetType" alt="" coords="296,275,483,317"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_type_environment.html#ac60a142d23ebde8b56fca1a7aa658cbf" title="souffle::TypeEnvironment\l::createUnionType" alt="" coords="296,341,483,382"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_type_environment.html#ad6dfaf898b35d9c725ebd11799d3b3b1" title="souffle::TypeEnvironment\l::getModifiableType" alt="" coords="296,406,483,447"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_type_environment.html#ada544cc106c8c80c9120e2c1d1424ebf" title="souffle::TypeEnvironment\l::getType" alt="" coords="296,471,483,513"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_graph.html#a8aa22759dcb069b37180e193b67a060c" title="Adds a new edge from the given vertex to the target vertex. " alt="" coords="310,537,469,564"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_graph.html#a98011f8cbf34ce1fe189beadd683bd8e" title="Determines whether there is a directed path between the two vertices. " alt="" coords="303,588,475,615"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="561,165,687,192"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="789,165,893,192"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="964,224,1111,251"/>
+</map>

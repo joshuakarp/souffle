@@ -1,0 +1,4 @@
+<map id="souffle::BTreeProvenanceIndex&lt; Arity &gt;" name="souffle::BTreeProvenanceIndex&lt; Arity &gt;">
+<area shape="rect" id="node2" href="$classsouffle_1_1_generic_index.html" title="{souffle::GenericIndex\l\&lt; btree_set\&lt; t_tuple\l\&lt; Arity \&gt;, comparator\l\&lt; Arity \&gt;, std::allocator\l\&lt; t_tuple\&lt; Arity \&gt; \&gt;, 256,\l detail::default_strategy\l\&lt; t_tuple\&lt; Arity \&gt; \&gt;::type,\l comparator\&lt; Arity &#45; 2 \&gt;, Interpreter\lProvenanceUpdater\&lt; Arity \&gt; \&gt; \&gt;\n|# data\l# order\l# Arity\l|+ clear()\l+ contains()\l+ contains()\l+ createView()\l+ empty()\l+ GenericIndex()\l+ getArity()\l+ insert()\l+ insert()\l+ partitionRange()\l+ partitionScan()\l+ range()\l+ scan()\l+ size()\l# bounds()\l}" alt="" coords="5,336,265,765"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_index.html" title="An index is an abstraction of a data structure. " alt="" coords="46,5,225,288"/>
+</map>

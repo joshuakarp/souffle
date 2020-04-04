@@ -1,0 +1,4 @@
+<map id="souffle::NullTransformer" name="souffle::NullTransformer">
+<area shape="rect" id="node2" href="$classsouffle_1_1_meta_transformer.html" title="Transformer that coordinates other sub&#45;transformations. " alt="" coords="5,175,189,296"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_transformer.html" title="{souffle::AstTransformer\n||+ apply()\l+ getName()\l+ ~AstTransformer()\l&#45; transform()\l}" alt="" coords="11,5,184,127"/>
+</map>

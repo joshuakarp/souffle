@@ -1,0 +1,6 @@
+<map id="souffle::profile::HtmlGenerator::getHtml" name="souffle::profile::HtmlGenerator::getHtml">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_html_generator.html#a8539f14e0c8e498c55b92ef6c00eedac" title="souffle::profile::HtmlGenerator\l::getFirstHalf" alt="" coords="273,5,493,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_html_generator.html#aee3c0cbaa408cdabaa4c3b3bca30218b" title="souffle::profile::HtmlGenerator\l::getSecondHalf" alt="" coords="273,71,493,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_html_generator.html#a8861f580cb55da7e505c7306703aab08" title="souffle::profile::HtmlGenerator\l::wrapCss" alt="" coords="541,5,761,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_html_generator.html#af009d01c614ec1912e4eaf9cebe5954b" title="souffle::profile::HtmlGenerator\l::wrapJs" alt="" coords="541,71,761,112"/>
+</map>

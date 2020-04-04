@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_souffle_program.html" title="Abstract base class for generated Datalog programs. " alt="" coords="5,13,180,39"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_prog_interface.html" title="Implementation of SouffleProgram interface for an interpreter instance. " alt="" coords="228,5,400,47"/>
+</map>

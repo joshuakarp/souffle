@@ -1,0 +1,9 @@
+<map id="souffle::detail::btree::iterator::operator++" name="souffle::detail::btree::iterator::operator++">
+<area shape="rect" id="node2" href="$structsouffle_1_1detail_1_1btree_1_1node.html#a70bd0452c917eda335910f749ab14424" title="Obtains a pointer to the array of child&#45;pointers of this node – if it is an inner node..." alt="" coords="237,5,390,47"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1btree_1_1base.html#a5e59b2bd249a00973cc9fd38e8cf167b" title="souffle::detail::btree\l::base::getNumElements" alt="" coords="222,71,405,112"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1detail_1_1btree_1_1base.html#a4abb38679a8971e680b054e725a2e941" title="souffle::detail::btree\l::base::getParent" alt="" coords="237,136,390,177"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1detail_1_1btree_1_1base.html#ab54bb9e797868c04e79631c7e208fe27" title="souffle::detail::btree\l::base::getPositionInParent" alt="" coords="216,201,411,243"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1detail_1_1btree_1_1node.html#a8c2e01966d04359c07c9fd3e0772b74b" title="Checks whether this node is empty – can happen due to biased insertion. " alt="" coords="237,267,390,308"/>
+<area shape="rect" id="node7" href="$structsouffle_1_1detail_1_1btree_1_1base.html#a53303ea9a504be14c81f3eea19910377" title="souffle::detail::btree\l::base::isInner" alt="" coords="237,332,390,373"/>
+<area shape="rect" id="node8" href="$structsouffle_1_1detail_1_1btree_1_1base.html#a054d65429e318a7d47c2e9a6d180f6cd" title="souffle::detail::btree\l::base::isLeaf" alt="" coords="237,397,390,439"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="souffle::ComponentInstantiationTransformer::getName" name="souffle::ComponentInstantiationTransformer::getName">
+<area shape="rect" id="node2" href="$classsouffle_1_1_component_instantiation_transformer.html#a0fd9ecfa73353c942332d518c7cd0dbf" title="souffle::ComponentInstantiation\lTransformer::transform" alt="" coords="284,71,515,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="563,5,756,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_translation_unit.html#af396e44c83e5ad410c9ec3e2f6b91758" title="get analysis: analysis is generated on the fly if not present " alt="" coords="563,71,756,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_translation_unit.html#aec4a1cc2e03286db878a5d2f0377f894" title="get error report " alt="" coords="563,136,756,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_debug_report.html#a4e6fe0a6d9854ce570d008772daa9aba" title="souffle::DebugReport\l::addSection" alt="" coords="806,41,965,83"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="804,107,967,134"/>
+</map>

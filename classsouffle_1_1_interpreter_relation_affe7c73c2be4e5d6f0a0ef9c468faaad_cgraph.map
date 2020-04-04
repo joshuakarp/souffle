@@ -1,0 +1,13 @@
+<map id="souffle::InterpreterRelation::insert" name="souffle::InterpreterRelation::insert">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_relation.html#a0bfe234ff511b0b72722e683e7973746" title="Tests whether this relation contains the given tuple. " alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_relation.html#aadf4e0a1fa2c21d88544b42622a7f168" title="Add the given tuple to this relation. " alt="" coords="249,71,445,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_interpreter_relation.html#a0cf2cea7c508fcb888973a8ca29f27dd" title="Obtains a partitioned stream list for parallel computation. " alt="" coords="249,136,445,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_interpreter_relation.html#a6f19b72c70c1585db416a0771a245b9d" title="Obtains a partitioned stream list for parallel computation. " alt="" coords="249,201,445,243"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_interpreter_relation.html#af5b8ebff63141d71e74e9e196a2d553f" title="Obtains a stream covering the interval between the two given entries. " alt="" coords="249,267,445,308"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_interpreter_relation.html#ac91af58bb2f5ab34317ad97b86f4cebc" title="Obtains a stream to scan the entire relation. " alt="" coords="249,332,445,373"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_interpreter_relation.html#a1fbaa446233f157bed44d81072b0e663" title="Swaps the content of this and the given relation, including the installed indexes. " alt="" coords="249,397,445,439"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_index.html#acdd680159baf0f54af714d02e358b96f" title="Tests whether the given tuple is present in this index or not. " alt="" coords="493,5,672,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_index.html#a2b14aad64a996e9664a135bad4cf843c" title="Inserts a tuple into this index. " alt="" coords="493,71,672,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_interpreter_index.html#a5cc0007d42a5e3626765793dc7423fe1" title="Returns a partitioned stream covering the entire index content. " alt="" coords="493,201,672,243"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_interpreter_index.html#aabda35de2db639236fbcbdf8e4d9d1e5" title="Returns a stream covering the entire index content. " alt="" coords="493,332,672,373"/>
+</map>

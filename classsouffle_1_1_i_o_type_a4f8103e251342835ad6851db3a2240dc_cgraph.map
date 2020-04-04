@@ -1,0 +1,12 @@
+<map id="souffle::IOType::run" name="souffle::IOType::run">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="221,5,414,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_i_o.html#a6fe37bfe603efc107c4f050068b80488" title="get relation name " alt="" coords="200,71,435,98"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ada252aa15afbf7d703a11b000dfd4048" title="Returns the relation with the given name in the program. " alt="" coords="243,122,391,149"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_i_o.html#adeaa3e9b4da63fb340e5e9580e6fad33" title="get I/O type " alt="" coords="233,173,401,199"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="233,223,401,250"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="515,82,619,109"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_program.html#a71fb3c28c3a105637c22cbe6a9fb63ef" title="get relations " alt="" coords="491,133,642,175"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="721,141,867,167"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="483,216,651,257"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="699,216,889,257"/>
+</map>

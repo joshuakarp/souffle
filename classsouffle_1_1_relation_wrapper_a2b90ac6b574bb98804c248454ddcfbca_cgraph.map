@@ -1,0 +1,4 @@
+<map id="souffle::RelationWrapper::insert" name="souffle::RelationWrapper::insert">
+<area shape="rect" id="node2" href="$classsouffle_1_1tuple.html#a0ab9c3b37d368d4372e7e27fdbf20ee6" title="Get the reference to the relation to which the tuple belongs. " alt="" coords="235,5,424,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1tuple.html#ac1e884fd470e139ca8223af684f379bc" title="Return the number of elements in the tuple. " alt="" coords="259,56,400,83"/>
+</map>

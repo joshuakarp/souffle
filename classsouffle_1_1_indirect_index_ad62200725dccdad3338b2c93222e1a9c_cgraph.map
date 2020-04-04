@@ -1,0 +1,5 @@
+<map id="souffle::IndirectIndex::range" name="souffle::IndirectIndex::range">
+<area shape="rect" id="node2" href="$structsouffle_1_1_indirect_index_1_1_indirect_index_view.html#a14be14f629d6220aa1cad80721f35d01" title="Obtains a stream for the given range within this index. " alt="" coords="212,39,403,80"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1detail_1_1btree.html#a9f2966547a580bb08d4175f8cd5d1b89" title="Obtains a lower boundary for the given key – hence an iterator referencing the smallest value that i..." alt="" coords="451,5,604,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1detail_1_1btree.html#af2377002c4237d3fe5103981bb1515de" title="Obtains an upper boundary for the given key – hence an iterator referencing the first element that t..." alt="" coords="451,71,604,112"/>
+</map>

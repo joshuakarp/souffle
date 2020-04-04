@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structsouffle_1_1ram__visitor__tag.html" title="A tag type required for the is_ram_visitor type trait to identify RamVisitors. " alt="" coords="5,93,181,120"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1_ram_visitor.html" title="souffle::RamVisitor\l\&lt; std::unique_ptr\&lt; Interpreter\lNode \&gt; \&gt;" alt="" coords="229,5,448,61"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_ram_visitor.html" title="souffle::RamVisitor\l\&lt; void \&gt;" alt="" coords="265,86,412,127"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1_ram_visitor.html" title="The generic base type of all RamVisitors realizing the dispatching of visitor calls. " alt="" coords="265,151,412,193"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_node_generator.html" title="souffle::NodeGenerator" alt="" coords="510,20,683,47"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1detail_1_1_lambda_ram_visitor.html" title="A specialized visitor wrapping a lambda function – an auxiliary type required for visitor convenienc..." alt="" coords="496,86,697,127"/>
+</map>

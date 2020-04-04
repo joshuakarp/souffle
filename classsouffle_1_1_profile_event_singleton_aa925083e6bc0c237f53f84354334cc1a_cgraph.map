@@ -1,0 +1,6 @@
+<map id="souffle::ProfileEventSingleton::~ProfileEventSingleton" name="souffle::ProfileEventSingleton::~ProfileEventSingleton">
+<area shape="rect" id="node2" href="$classsouffle_1_1_profile_event_singleton.html#a6f2ed01ee20ccd2abd3d61312bb3f217" title="Dump all events. " alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_profile_event_singleton.html#adf94d78a9d87272b42a1fe4bc31f918d" title="get instance " alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_profile_event_singleton.html#a3141faaa2b8a59c75655c638698e1937" title="Stop timer. " alt="" coords="267,136,480,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_profile_event_singleton_1_1_profile_timer.html#a6b447ff0b66b3794e6c85f8777ced043" title="stop timer on the thread th " alt="" coords="528,136,741,177"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="souffle::HoistConditionsTransformer::hoistConditions" name="souffle::HoistConditionsTransformer::hoistConditions">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_nested_operation.html#aea45ac748bab6719f1f066383bf73bc2" title="Apply the mapper to all child nodes. " alt="" coords="263,5,477,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_node.html#a0e7d037203dd2a1203238db57604087c" title="Apply the mapper to all child nodes. " alt="" coords="279,71,461,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_query.html#a5e342b9d77573508ba4e8aa8dd40401b" title="Apply the mapper to all child nodes. " alt="" coords="295,123,445,164"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_condition.html#a54f67f8136251030e958232ae1aa051a" title="Create a clone (i.e. " alt="" coords="287,188,453,229"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_tuple_operation.html#ae121c8c72d4b9dcb56fe2d69b6364720" title="Get identifier. " alt="" coords="269,253,471,295"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a7fba43e03f480ca372449b103dfc9a2f" title="Creates a node mapper based on a corresponding lambda expression. " alt="" coords="525,341,767,367"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ram_node.html#a228f296a6d3ae883095ccee05cbfdb14" title="Rewrite a child node. " alt="" coords="274,370,466,397"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="286,421,454,447"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad0e8debde5608979e041dd30e044612a" title="Valid C++ identifier, note that this does not ensure the uniqueness of identifiers returned..." alt="" coords="580,261,712,287"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="562,413,730,455"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="815,413,1005,455"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="souffle::AstUserDefinedFunctorsTransformer::transform" name="souffle::AstUserDefinedFunctorsTransformer::transform">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="318,5,465,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_program.html#a0a658e411394dfc93da0ab36e06d0101" title="Apply the mapper to all child nodes. " alt="" coords="316,71,467,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_functor_declaration.html#ad42a7c7b44eb0915fd9f44076c46f77f" title="get type " alt="" coords="283,136,500,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_functor_declaration.html#a32abce5bc11dcccd25d8c405c0ba662a" title="get number of arguments " alt="" coords="283,201,500,243"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_translation_unit.html#aec4a1cc2e03286db878a5d2f0377f894" title="get error report " alt="" coords="295,267,488,308"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a68ec038f787c926d16d63206d73d4724" title="Returns the functor declaration with the given name in the program. " alt="" coords="283,333,500,359"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="295,384,488,425"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ast_functor_declaration.html#a98f95cbd766d772e904bd4e65ba1387b" title="souffle::AstFunctorDeclaration\l::getReturnType" alt="" coords="283,449,500,491"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="548,5,748,47"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ast_program.html#a69ceb64c50b5e47518d505416e4579fa" title="get functor declarations " alt="" coords="558,296,738,337"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="596,362,700,389"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="796,303,943,330"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="souffle::t_info::contains" name="souffle::t_info::contains">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation_wrapper.html#a32f601d3eba68c116c730d6d3b6876b1" title="Check whether a tuple exists in a relation. " alt="" coords="228,5,409,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1tuple.html#ac1e884fd470e139ca8223af684f379bc" title="Return the number of elements in the tuple. " alt="" coords="457,13,599,39"/>
+</map>

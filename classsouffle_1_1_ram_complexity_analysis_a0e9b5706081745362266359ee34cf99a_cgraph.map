@@ -1,0 +1,7 @@
+<map id="souffle::RamComplexityAnalysis::getComplexity" name="souffle::RamComplexityAnalysis::getComplexity">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation.html#aa2d201d636a8b01283b5996a56d7abb8" title="Get arity of relation. " alt="" coords="315,5,473,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_conjunction.html#a53716fe1f2e5f0957ad574c8504445f5" title="Get left&#45;hand side of conjunction. " alt="" coords="303,71,485,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_negation.html#a37d2070bab290a2bea52a5da1a9cfb95" title="Get operand of negation. " alt="" coords="313,136,475,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_emptiness_check.html#a9b04143b46a7f7715a9b9749bc609d32" title="Get relation. " alt="" coords="288,201,500,243"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_conjunction.html#a267b5d0626993bd1931304a41d13cd1e" title="Get right&#45;hand side of conjunction. " alt="" coords="303,267,485,308"/>
+</map>

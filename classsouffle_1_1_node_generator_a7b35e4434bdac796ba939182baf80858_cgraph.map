@@ -1,0 +1,6 @@
+<map id="souffle::NodeGenerator::visitUnpackRecord" name="souffle::NodeGenerator::visitUnpackRecord">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_unpack_record.html#a088ccab1d19dc4f4db2a7c78a9a3151b" title="Get record expression. " alt="" coords="227,5,424,47"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="472,57,691,113"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_node_generator.html#afb111d408a8fa0d436e0afcd2ec0ddcf" title="souffle::NodeGenerator\l::visitTupleOperation" alt="" coords="239,123,412,164"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_nested_operation.html#afdbbe7da4e005809c1ca1531b06f65f0" title="Get nested operation. " alt="" coords="474,137,689,179"/>
+</map>

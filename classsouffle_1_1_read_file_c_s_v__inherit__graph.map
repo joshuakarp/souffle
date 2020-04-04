@@ -1,0 +1,4 @@
+<map id="souffle::ReadFileCSV" name="souffle::ReadFileCSV">
+<area shape="rect" id="node2" href="$classsouffle_1_1_read_stream_c_s_v.html" title="{souffle::ReadStreamCSV\n|# delimiter\l# file\l# inputMap\l# lineNumber\l|+ ReadStreamCSV()\l+ ~ReadStreamCSV()\l# getInputColumnMap()\l# nextElement()\l# readNextTuple()\l# readRamUnsigned()\l}" alt="" coords="7,307,186,501"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_read_stream.html" title="{souffle::ReadStream\n|# arity\l# auxiliaryArity\l# recordTable\l# symbolTable\l# typeAttributes\l# types\l|+ readAll()\l+ ~ReadStream()\l# consumeChar()\l# consumeWhiteSpace()\l# readNextTuple()\l# readRecord()\l# ReadStream()\l# readStringInRecord()\l}" alt="" coords="5,5,188,259"/>
+</map>

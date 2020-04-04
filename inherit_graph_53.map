@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structsouffle_1_1detail_1_1btree_1_1base.html" title="The base type of all node types containing essential book&#45;keeping information. " alt="" coords="5,67,299,138"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1detail_1_1btree_1_1node.html" title="The actual, generic node implementation covering the operations for both, inner and leaf nodes..." alt="" coords="347,67,641,138"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1btree_1_1inner__node.html" title="The data type representing inner nodes of the b&#45;tree. " alt="" coords="689,5,928,91"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1detail_1_1btree_1_1leaf__node.html" title="The data type representing leaf nodes of the b&#45;tree. " alt="" coords="689,115,928,200"/>
+</map>

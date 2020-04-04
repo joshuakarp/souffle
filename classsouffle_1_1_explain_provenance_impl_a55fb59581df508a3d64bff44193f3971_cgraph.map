@@ -1,0 +1,6 @@
+<map id="souffle::ExplainProvenanceImpl::findTuple" name="souffle::ExplainProvenanceImpl::findTuple">
+<area shape="rect" id="node2" href="$classsouffle_1_1_souffle_program.html#a8a5b114c5b6c8022c936a533248996e7" title="Get Relation by its name from relationMap, if relation not found, return a nullptr. " alt="" coords="252,5,427,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_symbol_table.html#a74e200201738bad69d948c014ec9db3e" title="Finds the index of a symbol in the table, giving an error if it&#39;s not found. " alt="" coords="261,71,418,112"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a25311f9e95c1f1147066933e9283b2bc" title="In C++20 there will be a new way to cast between types by reinterpreting bits (std::bit_cast), but as of January 2020 it is not yet supported. " alt="" coords="266,137,413,163"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="475,78,635,105"/>
+</map>

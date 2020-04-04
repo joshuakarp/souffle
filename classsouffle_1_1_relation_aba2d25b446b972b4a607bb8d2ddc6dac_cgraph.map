@@ -1,0 +1,5 @@
+<map id="souffle::Relation::getSignature" name="souffle::Relation::getSignature">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation.html#a8e8e6b38e1d621e9cccd365eaedbd7e1" title="Return the arity of a relation. " alt="" coords="188,5,323,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation.html#a2607e76650b5045cd84babfdd0bd64f3" title="Get the attribute type of a relation at the column specified by the parameter. " alt="" coords="188,71,323,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_relation.html#a813a8dcd5e6b8c1415258e0059762fd3" title="Delete all the tuples in relation. " alt="" coords="188,136,323,177"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="souffle::ExplainProvenanceImpl" name="souffle::ExplainProvenanceImpl">
+<area shape="rect" id="node2" href="$classsouffle_1_1_explain_provenance.html" title="{souffle::ExplainProvenance\n|# prog\l# symTable\l# useSublevels\l|+ explain()\l+ explainNegation()\l+ explainNegationGetVariables()\l+ ExplainProvenance()\l+ explainSubproof()\l+ getRule()\l+ getRules()\l+ measureRelation()\l+ printRulesJSON()\l+ queryProcess()\l+ setup()\l+ ~ExplainProvenance()\l# argsToNums()\l# decodeArguments()\l# RamDomainToArgument()\l}" alt="" coords="5,5,243,317"/>
+</map>

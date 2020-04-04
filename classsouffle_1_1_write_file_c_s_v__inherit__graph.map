@@ -1,0 +1,4 @@
+<map id="souffle::WriteFileCSV" name="souffle::WriteFileCSV">
+<area shape="rect" id="node2" href="$classsouffle_1_1_write_stream_c_s_v.html" title="{souffle::WriteStreamCSV\n|# delimiter\l|# writeNextTupleCSV()\l# writeNextTupleElement()\l# WriteStreamCSV()\l}" alt="" coords="5,336,204,443"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_write_stream.html" title="{souffle::WriteStream\n|# arity\l# recordTable\l# summary\l# symbolTable\l# typeAttributes\l# types\l|+ writeAll()\l+ writeNext()\l+ writeSize()\l+ WriteStream()\l+ ~WriteStream()\l# outputRecord()\l# writeNext()\l# writeNextTuple()\l# writeNullary()\l# writeSize()\l}" alt="" coords="27,5,182,288"/>
+</map>

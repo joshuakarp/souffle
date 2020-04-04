@@ -1,0 +1,8 @@
+<map id="souffle::AstPragmaChecker::transform" name="souffle::AstPragmaChecker::transform">
+<area shape="rect" id="node2" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="267,5,430,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_pragma.html#a03f94ac6d7d59134273fbd88f1875dfa" title="souffle::AstPragma\l::getkvp" alt="" coords="276,57,421,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="252,122,445,163"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="265,188,433,215"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="493,181,661,222"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="709,181,900,222"/>
+</map>

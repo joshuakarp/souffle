@@ -1,0 +1,6 @@
+<map id="souffle::RamLogRelationTimer" name="souffle::RamLogRelationTimer">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation_statement.html" title="RAM Statements with a single relation. " alt="" coords="177,441,403,577"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_statement.html" title="Abstract class for RAM statements. " alt="" coords="5,249,177,371"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="20,5,163,200"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_abstract_log.html" title="Abstract class for logging. " alt="" coords="427,433,609,584"/>
+</map>

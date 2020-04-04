@@ -1,0 +1,12 @@
+<map id="souffle::profile::InputReader::getInput" name="souffle::profile::InputReader::getInput">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_input_reader.html#a5e322b63728d04b784ac53907806e4ad" title="souffle::profile::InputReader\l::backspace" alt="" coords="255,71,456,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_input_reader.html#a37e5eb98efab4a607969ee49c7b1b4c7" title="souffle::profile::InputReader\l::showFullText" alt="" coords="504,5,705,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_input_reader.html#afbe82264bff4493fe2859b93d8493a17" title="souffle::profile::InputReader\l::moveCursor" alt="" coords="255,136,456,177"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1profile_1_1_input_reader.html#ac74597f9639943f8554013f09e92aa39" title="souffle::profile::InputReader\l::readchar" alt="" coords="255,201,456,243"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1profile_1_1_input_reader.html#afacd909a6d021400f57961951b8bcd27" title="souffle::profile::InputReader\l::tabComplete" alt="" coords="255,296,456,337"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_input_reader.html#abd36b727544195f5b9e417f4c49712c2" title="souffle::profile::InputReader\l::moveCursorLeft" alt="" coords="504,71,705,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_input_reader.html#a3a919eddf6b8aee0e04810ac1b8c34e1" title="souffle::profile::InputReader\l::clearPrompt" alt="" coords="753,169,955,211"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_input_reader.html#adbb874fe2059c0008af1dc418cbe3559" title="souffle::profile::InputReader\l::historyUp" alt="" coords="504,136,705,177"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_input_reader.html#ae772c175c42f2abf1dfb8e342ef62307" title="souffle::profile::InputReader\l::historyDown" alt="" coords="504,201,705,243"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1profile_1_1_input_reader.html#ac5df07fa72f6f005127009f3fc9d173e" title="souffle::profile::InputReader\l::moveCursorRight" alt="" coords="504,267,705,308"/>
+</map>

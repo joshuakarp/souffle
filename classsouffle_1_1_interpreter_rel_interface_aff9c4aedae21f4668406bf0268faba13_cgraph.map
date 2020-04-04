@@ -1,0 +1,13 @@
+<map id="souffle::InterpreterRelInterface::getAttrType" name="souffle::InterpreterRelInterface::getAttrType">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_rel_interface.html#af6ae75be958d6b71c493733f09febfc9" title="Get arity. " alt="" coords="275,169,496,211"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_relation.html#a7efc6f29e2a86d262b6e71c6e549effe" title="Return arity. " alt="" coords="544,169,740,211"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_relation.html#a0fc33bf274670d6bdc004511f6f044c0" title="Check if the relation is empty. " alt="" coords="788,5,984,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_interpreter_relation.html#a8757cab66c0dfe27c31bf8e50e1c5e03" title="Check if a tuple exists in relation. " alt="" coords="788,71,984,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_interpreter_relation.html#ac3bd78e2071d9ad58111cacbcfd8766f" title="Extend another relation. " alt="" coords="788,136,984,177"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_interpreter_relation.html#a006b1bfcd01807c86b901542c68e465b" title="Return arity. " alt="" coords="788,201,984,243"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_interpreter_relation.html#a5d59c8a0adc778f4615a57bb94e7b166" title="Clear all indexes. " alt="" coords="788,267,984,308"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_interpreter_relation.html#a3d11d2c3a467ebabc18f62ceb5afdff9" title="Return number of tuples in relation (full&#45;order) " alt="" coords="788,332,984,373"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_index.html#ab7d99c5517ad2fc2a97485950662287c" title="Tests whether this index is empty or not. " alt="" coords="1032,5,1211,47"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_interpreter_index.html#acdd680159baf0f54af714d02e358b96f" title="Tests whether the given tuple is present in this index or not. " alt="" coords="1032,71,1211,112"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_interpreter_index.html#afe4a05661411b890f714e827ca439914" title="Obtains the number of elements stored in this index. " alt="" coords="1032,332,1211,373"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="souffle::ExplainProvenanceImpl::containsTuple" name="souffle::ExplainProvenanceImpl::containsTuple">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation.html#af6866f5c83061e31947ed2bd0f6d22e0" title="Return an iterator pointing to the first tuple of the relation. " alt="" coords="264,5,399,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation.html#a48aa809188e822ba6a4c7309a9567fbd" title="Return an iterator pointing to next to the last tuple of the relation. " alt="" coords="252,71,411,98"/>
+</map>

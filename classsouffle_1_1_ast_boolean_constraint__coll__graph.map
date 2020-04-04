@@ -1,0 +1,7 @@
+<map id="souffle::AstBooleanConstraint" name="souffle::AstBooleanConstraint">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_constraint.html" title="Logical constraint. " alt="" coords="58,957,221,1035"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_literal.html" title="Literal e.g. " alt="" coords="71,831,207,908"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="68,543,211,781"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_src_location.html" title="A class describing a range in an input file. " alt="" coords="65,359,214,480"/>
+<area shape="rect" id="node7" href="$structsouffle_1_1_src_location_1_1_point.html" title="A class locating a single point in an input file. " alt="" coords="189,160,338,281"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::ExplainProvenance" name="souffle::ExplainProvenance">
+<area shape="rect" id="node2" href="$classsouffle_1_1_souffle_program.html" title="Abstract base class for generated Datalog programs. " alt="" coords="314,241,493,479"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="595,233,763,487"/>
+<area shape="rect" id="node9" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="711,5,815,127"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::Type" name="souffle::Type">
+<area shape="rect" id="node2" href="$structsouffle_1_1_predefined_type.html" title="PredefinedType = Number/Unsigned/Float/Symbol. " alt="" coords="5,285,179,362"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_record_type.html" title="A record type combining a list of fields into a new, aggregated type. " alt="" coords="203,263,351,384"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_subset_type.html" title="A primitive type. " alt="" coords="375,270,523,377"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_union_type.html" title="A union type combining a list of types into a new, aggregated type. " alt="" coords="547,263,706,384"/>
+</map>

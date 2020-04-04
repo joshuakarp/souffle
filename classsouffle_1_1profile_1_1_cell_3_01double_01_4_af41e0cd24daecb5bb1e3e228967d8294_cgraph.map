@@ -1,0 +1,11 @@
+<map id="souffle::profile::Cell&lt; double &gt;::toString" name="souffle::profile::Cell&lt; double &gt;::toString">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_cell.html#abf4498795435bd52515915db1745ff2b" title="souffle::profile::Cell\l::Cell" alt="" coords="237,5,385,47"/>
+<area shape="rect" id="node4" href="$namespacesouffle_1_1profile_1_1_tools.html#a7c25512762a92c980a664299f22ccf01" title="Remove &#160;&#160;and &#160;characters, &#160;&#160;and &#160;sequence of two chars, and wrapping quotes. " alt="" coords="233,71,389,112"/>
+<area shape="rect" id="node5" href="$namespacesouffle_1_1profile_1_1_tools.html#aaa4b4e17dc458867cb4da55f25b3ac76" title="souffle::profile::Tools\l::formatNum" alt="" coords="233,136,389,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_cell_interface.html#a0d5e3eaf10fd4d6f63b3b4ef18e399ca" title="souffle::profile::CellInterface\l::getDoubleVal" alt="" coords="208,201,415,243"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_cell_interface.html#a2df1973b590d50597417ed7e4fc14fb2" title="souffle::profile::CellInterface\l::getLongVal" alt="" coords="208,267,415,308"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_cell_interface.html#ab90cd29a09ecb5e483736f9f682be90e" title="souffle::profile::CellInterface\l::getStringVal" alt="" coords="208,332,415,373"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1profile_1_1_cell_interface.html#a6ff54f69f8ac6fa907cd943039b063c4" title="souffle::profile::CellInterface\l::getTimeVal" alt="" coords="208,397,415,439"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1profile_1_1_cell_interface.html#ad7721b1159a7677bed89709cd848ec5e" title="souffle::profile::CellInterface\l::toString" alt="" coords="208,463,415,504"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_cell.html#a40edccd83dc80fb89472931ddf170234" title="souffle::profile::Cell\l::~Cell" alt="" coords="463,5,611,47"/>
+</map>

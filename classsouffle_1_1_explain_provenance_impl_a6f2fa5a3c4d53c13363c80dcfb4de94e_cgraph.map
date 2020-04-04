@@ -1,0 +1,8 @@
+<map id="souffle::ExplainProvenanceImpl::findQuerySolution" name="souffle::ExplainProvenanceImpl::findQuerySolution">
+<area shape="rect" id="node2" href="$classsouffle_1_1_souffle_program.html#a90cd5579baa81512a0137fac420a43e0" title="Get the symbol table of the program. " alt="" coords="254,5,429,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_symbol_table.html#a438d450330bc4128144f08c6ae0c4989" title="Find a symbol in the table by its index, note that this gives an error if the index is out of bounds..." alt="" coords="263,71,420,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_const_constraint.html#ab98791c73f2e269109a09f363dfee06f" title="Verify if the query product satisfies constant constraint. " alt="" coords="252,136,431,177"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="479,23,639,50"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_symbol_table.html#ab9b012e60e61e149cfc430a9eccc20ea" title="souffle::SymbolTable\l::size" alt="" coords="480,75,637,116"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="503,143,614,170"/>
+</map>

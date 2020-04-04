@@ -1,0 +1,5 @@
+<map id="SWIGSouffleProgram::dumpOutputs" name="SWIGSouffleProgram::dumpOutputs">
+<area shape="rect" id="node2" href="$classsouffle_1_1_souffle_program.html#a47526ebe874cdb90421e60d86e8b0c53" title="Output all the output relations in stdout, without generating any files. " alt="" coords="211,5,385,47"/>
+<area shape="rect" id="node3" href="$_swig_interface_8h.html#af7186c01ef8aed6f52aca64efb12cc40" title="Creates an instance of a SWIG souffle::SouffleProgram that can be called within a program of a suppor..." alt="" coords="246,71,350,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_program_factory.html#aeeb8c8fa86018f5f19cf6d419acdec54" title="Create new instance (abstract). " alt="" coords="433,64,609,105"/>
+</map>

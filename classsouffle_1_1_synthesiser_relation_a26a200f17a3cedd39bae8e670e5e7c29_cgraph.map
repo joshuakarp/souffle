@@ -1,0 +1,9 @@
+<map id="souffle::SynthesiserRelation::getRamRelation" name="souffle::SynthesiserRelation::getRamRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_synthesiser_relation.html#aa22a6cc2a6beb1aa93cc8208ad63fab4" title="Generate relation type struct. " alt="" coords="256,39,459,80"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_synthesiser_relation.html#a1fc6f6d7be5cd00e51037083acd392e3" title="Factory method to generate a SynthesiserRelation. " alt="" coords="256,104,459,145"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_synthesiser_relation.html#a74707da19a164f072fc345c86678faaf" title="Print type name. " alt="" coords="256,169,459,211"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_relation.html#a9aacb5e49d56508dc67bb5e977b4b3b4" title="Is nullary relation. " alt="" coords="529,5,687,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_relation.html#ae9a77387bbbfc96932197e52023c7d21" title="Relation representation type. " alt="" coords="529,71,687,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_relation.html#aa2d201d636a8b01283b5996a56d7abb8" title="Get arity of relation. " alt="" coords="529,136,687,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_synthesiser_relation.html#a233b38166660798003f936c02e91a6a4" title="Compute the final list of indices to be used. " alt="" coords="507,201,709,243"/>
+</map>

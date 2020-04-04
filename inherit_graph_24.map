@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_ast_node_mapper.html" title="An abstract class for manipulating AST Nodes by substitution. " alt="" coords="5,13,183,39"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1detail_1_1_lambda_node_mapper.html" title="A special AstNodeMapper wrapping a lambda conducting node transformations. " alt="" coords="231,5,436,47"/>
+</map>

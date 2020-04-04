@@ -1,0 +1,5 @@
+<map id="souffle::Logger::Logger" name="souffle::Logger::Logger">
+<area shape="rect" id="node2" href="$classsouffle_1_1_profile_event_singleton.html#adf94d78a9d87272b42a1fe4bc31f918d" title="get instance " alt="" coords="224,5,437,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_profile_event_singleton.html#aa6c06896a7d200ef791a18ac62b398e9" title="souffle::ProfileEventSingleton\l::resetTimerInterval" alt="" coords="224,71,437,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_profile_event_singleton_1_1_profile_timer.html#a2fe4b5c18fec22790a3a4f0a2728bf82" title="Reset timer interval. " alt="" coords="485,71,724,112"/>
+</map>

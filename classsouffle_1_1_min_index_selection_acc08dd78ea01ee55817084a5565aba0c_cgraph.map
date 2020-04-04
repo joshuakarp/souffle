@@ -1,0 +1,7 @@
+<map id="souffle::MinIndexSelection::isSubset" name="souffle::MinIndexSelection::isSubset">
+<area shape="rect" id="node2" href="$classsouffle_1_1_max_matching.html#a4cd24259875831e6d3f82aaa3840a4ab" title="solve the maximum matching problem " alt="" coords="247,71,407,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_max_matching.html#a8ddaeeb5af558ffc94bb54d7b3bc1734" title="perform a breadth first search in the graph " alt="" coords="455,71,615,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_max_matching.html#a7d0fa4618c13ea5213fec6673d8ee875" title="get match for a search signature " alt="" coords="663,71,823,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_max_matching.html#a6dc9b5b814b48decdcb78bc140c84185" title="perform a depth first search in the graph " alt="" coords="455,5,615,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_max_matching.html#aff96c4d7f21ef8df2b4f3b91870d7e3a" title="get distance of a node " alt="" coords="663,5,823,47"/>
+</map>

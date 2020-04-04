@@ -1,0 +1,7 @@
+<map id="souffle::profile::InputReader::moveCursor" name="souffle::profile::InputReader::moveCursor">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_input_reader.html#ae772c175c42f2abf1dfb8e342ef62307" title="souffle::profile::InputReader\l::historyDown" alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_input_reader.html#adbb874fe2059c0008af1dc418cbe3559" title="souffle::profile::InputReader\l::historyUp" alt="" coords="255,71,456,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_input_reader.html#abd36b727544195f5b9e417f4c49712c2" title="souffle::profile::InputReader\l::moveCursorLeft" alt="" coords="255,136,456,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_input_reader.html#ac5df07fa72f6f005127009f3fc9d173e" title="souffle::profile::InputReader\l::moveCursorRight" alt="" coords="255,201,456,243"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_input_reader.html#a3a919eddf6b8aee0e04810ac1b8c34e1" title="souffle::profile::InputReader\l::clearPrompt" alt="" coords="504,39,705,80"/>
+</map>

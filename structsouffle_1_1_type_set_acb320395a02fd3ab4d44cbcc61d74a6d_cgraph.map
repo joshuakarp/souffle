@@ -1,0 +1,5 @@
+<map id="souffle::TypeSet::isSubsetOf" name="souffle::TypeSet::isSubsetOf">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="295,5,405,32"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_type_set.html#a94e05d77d32ac043cd0951806b4886ba" title="Determines whether a given type is included or not. " alt="" coords="256,56,444,83"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_type_set.html#ae26622401685d8ac9080b2f5a83d7eaa" title="Universality check. " alt="" coords="269,107,431,133"/>
+</map>

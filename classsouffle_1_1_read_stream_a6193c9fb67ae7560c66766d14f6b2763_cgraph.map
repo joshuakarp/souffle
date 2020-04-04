@@ -1,0 +1,17 @@
+<map id="souffle::ReadStream::readRecord" name="souffle::ReadStream::readRecord">
+<area shape="rect" id="node2" href="$classsouffle_1_1_read_stream.html#a1b873072da721975f1601ab9247df1bb" title="Read past given character, consuming any preceding whitespace. " alt="" coords="239,5,393,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_read_stream.html#afc068ffbae9187204c5173eaca91bfc6" title="Advance position in the string until first non&#45;whitespace character. " alt="" coords="473,31,640,72"/>
+<area shape="rect" id="node4" href="$classjson11_1_1_json.html#a4ae030733f6ebd910882afb9e2364b1a" title="json11::Json::is_null" alt="" coords="241,122,391,149"/>
+<area shape="rect" id="node6" href="$classjson11_1_1_json.html#af7eebdc61914abc7a209331ef81e4528" title="json11::Json::long\l_value" alt="" coords="248,173,384,215"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_record_table.html#a30764bb03ecccb41235514a2cfbbcb0d" title="convert record to record reference " alt="" coords="240,239,392,280"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a25311f9e95c1f1147066933e9283b2bc" title="In C++20 there will be a new way to cast between types by reinterpreting bits (std::bit_cast), but as of January 2020 it is not yet supported. " alt="" coords="243,305,389,331"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a42f50e44c16d45c78e4a37b005ac94c9" title="Converts a string to a RamFloat. " alt="" coords="213,355,419,382"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#ad354d1210c639429c093f92ba2966a75" title="Converts a string to a RamSigned. " alt="" coords="207,406,425,433"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a084bbb9535fee35e4682c948ce88bddb" title="Converts a string to a RamUnsigned. " alt="" coords="217,457,415,499"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_read_stream.html#af31c2d6e11bbcf206640e0eb8d6da80c" title="souffle::ReadStream\l::readStringInRecord" alt="" coords="239,523,393,564"/>
+<area shape="rect" id="node16" href="$classjson11_1_1_json.html#a9399e1cf8d2a8a1bc7f231a74ae13184" title="json11::Json::string\l_value" alt="" coords="243,588,389,629"/>
+<area shape="rect" id="node5" href="$classjson11_1_1_json.html#aa9c2e69e711a000bdbd424e6b2f06139" title="json11::Json::type" alt="" coords="488,122,625,149"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ab9fd86fe230c58e924db2cf47e1ba5e0" title="Determine if one string is a prefix of another. " alt="" coords="495,435,618,462"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_symbol_table.html#a46a7fcfb933d111b38bc474415c5c986" title="Find the index of a symbol in the table, inserting a new symbol if it does not exist there already..." alt="" coords="478,523,635,564"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_symbol_table.html#a3ada80bb01130f70001918c386d3ab21" title="Convenience method to place a new symbol in the table, if it does not exist, and return the index of ..." alt="" coords="688,523,845,564"/>
+</map>

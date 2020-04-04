@@ -1,0 +1,9 @@
+<map id="souffle::createMagicRelation" name="souffle::createMagicRelation">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a018886d19f141b1cb565199a517c598f" title="souffle::clone" alt="" coords="301,5,411,32"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a014bc04f4629bd77f3a54c26fe9ea53d" title="souffle::extractAdornment" alt="" coords="260,56,452,83"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_relation.html#a54bd8f26d113f3141d49e926a030b52d" title="Return the arity of this relation. " alt="" coords="282,107,430,149"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_relation.html#ae27800d5845e8ac6df95b20bfc51aecf" title="Get relation attributes. " alt="" coords="282,173,430,214"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_qualified_name.html#a4b36798d8506689de4ec2794f4777bfa" title="get qualifiers " alt="" coords="500,19,692,61"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a620dc7687473311acaa752a76b5c9470" title="souffle::getEndpoint" alt="" coords="520,85,672,112"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="523,180,669,207"/>
+</map>

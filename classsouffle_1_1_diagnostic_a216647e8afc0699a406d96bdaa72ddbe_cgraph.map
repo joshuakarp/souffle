@@ -1,0 +1,6 @@
+<map id="souffle::Diagnostic::operator&lt;" name="souffle::Diagnostic::operator&lt;">
+<area shape="rect" id="node2" href="$classsouffle_1_1_diagnostic_message.html#ae0048034207cdbf3387bb75fbbe155c6" title="souffle::DiagnosticMessage\l::getLocation" alt="" coords="196,5,396,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#af39764c9c58a99668268c14d54e00287" title="souffle::DiagnosticMessage\l::getMessage" alt="" coords="196,71,396,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_diagnostic.html#a193141ac0bbfbf683bd4c7b569531f64" title="souffle::Diagnostic\l::getType" alt="" coords="225,136,367,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_diagnostic_message.html#a5295f51591e8be5c9fce3c18df09bb08" title="souffle::DiagnosticMessage\l::hasLocation" alt="" coords="196,201,396,243"/>
+</map>

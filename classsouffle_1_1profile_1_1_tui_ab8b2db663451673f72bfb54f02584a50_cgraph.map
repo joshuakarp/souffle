@@ -1,0 +1,10 @@
+<map id="souffle::profile::Tui::Tui" name="souffle::profile::Tui::Tui">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_output_processor.html#a3e9eb169f1e5833392a062c84b41e5bc" title="souffle::profile::Output\lProcessor::getProgramRun" alt="" coords="220,169,413,211"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_output_processor.html#a17bb5ea546bf6b9d61e02a18cbafc9ac" title="souffle::profile::Output\lProcessor::getAtomTable" alt="" coords="472,5,655,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_output_processor.html#a949dcbd9624c108584c3ac5cad32a448" title="souffle::profile::Output\lProcessor::getRelTable" alt="" coords="479,71,647,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_output_processor.html#aa996994e1685ee24446556d98b8c7ae7" title="souffle::profile::Output\lProcessor::getRulTable" alt="" coords="479,136,647,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_output_processor.html#a0b1b87d45038d57e7fb16ba943f893c7" title="souffle::profile::Output\lProcessor::getSubrulTable" alt="" coords="469,201,658,243"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_output_processor.html#abbfb4d5864dd1e5e79d2c9da6f3da11d" title="souffle::profile::Output\lProcessor::getVersionAtoms" alt="" coords="461,267,665,308"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1profile_1_1_output_processor.html#affab09ed060294b5cdf7112cc25bec96" title="souffle::profile::Output\lProcessor::getVersions" alt="" coords="479,332,648,373"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_table.html#ac99e71fd2b566a2e68a72da291a86aa5" title="souffle::profile::Table\l::addRow" alt="" coords="713,169,871,211"/>
+</map>

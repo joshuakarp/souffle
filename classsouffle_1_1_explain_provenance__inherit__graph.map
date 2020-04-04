@@ -1,0 +1,3 @@
+<map id="souffle::ExplainProvenance" name="souffle::ExplainProvenance">
+<area shape="rect" id="node2" href="$classsouffle_1_1_explain_provenance_impl.html" title="{souffle::ExplainProvenanceImpl\n|&#45; constraintList\l&#45; info\l&#45; rules\l&#45; subproofs\l|+ explain()\l+ explain()\l+ explainNegation()\l+ explainNegationGetVariables()\l+ ExplainProvenanceImpl()\l+ explainSubproof()\l+ getRule()\l+ getRules()\l+ measureRelation()\l+ printRulesJSON()\l+ queryProcess()\l+ setup()\l&#45; containsTuple()\l&#45; findQuerySolution()\l&#45; findTuple()\l}" alt="" coords="5,365,243,692"/>
+</map>

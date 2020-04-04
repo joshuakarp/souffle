@@ -1,0 +1,5 @@
+<map id="souffle::InterpreterRelInterface::contains" name="souffle::InterpreterRelInterface::contains">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_relation.html#a0bfe234ff511b0b72722e683e7973746" title="Tests whether this relation contains the given tuple. " alt="" coords="275,5,471,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1tuple.html#ac1e884fd470e139ca8223af684f379bc" title="Return the number of elements in the tuple. " alt="" coords="302,71,443,98"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_index.html#acdd680159baf0f54af714d02e358b96f" title="Tests whether the given tuple is present in this index or not. " alt="" coords="519,5,697,47"/>
+</map>

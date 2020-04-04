@@ -1,0 +1,5 @@
+<map id="souffle::profile::ProgramRun::toString" name="souffle::profile::ProgramRun::toString">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_program_run.html#a608b29ea61f2bfd0c8a86171754c0d7f" title="souffle::profile::Program\lRun::getRuntime" alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_program_run.html#a44e6b6f4d69d5d4c7527be39471dddb6" title="souffle::profile::Program\lRun::formatTime" alt="" coords="459,5,637,47"/>
+<area shape="rect" id="node4" href="$namespacesouffle_1_1profile_1_1_tools.html#a3ce43960a9154229043078dcf8be3637" title="souffle::profile::Tools\l::formatTime" alt="" coords="685,5,841,47"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="souffle::TypeEnvironmentAnalysis::TypeEnvironmentAnalysis" name="souffle::TypeEnvironmentAnalysis::TypeEnvironmentAnalysis">
+<area shape="rect" id="node2" href="$classsouffle_1_1_type_environment_analysis.html#a66b5b6e1714591444b0a3532aa6c4ade" title="print the analysis result in HTML format " alt="" coords="307,213,493,255"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_type_environment_analysis.html#aa6a6d9bd16fcd0abb5f9ba94e84ec0ac" title="run analysis for a Ast translation unit " alt="" coords="307,279,493,320"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_type_environment.html#a98258475e62fbad20f1d5794a4108a27" title="souffle::TypeEnvironment\l::print" alt="" coords="569,213,756,255"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_type_environment_analysis.html#a4361ac0e2ac349ea2f6c679c37094606" title="A utility function utilized by the finishParsing member function to update a type environment out of ..." alt="" coords="541,344,784,385"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="566,279,759,320"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1301,37,1452,79"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_type_environment.html#a5ead83575e9abfebb3a0b180a33a7d96" title="souffle::TypeEnvironment\l::isType" alt="" coords="1067,403,1253,444"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_type_environment.html#ae15510ad5cb82c10bf06aee7f558d8d7" title="souffle::TypeEnvironment\l::createSubsetType" alt="" coords="832,161,1019,203"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_type_environment.html#ac60a142d23ebde8b56fca1a7aa658cbf" title="souffle::TypeEnvironment\l::createUnionType" alt="" coords="832,227,1019,268"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_type_environment.html#a0f0c4c0371cf62e7f32d11234ac51ff0" title="souffle::TypeEnvironment\l::createRecordType" alt="" coords="832,96,1019,137"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_type_environment.html#ad6dfaf898b35d9c725ebd11799d3b3b1" title="souffle::TypeEnvironment\l::getModifiableType" alt="" coords="832,344,1019,385"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_union_type.html#a980e743dd021a43aa1ab0548a1ad6faf" title="souffle::UnionType::add" alt="" coords="838,293,1013,319"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_type_environment.html#ada544cc106c8c80c9120e2c1d1424ebf" title="souffle::TypeEnvironment\l::getType" alt="" coords="832,461,1019,503"/>
+<area shape="rect" id="node17" href="$structsouffle_1_1_record_type.html#a44e9c68ca7f7428f44c6f6ac9fd48181" title="The list of contained fields. " alt="" coords="835,527,1015,554"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_graph.html#a8aa22759dcb069b37180e193b67a060c" title="Adds a new edge from the given vertex to the target vertex. " alt="" coords="846,578,1005,605"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_graph.html#a98011f8cbf34ce1fe189beadd683bd8e" title="Determines whether there is a directed path between the two vertices. " alt="" coords="839,629,1011,655"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1500,45,1647,71"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="1097,103,1223,130"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="1325,103,1429,130"/>
+</map>

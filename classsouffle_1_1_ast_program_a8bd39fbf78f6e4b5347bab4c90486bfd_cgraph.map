@@ -1,0 +1,7 @@
+<map id="souffle::AstProgram::removeRelation" name="souffle::AstProgram::removeRelation">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a503032b9def6267059072aea913780bc" title="Removes the set of clauses with the given relation name. " alt="" coords="204,42,432,69"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="482,13,629,39"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_program.html#a0bde67af569811987d8e21929163d132" title="remove a clause " alt="" coords="480,64,631,105"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="679,5,829,47"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="877,13,1024,39"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="MagicSet.h" name="MagicSet.h">
+<area shape="rect" id="node2" href="$_ast_analysis_8h.html" title="AstAnalysis.h" alt="" coords="3281,603,3391,629"/>
+<area shape="rect" id="node6" href="$_ast_argument_8h.html" title="AstArgument.h" alt="" coords="2109,379,2227,405"/>
+<area shape="rect" id="node15" href="$_util_8h.html" title="Util.h" alt="" coords="2025,603,2082,629"/>
+<area shape="rect" id="node39" href="$_ast_qualified_name_8h.html" title="AstQualifiedName.h" alt="" coords="2253,528,2405,555"/>
+<area shape="rect" id="node43" href="$_ast_clause_8h.html" title="AstClause.h" alt="" coords="969,304,1068,331"/>
+<area shape="rect" id="node44" href="$_ast_literal_8h.html" title="AstLiteral.h" alt="" coords="1453,379,1549,405"/>
+<area shape="rect" id="node47" href="$_ast_visitor_8h.html" title="AstVisitor.h" alt="" coords="1936,80,2032,107"/>
+<area shape="rect" id="node7" href="$_aggregate_op_8h.html" title="AggregateOp.h" alt="" coords="2009,528,2127,555"/>
+<area shape="rect" id="node11" href="$_ast_abstract_8h.html" title="AstAbstract.h" alt="" coords="1376,453,1485,480"/>
+<area shape="rect" id="node12" href="$_ast_node_8h.html" title="AstNode.h" alt="" coords="1497,528,1586,555"/>
+<area shape="rect" id="node38" href="$_ast_type_8h.html" title="AstType.h" alt="" coords="3128,453,3213,480"/>
+<area shape="rect" id="node40" href="$_functor_ops_8h.html" title="FunctorOps.h" alt="" coords="2541,603,2648,629"/>
+<area shape="rect" id="node41" href="$_symbol_table_8h.html" title="SymbolTable.h" alt="" coords="2429,528,2547,555"/>
+<area shape="rect" id="node8" href="$_ram_types_8h.html" title="RamTypes.h" alt="" coords="2611,677,2712,704"/>
+<area shape="rect" id="node13" href="$_src_location_8h.html" title="SrcLocation.h" alt="" coords="1547,603,1656,629"/>
+<area shape="rect" id="node45" href="$_binary_constraint_ops_8h.html" title="BinaryConstraintOps.h" alt="" coords="1832,603,2000,629"/>
+<area shape="rect" id="node48" href="$_ast_attribute_8h.html" title="AstAttribute.h" alt="" coords="3219,379,3331,405"/>
+<area shape="rect" id="node49" href="$_ast_program_8h.html" title="AstProgram.h" alt="" coords="1873,155,1983,181"/>
+<area shape="rect" id="node50" href="$_ast_relation_8h.html" title="AstRelation.h" alt="" coords="2874,229,2982,256"/>
+</map>

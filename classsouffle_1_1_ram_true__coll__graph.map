@@ -1,0 +1,4 @@
+<map id="souffle::RamTrue" name="souffle::RamTrue">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_condition.html" title="Abstract class for conditions and boolean values in RAM. " alt="" coords="5,248,172,325"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="17,5,160,200"/>
+</map>

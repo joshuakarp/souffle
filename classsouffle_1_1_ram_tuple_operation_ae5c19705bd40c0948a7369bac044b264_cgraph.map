@@ -1,0 +1,5 @@
+<map id="souffle::RamTupleOperation::equal" name="souffle::RamTupleOperation::equal">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_nested_operation.html#afac69b5dd9b448f10512ccbe7352d8b1" title="Equality check for two RAM nodes. " alt="" coords="256,5,471,47"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ad0e8debde5608979e041dd30e044612a" title="Valid C++ identifier, note that this does not ensure the uniqueness of identifiers returned..." alt="" coords="297,71,429,98"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ab097fb451e787a08a185a449bacde2db" title="Compares two values referenced by a pointer where the case where both pointers are null is also consi..." alt="" coords="519,13,653,39"/>
+</map>

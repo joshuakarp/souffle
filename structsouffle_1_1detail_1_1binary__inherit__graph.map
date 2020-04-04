@@ -1,0 +1,8 @@
+<map id="souffle::detail::binary" name="souffle::detail::binary">
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1default__strategy.html" title="{souffle::detail::default\l_strategy\&lt; PairStore \&gt;\n||}" alt="" coords="5,271,176,363"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1detail_1_1default__strategy.html" title="{souffle::detail::default\l_strategy\&lt; StorePair \&gt;\n||}" alt="" coords="200,271,371,363"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1detail_1_1default__strategy.html" title="{souffle::detail::default\l_strategy\&lt; t_tuple\&lt; Arity \&gt; \&gt;\n||}" alt="" coords="395,271,613,363"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1detail_1_1default__strategy.html" title="{souffle::detail::default\l_strategy\&lt; TupleRef \&gt;\n||}" alt="" coords="637,271,805,363"/>
+<area shape="rect" id="node7" href="$structsouffle_1_1detail_1_1default__strategy.html" title="{souffle::detail::default\l_strategy\&lt; Key \&gt;\n||}" alt="" coords="829,271,995,363"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1detail_1_1strategy__selection.html" title="{souffle::detail::strategy\l_selection\&lt; binary_search \&gt;\n||}" alt="" coords="399,5,609,97"/>
+</map>

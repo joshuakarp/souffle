@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1profile_1_1_cell_interface.html" title="souffle::profile::CellInterface" alt="" coords="5,129,212,156"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_cell.html" title="souffle::profile::Cell\&lt; T \&gt;" alt="" coords="278,5,465,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_cell_3_01double_01_4.html" title="souffle::profile::Cell\l\&lt; double \&gt;" alt="" coords="297,57,445,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_cell_3_01long_01_4.html" title="souffle::profile::Cell\l\&lt; long \&gt;" alt="" coords="297,122,445,163"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_cell_3_01std_1_1chrono_1_1microseconds_01_4.html" title="souffle::profile::Cell\l\&lt; std::chrono::microseconds \&gt;" alt="" coords="260,187,483,229"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_cell_3_01void_01_4.html" title="souffle::profile::Cell\l\&lt; void \&gt;" alt="" coords="297,253,445,294"/>
+<area shape="rect" id="node8" href="$structsouffle_1_1detail_1_1is__printable.html" title="A type trait to check whether a given type is printable. " alt="" coords="290,318,453,359"/>
+</map>

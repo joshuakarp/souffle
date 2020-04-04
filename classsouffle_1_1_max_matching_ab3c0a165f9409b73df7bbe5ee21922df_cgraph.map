@@ -1,0 +1,7 @@
+<map id="souffle::MaxMatching::getNumMatchings" name="souffle::MaxMatching::getNumMatchings">
+<area shape="rect" id="node2" href="$classsouffle_1_1_max_matching.html#abf588ddff18a806a05b73b51df04b2b9" title="add an edge to the bi&#45;partite graph " alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_max_matching.html#a8ddaeeb5af558ffc94bb54d7b3bc1734" title="perform a breadth first search in the graph " alt="" coords="213,188,373,229"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_max_matching.html#aff96c4d7f21ef8df2b4f3b91870d7e3a" title="get distance of a node " alt="" coords="421,123,581,164"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_max_matching.html#a7d0fa4618c13ea5213fec6673d8ee875" title="get match for a search signature " alt="" coords="421,188,581,229"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_max_matching.html#a6dc9b5b814b48decdcb78bc140c84185" title="perform a depth first search in the graph " alt="" coords="213,123,373,164"/>
+</map>

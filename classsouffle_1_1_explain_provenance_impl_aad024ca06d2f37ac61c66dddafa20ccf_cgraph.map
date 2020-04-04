@@ -1,0 +1,29 @@
+<map id="souffle::ExplainProvenanceImpl::queryProcess" name="souffle::ExplainProvenanceImpl::queryProcess">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a785852c2fc649d79a481627605ffcf4f" title="Can a string be parsed as RamFloat. " alt="" coords="252,60,455,101"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a42f50e44c16d45c78e4a37b005ac94c9" title="Converts a string to a RamFloat. " alt="" coords="509,38,715,64"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a89f207449b2332bf06ab28993dda09b9" title="Can a string be parsed as RamSigned. " alt="" coords="252,177,455,218"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad354d1210c639429c093f92ba2966a75" title="Converts a string to a RamSigned. " alt="" coords="503,184,721,211"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a3773094eb7aa42e20a209b40c9873aa4" title="Can a string be parsed as RamUnsigned. " alt="" coords="252,294,455,336"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a084bbb9535fee35e4682c948ce88bddb" title="Converts a string to a RamUnsigned. " alt="" coords="513,236,711,277"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_explain_provenance_impl.html#a260913a0ef0ad0ad1d43cb1baeed1865" title="souffle::ExplainProvenance\lImpl::containsTuple" alt="" coords="254,360,453,401"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_explain_provenance_impl.html#a6f2fa5a3c4d53c13363c80dcfb4de94e" title="souffle::ExplainProvenance\lImpl::findQuerySolution" alt="" coords="254,477,453,518"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_souffle_program.html#a90cd5579baa81512a0137fac420a43e0" title="Get the symbol table of the program. " alt="" coords="525,418,699,460"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_relation.html#a8e8e6b38e1d621e9cccd365eaedbd7e1" title="Return the arity of a relation. " alt="" coords="286,608,421,649"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_relation.html#a2607e76650b5045cd84babfdd0bd64f3" title="Get the attribute type of a relation at the column specified by the parameter. " alt="" coords="286,673,421,714"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1_relation.html#a8f1f622f85fe0c662f00c42d5416de14" title="Return the number of auxiliary attributes. " alt="" coords="286,738,421,780"/>
+<area shape="rect" id="node22" href="$classsouffle_1_1_const_constraint.html#ab354c06c6e87be48500708acf290faca" title="Get the constant constraint vector. " alt="" coords="264,804,443,845"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_souffle_program.html#a8a5b114c5b6c8022c936a533248996e7" title="Get Relation by its name from relationMap, if relation not found, return a nullptr. " alt="" coords="266,869,441,910"/>
+<area shape="rect" id="node24" href="$classsouffle_1_1_relation.html#a4f118226c04197b2efa9901c91873b09" title="Insert a new tuple into the relation. " alt="" coords="286,934,421,976"/>
+<area shape="rect" id="node25" href="$classsouffle_1_1_symbol_table.html#ada9d8afe1219bf54d16507b424f512c6" title="Find the index of a symbol in the table, inserting a new symbol if it does not exist there already..." alt="" coords="275,542,432,584"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_const_constraint.html#a7a55b1f24b32606588f55fb57f3a3b01" title="Add constant constraint at the end of constConstrs vector. " alt="" coords="264,1000,443,1041"/>
+<area shape="rect" id="node28" href="$namespacesouffle.html#a25311f9e95c1f1147066933e9283b2bc" title="In C++20 there will be a new way to cast between types by reinterpreting bits (std::bit_cast), but as of January 2020 it is not yet supported. " alt="" coords="280,1066,427,1092"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#ab9fd86fe230c58e924db2cf47e1ba5e0" title="Determine if one string is a prefix of another. " alt="" coords="788,214,911,240"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_relation.html#af6866f5c83061e31947ed2bd0f6d22e0" title="Return an iterator pointing to the first tuple of the relation. " alt="" coords="545,301,679,342"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_relation.html#a48aa809188e822ba6a4c7309a9567fbd" title="Return an iterator pointing to next to the last tuple of the relation. " alt="" coords="533,367,691,394"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_symbol_table.html#a438d450330bc4128144f08c6ae0c4989" title="Find a symbol in the table by its index, note that this gives an error if the index is out of bounds..." alt="" coords="533,549,691,590"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_const_constraint.html#ab98791c73f2e269109a09f363dfee06f" title="Verify if the query product satisfies constant constraint. " alt="" coords="523,484,701,525"/>
+<area shape="rect" id="node15" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="769,647,929,674"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_symbol_table.html#ab9b012e60e61e149cfc430a9eccc20ea" title="souffle::SymbolTable\l::size" alt="" coords="771,549,928,590"/>
+<area shape="rect" id="node18" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="794,491,905,518"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_symbol_table.html#a3ada80bb01130f70001918c386d3ab21" title="Convenience method to place a new symbol in the table, if it does not exist, and return the index of ..." alt="" coords="533,614,691,656"/>
+</map>

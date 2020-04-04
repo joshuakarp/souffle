@@ -1,0 +1,14 @@
+<map id="souffle::MakeIndexTransformer::rewriteAggregate" name="souffle::MakeIndexTransformer::rewriteAggregate">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_expression.html#aabdf99a09d7c349c4470bdd55c90d0c3" title="Create a clone (i.e. " alt="" coords="301,5,476,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_operation.html#a39e8b29bf74f410018e8a951696ebc70" title="Create a clone (i.e. " alt="" coords="305,71,473,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_relation.html#aa2d201d636a8b01283b5996a56d7abb8" title="Get arity of relation. " alt="" coords="310,136,467,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_abstract_aggregate.html#a77e13a8d984bba805c9f1701e947e441" title="Get condition. " alt="" coords="276,201,501,243"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_abstract_aggregate.html#a347f9771fa0c565779edd31fe46df237" title="Get target expression. " alt="" coords="276,267,501,308"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_abstract_aggregate.html#a30e4d2f08b55799a1dcafd24938d8d0d" title="Get aggregation function. " alt="" coords="276,332,501,373"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_nested_operation.html#afdbbe7da4e005809c1ca1531b06f65f0" title="Get nested operation. " alt="" coords="281,397,496,439"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ram_relation_operation.html#a499c5f7c9562a0cfe16ee3668e19ca88" title="Get search relation. " alt="" coords="278,463,499,504"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ram_tuple_operation.html#ae121c8c72d4b9dcb56fe2d69b6364720" title="Get identifier. " alt="" coords="287,528,490,569"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ad0e8debde5608979e041dd30e044612a" title="Valid C++ identifier, note that this does not ensure the uniqueness of identifiers returned..." alt="" coords="567,561,699,587"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#aeea6de3eaf7c83bc19097c74d3fb6693" title="Convert terms of a conjunction to a list. " alt="" coords="295,645,482,671"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ram_condition.html#a54f67f8136251030e958232ae1aa051a" title="Create a clone (i.e. " alt="" coords="549,637,716,679"/>
+</map>

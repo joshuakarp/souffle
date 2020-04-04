@@ -1,0 +1,5 @@
+<map id="souffle::detail::linear" name="souffle::detail::linear">
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1default__strategy_3_01int_01_4.html" title="{souffle::detail::default\l_strategy\&lt; int \&gt;\n||}" alt="" coords="5,278,171,370"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1detail_1_1default__strategy_3_01std_1_1tuple_3_01_ts_8_8_8_01_4_01_4.html" title="{souffle::detail::default\l_strategy\&lt; std::tuple\&lt;\l Ts... \&gt; \&gt;\n||}" alt="" coords="195,271,365,377"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1detail_1_1strategy__selection.html" title="{souffle::detail::strategy\l_selection\&lt; linear_search \&gt;\n||}" alt="" coords="81,5,287,97"/>
+</map>

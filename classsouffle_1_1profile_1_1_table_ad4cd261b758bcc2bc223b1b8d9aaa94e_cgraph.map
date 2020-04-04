@@ -1,0 +1,9 @@
+<map id="souffle::profile::Table::sort" name="souffle::profile::Table::sort">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_data_comparator.html#a734aaeddd3c8a7952ac75358d9cdfe5d" title="Sort by copy time. " alt="" coords="212,5,475,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_data_comparator.html#a76f98b6d43dc528c8f8bddb3746e8269" title="Sort by ID. " alt="" coords="217,56,470,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_data_comparator.html#ac520aeef0437cb4a54c57b83bfc7af82" title="Sort by name. " alt="" coords="228,107,459,149"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_data_comparator.html#af08f9cf841481752c50d2483027f0a07" title="Sort by non&#45;recursive time. " alt="" coords="228,173,459,214"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_data_comparator.html#a286b840ac5b9694c711f384e3edc0914" title="Sort by recursive time. " alt="" coords="212,239,475,265"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_data_comparator.html#a48b1c57f77017e9ae5a301526ca4a438" title="Sort by total time. " alt="" coords="228,290,459,331"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_data_comparator.html#ae89cb5ff565853d5eb8c5a6299f8774a" title="Sort by tuple count. " alt="" coords="211,356,476,383"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::TypeSet::intersection" name="souffle::TypeSet::intersection">
+<area shape="rect" id="node2" href="$structsouffle_1_1_type_set.html#a94e05d77d32ac043cd0951806b4886ba" title="Determines whether a given type is included or not. " alt="" coords="264,5,452,32"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_type_set.html#ad779397583248bcbf50b982e5314c2e2" title="Adds the given type to this set. " alt="" coords="273,56,443,83"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_type_set.html#ae26622401685d8ac9080b2f5a83d7eaa" title="Universality check. " alt="" coords="277,107,439,133"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::RamAbstractOperator" name="souffle::RamAbstractOperator">
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_intrinsic_operator.html" title="Operator that represents an intrinsic (built&#45;in) functor. " alt="" coords="5,579,219,730"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_user_defined_operator.html" title="Operator that represents an extrinsic (user&#45;defined) functor. " alt="" coords="243,557,485,752"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_expression.html" title="Abstract class for describing scalar values in RAM. " alt="" coords="150,248,325,325"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="166,5,309,200"/>
+</map>

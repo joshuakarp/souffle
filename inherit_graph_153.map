@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_index_view.html" title="A view on a relation caching local access patterns (not thread safe!). " alt="" coords="5,78,148,105"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1_generic_index_1_1_generic_index_view.html" title="souffle::GenericIndex\l\&lt; Structure \&gt;::GenericIndexView" alt="" coords="196,5,433,47"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_indirect_index_1_1_indirect_index_view.html" title="souffle::IndirectIndex\l::IndirectIndexView" alt="" coords="235,71,394,112"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_nullary_index_1_1_nullary_index_view.html" title="souffle::NullaryIndex\l::NullaryIndexView" alt="" coords="236,136,393,177"/>
+</map>

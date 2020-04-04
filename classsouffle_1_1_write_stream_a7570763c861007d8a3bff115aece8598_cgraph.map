@@ -1,0 +1,8 @@
+<map id="souffle::WriteStream::outputRecord" name="souffle::WriteStream::outputRecord">
+<area shape="rect" id="node2" href="$classjson11_1_1_json.html#a4ae030733f6ebd910882afb9e2364b1a" title="json11::Json::is_null" alt="" coords="211,5,362,32"/>
+<area shape="rect" id="node4" href="$classjson11_1_1_json.html#af7eebdc61914abc7a209331ef81e4528" title="json11::Json::long\l_value" alt="" coords="219,57,355,98"/>
+<area shape="rect" id="node5" href="$classjson11_1_1_json.html#a9399e1cf8d2a8a1bc7f231a74ae13184" title="json11::Json::string\l_value" alt="" coords="214,122,359,163"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_record_table.html#a122b6885779babed0fa4851e161c5c73" title="convert record reference to a record " alt="" coords="211,187,363,229"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_symbol_table.html#ad98afc8c20ccee41bb1aeb2fc36b46fa" title="souffle::SymbolTable\l::unsafeResolve" alt="" coords="208,253,365,294"/>
+<area shape="rect" id="node3" href="$classjson11_1_1_json.html#aa9c2e69e711a000bdbd424e6b2f06139" title="json11::Json::type" alt="" coords="413,5,551,32"/>
+</map>

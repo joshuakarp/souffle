@@ -1,0 +1,8 @@
+<map id="souffle::ReadFileCSV" name="souffle::ReadFileCSV">
+<area shape="rect" id="node2" href="$classsouffle_1_1_read_stream_c_s_v.html" title="{souffle::ReadStreamCSV\n||+ ReadStreamCSV()\l+ ~ReadStreamCSV()\l# getInputColumnMap()\l# nextElement()\l# readNextTuple()\l# readRamUnsigned()\l}" alt="" coords="348,792,527,943"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_read_stream.html" title="{souffle::ReadStream\n||+ readAll()\l+ ~ReadStream()\l# consumeChar()\l# consumeWhiteSpace()\l# readNextTuple()\l# readRecord()\l# ReadStream()\l# readStringInRecord()\l}" alt="" coords="298,549,481,729"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_record_table.html" title="{souffle::RecordTable\n||+ pack()\l+ RecordTable()\l+ unpack()\l+ ~RecordTable()\l&#45; lookupArity()\l}" alt="" coords="135,263,287,399"/>
+<area shape="rect" id="node7" href="$classjson11_1_1_json.html" title="{json11::Json\n||+ array_items()\l+ bool_value()\l+ dump()\l+ dump()\l+ has_shape()\l+ int_value()\l+ is_array()\l+ is_bool()\l+ is_null()\l+ is_number()\land 31 more...\l+ parse()\l+ parse()\l+ parse_multi()\l+ parse_multi()\l}" alt="" coords="319,189,444,472"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="472,204,640,457"/>
+<area shape="rect" id="node11" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="841,5,945,127"/>
+</map>

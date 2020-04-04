@@ -1,0 +1,15 @@
+<map id="souffle::NodeGenerator::generateTree" name="souffle::NodeGenerator::generateTree">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#a39bf7e146cd0157196b2a35417b83374" title="Return operation index id from the result of indexAnalysis. " alt="" coords="249,87,423,128"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_node_generator.html#ae5998d60cfa261b3365b92f142b80d10" title="Encode and return the View id of an operation. " alt="" coords="249,184,423,225"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_node_generator.html#a5f7ff288a88c4bc375d7e131441d27eb" title="Reset view allocation system, since view&#39;s life time is within each query. " alt="" coords="249,249,423,291"/>
+<area shape="rect" id="node11" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="227,315,445,371"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="252,395,420,422"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="493,5,688,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_min_index_selection.html#a8c88dac1f007437a35f70d7dbb145ca7" title="Get index for a search " alt="" coords="494,71,687,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_index_analysis.html#a9559361184637c5dc61154302b142e30" title="Get index signature for an Ram IndexOperation operation " alt="" coords="493,136,688,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_index_operation.html#ad3fc48776d5267175880fb0e5503588e" title="Get range pattern. " alt="" coords="736,136,940,177"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="988,143,1135,170"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_node_generator.html#ab2d2abaafc36c12c125d50c75237383d" title="Get a valid view id for encoding. " alt="" coords="504,201,677,243"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="507,388,675,429"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="743,388,933,429"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="souffle::makeInfoRelation" name="souffle::makeInfoRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_program.html#a776167026cb9e348e75a9e9caa02ef74" title="add a clause " alt="" coords="295,5,446,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_atom.html#a9c726c597d7921245dd97dcc72b8aeed" title="get arguments " alt="" coords="255,71,486,98"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_clause.html#a1b5199df425ba5839383a75c5bb8a254" title="Obtains a copy of the internally maintained body literals. " alt="" coords="301,123,440,164"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_clause.html#a5a29a4f9ba5d0e4aea869cf71a6efbbf" title="Return the atom that represents the head of the clause. " alt="" coords="301,188,440,229"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="274,253,467,295"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_atom.html#a2fcd569fa7d8ed8c0c2dfd0d1c362e50" title="get qualified name " alt="" coords="243,319,499,346"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a3c6cb3ac93eb86027865121aff551fde" title="Helper functions. " alt="" coords="551,391,735,418"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#abe4e3f19879707216a2758b03f4e2deb" title="Creates an object to be forwarded to some output stream for printing sequences of elements interspers..." alt="" coords="321,421,420,447"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ac74ef3c3ffaad63c158bcd0ff2feecb2" title="souffle::makeRelationName" alt="" coords="269,471,472,498"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ast_clause.html#a07290e1b7b9e4ce73c3a5f0482ce88d3" title="Set the head of clause to h. " alt="" coords="301,523,440,564"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#aa91ed26d703343c35171d6803a9c5d0b" title="Converts operator to its symbolic representation. " alt="" coords="273,588,469,629"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="569,101,716,127"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_qualified_name.html#a6341a67891b6d0174b92264eb4dc5d43" title="append qualifiers " alt="" coords="547,464,739,505"/>
+</map>

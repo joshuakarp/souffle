@@ -1,0 +1,15 @@
+<map id="souffle::genJsonRules" name="souffle::genJsonRules">
+<area shape="rect" id="node2" href="$namespacesouffle_1_1profile_1_1_tools.html#a65cd76e226eb994f292d7323815e865d" title="escape escapes and quotes, and remove surrounding quotes " alt="" coords="232,136,388,177"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_output_processor.html#a3e9eb169f1e5833392a062c84b41e5bc" title="souffle::profile::Output\lProcessor::getProgramRun" alt="" coords="213,201,407,243"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1profile_1_1_output_processor.html#affab09ed060294b5cdf7112cc25bec96" title="souffle::profile::Output\lProcessor::getVersions" alt="" coords="472,332,641,373"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1profile_1_1_table.html#ad5808507021b6f9cdd5641aac825f29e" title="souffle::profile::Table\l::getRows" alt="" coords="231,319,389,360"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_table.html#a88231c129c15ab846c85d3b493bdb8e3" title="souffle::Table::size" alt="" coords="239,385,381,411"/>
+<area shape="rect" id="node13" href="$namespacesouffle_1_1profile_1_1_tools.html#a2a26cf00df092cbd565298fcd045a0d2" title="split on the delimiter " alt="" coords="232,436,388,477"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="247,502,373,529"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_output_processor.html#a949dcbd9624c108584c3ac5cad32a448" title="souffle::profile::Output\lProcessor::getRelTable" alt="" coords="473,5,641,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_output_processor.html#aa996994e1685ee24446556d98b8c7ae7" title="souffle::profile::Output\lProcessor::getRulTable" alt="" coords="473,71,641,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_output_processor.html#a0b1b87d45038d57e7fb16ba943f893c7" title="souffle::profile::Output\lProcessor::getSubrulTable" alt="" coords="462,136,651,177"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_output_processor.html#a17bb5ea546bf6b9d61e02a18cbafc9ac" title="souffle::profile::Output\lProcessor::getAtomTable" alt="" coords="465,201,648,243"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1profile_1_1_output_processor.html#abbfb4d5864dd1e5e79d2c9da6f3da11d" title="souffle::profile::Output\lProcessor::getVersionAtoms" alt="" coords="455,267,659,308"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_table.html#ac99e71fd2b566a2e68a72da291a86aa5" title="souffle::profile::Table\l::addRow" alt="" coords="707,169,864,211"/>
+</map>

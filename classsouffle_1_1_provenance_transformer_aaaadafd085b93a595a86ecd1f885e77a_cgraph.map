@@ -1,0 +1,32 @@
+<map id="souffle::ProvenanceTransformer::transformMaxHeight" name="souffle::ProvenanceTransformer::transformMaxHeight">
+<area shape="rect" id="node2" href="$namespacesouffle.html#ac4f78efaeb4338f70e2dcab6bd0638d2" title="Returns the index of a clause within its relation, ignoring facts. " alt="" coords="308,158,479,185"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="608,31,755,58"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ae4b6e248ec714e64f38ce032caf5f477" title="Returns whether the given clause is a fact. " alt="" coords="626,183,737,210"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="585,285,778,327"/>
+<area shape="rect" id="node17" href="$namespacesouffle.html#a97c74d6a5819e15d68eded0c4e9ff9d5" title="souffle::makeInfoRelation" alt="" coords="299,478,488,505"/>
+<area shape="rect" id="node26" href="$namespacesouffle.html#a2e1142a31f92b96107d9603e86b13bdb" title="Transform eqrel relations to explicitly define equivalence relations. " alt="" coords="281,911,505,938"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_clause.html#a5a29a4f9ba5d0e4aea869cf71a6efbbf" title="Return the atom that represents the head of the clause. " alt="" coords="903,188,1042,229"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_atom.html#a2fcd569fa7d8ed8c0c2dfd0d1c362e50" title="get qualified name " alt="" coords="553,234,809,261"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#ada252aa15afbf7d703a11b000dfd4048" title="Returns the relation with the given name in the program. " alt="" coords="607,82,755,109"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="897,5,1048,47"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1147,195,1293,222"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="921,71,1025,98"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_program.html#a71fb3c28c3a105637c22cbe6a9fb63ef" title="get relations " alt="" coords="897,123,1048,164"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_clause.html#a1b5199df425ba5839383a75c5bb8a254" title="Obtains a copy of the internally maintained body literals. " alt="" coords="903,253,1042,295"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="889,370,1057,397"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="1136,363,1304,404"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="1352,363,1543,404"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_ast_program.html#a776167026cb9e348e75a9e9caa02ef74" title="add a clause " alt="" coords="606,787,757,828"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_ast_atom.html#a9c726c597d7921245dd97dcc72b8aeed" title="get arguments " alt="" coords="857,319,1088,346"/>
+<area shape="rect" id="node20" href="$namespacesouffle.html#a3c6cb3ac93eb86027865121aff551fde" title="Helper functions. " alt="" coords="881,605,1065,631"/>
+<area shape="rect" id="node21" href="$namespacesouffle.html#abe4e3f19879707216a2758b03f4e2deb" title="Creates an object to be forwarded to some output stream for printing sequences of elements interspers..." alt="" coords="632,503,731,530"/>
+<area shape="rect" id="node22" href="$namespacesouffle.html#ac74ef3c3ffaad63c158bcd0ff2feecb2" title="souffle::makeRelationName" alt="" coords="580,554,783,581"/>
+<area shape="rect" id="node24" href="$classsouffle_1_1_ast_clause.html#a07290e1b7b9e4ce73c3a5f0482ce88d3" title="Set the head of clause to h. " alt="" coords="612,656,751,697"/>
+<area shape="rect" id="node25" href="$namespacesouffle.html#aa91ed26d703343c35171d6803a9c5d0b" title="Converts operator to its symbolic representation. " alt="" coords="583,721,779,763"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_ast_qualified_name.html#a6341a67891b6d0174b92264eb4dc5d43" title="append qualifiers " alt="" coords="877,539,1069,580"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_ast_atom.html#a0c2e151bc853490e6210c33c8fd127be" title="add argument to the atom " alt="" coords="568,853,795,879"/>
+<area shape="rect" id="node28" href="$classsouffle_1_1_ast_relation.html#a54bd8f26d113f3141d49e926a030b52d" title="Return the arity of this relation. " alt="" coords="607,904,755,945"/>
+<area shape="rect" id="node29" href="$classsouffle_1_1_ast_relation.html#a5db8b505969c2f75286a54875c4aaed1" title="get qualified relation name " alt="" coords="607,969,755,1011"/>
+<area shape="rect" id="node30" href="$classsouffle_1_1_ast_relation.html#ad2025f014882934287fbf5bf05a9ced7" title="Get relation representation. " alt="" coords="607,1035,756,1076"/>
+<area shape="rect" id="node31" href="$classsouffle_1_1_ast_relation.html#a74fee05e2281fd21dac19a2df839af21" title="Set relation representation. " alt="" coords="607,1100,755,1141"/>
+</map>

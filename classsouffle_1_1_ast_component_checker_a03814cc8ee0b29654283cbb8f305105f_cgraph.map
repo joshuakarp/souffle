@@ -1,0 +1,10 @@
+<map id="souffle::AstComponentChecker::checkComponentNameReference" name="souffle::AstComponentChecker::checkComponentNameReference">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="325,9,471,51"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_qualified_name.html#ab6a8a48aa56c1fcbc40aef38fbcc3737" title="check for emptiness " alt="" coords="548,71,740,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_type_binding.html#ad3a49aa19869c50923d88ad3d43862d6" title="Returns binding for given name or empty string if such binding does not exist. " alt="" coords="567,136,721,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_component_lookup.html#a38f0a7d3b06c58e9f321258685e1cb1d" title="Performs a lookup operation for a component with the given name within the addressed scope..." alt="" coords="300,180,496,221"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="544,5,744,47"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_component.html#a2452704d4602f1681d90f07b98f31973" title="get components " alt="" coords="559,253,729,295"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="581,202,707,229"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="792,261,939,287"/>
+</map>

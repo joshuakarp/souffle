@@ -1,0 +1,6 @@
+<map id="souffle::AstType" name="souffle::AstType">
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_record_type.html" title="A record type aggregates a list of fields into a new type. " alt="" coords="5,461,175,612"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_subset_type.html" title="A subset type is named type that can either be a sub&#45;type of the predefined types (float/unsigned/num..." alt="" coords="199,469,368,605"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_union_type.html" title="A union type combines multiple types into a new super type. " alt="" coords="393,461,555,612"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="212,5,355,244"/>
+</map>

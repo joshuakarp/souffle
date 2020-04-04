@@ -1,0 +1,3 @@
+<map id="souffle::SynthesiserBrieRelation" name="souffle::SynthesiserBrieRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_synthesiser_relation.html" title="{souffle::SynthesiserRelation\n|# computedIndices\l# dataStructure\l# indices\l# isProvenance\l# masterIndex\l# provenanceIndexNumbers\l# relation\l|+ computeIndices()\l+ generateTypeStruct()\l+ getArity()\l+ getDataStructure()\l+ getIndices()\l+ getMinIndexSelection()\l+ getProvenenceIndexNumbers()\l+ getRamRelation()\l+ getTypeName()\l+ SynthesiserRelation()\l+ ~SynthesiserRelation()\l+ getSynthesiserRelation()\l}" alt="" coords="5,5,244,332"/>
+</map>

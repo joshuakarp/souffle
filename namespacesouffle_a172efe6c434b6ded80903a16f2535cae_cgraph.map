@@ -1,0 +1,21 @@
+<map id="souffle::getLeastCommonSupertypes" name="souffle::getLeastCommonSupertypes">
+<area shape="rect" id="node2" href="$namespacesouffle.html#abb20659f25b4513908b813cfdbf43e23" title="Computes the greatest common sub types of the two given types. " alt="" coords="342,329,553,371"/>
+<area shape="rect" id="node18" href="$namespacesouffle.html#a8aecaefb22443dc01bb4c208cb6aabdf" title="Computes the least common super types of the two given types. " alt="" coords="316,417,579,443"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_union_type.html#a0175bce933a70c1d3691114860ac17fc" title="souffle::UnionType\l::getElementTypes" alt="" coords="649,5,791,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_type.html#a2bc9172d0ce6390a7960b24b16172c79" title="souffle::Type::getTypeEnvironment" alt="" coords="1096,173,1343,199"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1_type_set.html#ad779397583248bcbf50b982e5314c2e2" title="Adds the given type to this set. " alt="" coords="869,577,1040,603"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a8cc19c66d9d13ce64e65f14dcabb43b3" title="Determines whether type a is a subtype of type b. " alt="" coords="643,315,797,342"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_type_environment.html#a5ead83575e9abfebb3a0b180a33a7d96" title="souffle::TypeEnvironment\l::isType" alt="" coords="861,493,1048,535"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_type.html#a00437c665d598367ff16229c823c728f" title="souffle::Type::print" alt="" coords="883,13,1026,39"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_type_environment.html#a5586a154835d2bfc076b9d5fcc11a50f" title="souffle::TypeEnvironment\l::getNumberType" alt="" coords="1126,384,1313,425"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#a4e502e6abb9a3e9a8e4c1168dbf23743" title="Determines whether the given type is a number type. " alt="" coords="871,391,1038,418"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_type_environment.html#a72fa419d33bf813f22efabec629a4627" title="souffle::TypeEnvironment\l::getSymbolType" alt="" coords="1126,267,1313,308"/>
+<area shape="rect" id="node16" href="$namespacesouffle.html#a11f6c352eec6bde7b5a0b143ffe64e3b" title="Determines whether the given type is a symbol type. " alt="" coords="873,223,1037,250"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_subset_type.html#ac5c52e503cbce42370d6ada3f050773d" title="souffle::SubsetType\l::getBaseType" alt="" coords="881,325,1029,367"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="1391,333,1516,359"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="1587,303,1691,330"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1564,355,1715,396"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1763,362,1909,389"/>
+<area shape="rect" id="node19" href="$namespacesouffle.html#a34f8eecb81c090fca9e58d3357b63ed9" title="A generic test checking whether any elements within a container satisfy a certain predicate..." alt="" coords="661,518,779,545"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_type_environment.html#af9544bc93704955f168a0803f583ae19" title="souffle::TypeEnvironment\l::getAllTypes" alt="" coords="627,569,813,611"/>
+</map>

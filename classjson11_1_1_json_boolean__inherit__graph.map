@@ -1,0 +1,4 @@
+<map id="json11::JsonBoolean" name="json11::JsonBoolean">
+<area shape="rect" id="node2" href="$classjson11_1_1_value.html" title="{json11::Value\&lt; Json\l::BOOL, bool \&gt;\n|# m_value\l|# dump()\l# equals()\l# less()\l# type()\l# Value()\l}" alt="" coords="7,321,157,472"/>
+<area shape="rect" id="node3" href="$classjson11_1_1_json_value.html" title="{json11::JsonValue\n||# array_items()\l# bool_value()\l# dump()\l# equals()\l# int_value()\l# less()\l# long_value()\l# number_value()\l# object_items()\l# operator[]()\l# operator[]()\l# string_value()\l# type()\l# ~JsonValue()\l}" alt="" coords="12,5,152,273"/>
+</map>

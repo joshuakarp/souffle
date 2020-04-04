@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_relation.html" title="Object&#45;oriented wrapper class for Souffle&#39;s templatized relations. " alt="" coords="5,39,132,65"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_rel_interface.html" title="Wrapper class for interpreter relations. " alt="" coords="180,5,401,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation_wrapper.html" title="Relation wrapper used internally in the generated Datalog program. " alt="" coords="191,56,391,112"/>
+</map>

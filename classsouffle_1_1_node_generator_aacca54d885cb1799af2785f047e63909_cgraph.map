@@ -1,0 +1,18 @@
+<map id="souffle::NodeGenerator::visitQuery" name="souffle::NodeGenerator::visitQuery">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#adf4918592473b561987de722d422b1f6" title="Encode and create the relation, return the relation id. " alt="" coords="249,87,423,128"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_node_generator.html#ae5998d60cfa261b3365b92f142b80d10" title="Encode and return the View id of an operation. " alt="" coords="249,184,423,225"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ram_query.html#afa986664dc9e61630159a5da44c032fb" title="Get RAM operation. " alt="" coords="261,249,411,291"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_node_generator.html#a3dd24bf3a7d1e248e31bca49303173c5" title="Return the associated relation of a operation which requires a view. " alt="" coords="247,315,425,356"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_node_generator.html#a0cc29ed6dc9759a4681eec04a63c7957" title="Return true if the given operation requires a view. " alt="" coords="249,380,423,421"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_node_generator.html#a28ef92ea6235d57a7d356442d15879c6" title="Convert terms of a conjunction to a list. " alt="" coords="249,445,423,487"/>
+<area shape="rect" id="node14" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="227,511,445,567"/>
+<area shape="rect" id="node15" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="252,591,420,618"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_node_generator.html#a8e245239bff0eff10b84f20914bdfc3f" title="souffle::NodeGenerator\l::createRelation" alt="" coords="504,5,677,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="493,71,688,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_node_generator.html#af575fa077e975e36f3f0fe216fcbbfd9" title="Get a valid relation id for encoding. " alt="" coords="504,136,677,177"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#acd9ba22f7f5dfc45efc499c6d9932b50" title="souffle::createBTreeProvenance\lIndex" alt="" coords="736,5,963,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_order.html#acba06648b910cba7978cca29cbf87ed1" title="souffle::Order::size" alt="" coords="1011,13,1155,39"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_node_generator.html#ab2d2abaafc36c12c125d50c75237383d" title="Get a valid view id for encoding. " alt="" coords="504,201,677,243"/>
+<area shape="rect" id="node16" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="507,584,675,625"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="754,584,945,625"/>
+</map>

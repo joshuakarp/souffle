@@ -1,0 +1,5 @@
+<map id="souffle::getFunctorDeclaration" name="souffle::getFunctorDeclaration">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_program.html#a69ceb64c50b5e47518d505416e4579fa" title="get functor declarations " alt="" coords="271,5,451,47"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="309,71,413,98"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="499,13,645,39"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="souffle::AstTranslator::ClauseTranslator::createValueIndex" name="souffle::AstTranslator::ClauseTranslator::createValueIndex">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a34f8eecb81c090fca9e58d3357b63ed9" title="A generic test checking whether any elements within a container satisfy a certain predicate..." alt="" coords="368,5,487,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_atom.html#a9c726c597d7921245dd97dcc72b8aeed" title="get arguments " alt="" coords="312,56,543,83"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_aggregator.html#a52adcf6071c53f92114ac3f45307ca18" title="Get body literals. " alt="" coords="344,107,511,149"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#a8e603a0cbf511478333b3d6ef87d49c5" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="343,173,511,214"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="613,85,759,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="591,173,781,214"/>
+</map>

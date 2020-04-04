@@ -1,0 +1,5 @@
+<map id="souffle::NullaryIndex::NullaryIndexView" name="souffle::NullaryIndex::NullaryIndexView">
+<area shape="rect" id="node2" href="$classsouffle_1_1_index_view.html" title="A view on a relation caching local access patterns (not thread safe!). " alt="" coords="5,409,148,545"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_nullary_index.html" title="An index wrapper for nullary indexes. " alt="" coords="173,351,330,604"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_index.html" title="An index is an abstraction of a data structure. " alt="" coords="74,5,253,288"/>
+</map>

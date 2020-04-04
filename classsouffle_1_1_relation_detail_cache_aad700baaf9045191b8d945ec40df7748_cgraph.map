@@ -1,0 +1,6 @@
+<map id="souffle::RelationDetailCache::getClauses" name="souffle::RelationDetailCache::getClauses">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="261,13,407,39"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_relation.html#a5db8b505969c2f75286a54875c4aaed1" title="get qualified relation name " alt="" coords="260,64,408,105"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="456,5,607,47"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="655,13,801,39"/>
+</map>

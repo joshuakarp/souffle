@@ -1,0 +1,7 @@
+<map id="souffle::AstNode::extloc" name="souffle::AstNode::extloc">
+<area shape="rect" id="node2" href="$classsouffle_1_1_src_location.html#a19cf7f376e17d5c8cec162e4af83c160" title="An extended string describing this location in a end&#45;user friendly way. " alt="" coords="231,23,380,65"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#aaefdc21106bf028c4de1db83d933d0b4" title="souffle::getCurrentFilename" alt="" coords="428,56,631,83"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a9fbc2262a6164b62766f6fcb67f12ae4" title="souffle::baseName" alt="" coords="679,5,823,32"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a72e10d44624c80609e5c09b131ecf3fb" title="C++&#45;style dirname. " alt="" coords="685,56,816,83"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#a69107e934a60222580ee8ba6882dc3d3" title="Check whether a file exists in the file system. " alt="" coords="687,107,815,133"/>
+</map>

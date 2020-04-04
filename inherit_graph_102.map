@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1detail_1_1_trie_base.html" title="souffle::detail::TrieBase\l\&lt; Dim, Trie\&lt; Dim \&gt; \&gt;" alt="" coords="5,49,180,90"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_trie.html" title="The most generic implementation of a Trie forming the top&#45;level of any Trie storing tuples of arity &gt;..." alt="" coords="230,5,385,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_trie.html" title="souffle::Trie\&lt; Arity \&gt;" alt="" coords="228,56,387,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_trie.html" title="souffle::Trie\&lt; Dim\l &#45; 1 \&gt;" alt="" coords="238,107,377,149"/>
+</map>

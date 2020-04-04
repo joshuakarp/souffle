@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_ram_analysis.html" title="Abstract class for a RAM Analysis. " alt="" coords="5,56,164,83"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_complexity_analysis.html" title="A Ram Analysis for determining the number of relational operations in a condition / expression..." alt="" coords="212,5,447,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_index_analysis.html" title="souffle::RamIndexAnalysis" alt="" coords="232,56,427,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_level_analysis.html" title="A Ram Analysis for determining the level of a expression/condition. " alt="" coords="232,107,427,133"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_cli.html#a399f9a844d0d9d47d60a35ac94251504" title="souffle::profile::Cli\l::parse" alt="" coords="108,71,248,112"/>
+<area shape="rect" id="node3" href="$namespacesouffle_1_1profile_1_1_tools.html#a2a26cf00df092cbd565298fcd045a0d2" title="split on the delimiter " alt="" coords="508,5,664,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_tui.html#a335580eed52ebba63a027efc5d579b67" title="souffle::profile::Tui\l::runCommand" alt="" coords="515,71,657,112"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1profile_1_1_tui.html#ad1e94241f9c749315f718f18a3b74b00" title="souffle::profile::Tui\l::runProf" alt="" coords="296,136,437,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_input_reader.html#a4c496c68f943db0022338e4a46111551" title="souffle::profile::InputReader\l::hasReceivedInput" alt="" coords="735,5,936,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1profile_1_1_output_processor.html#aa996994e1685ee24446556d98b8c7ae7" title="souffle::profile::Output\lProcessor::getRulTable" alt="" coords="751,71,919,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1profile_1_1_output_processor.html#a949dcbd9624c108584c3ac5cad32a448" title="souffle::profile::Output\lProcessor::getRelTable" alt="" coords="751,136,919,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_table.html#ac99e71fd2b566a2e68a72da291a86aa5" title="souffle::profile::Table\l::addRow" alt="" coords="1006,103,1163,144"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1profile_1_1_input_reader.html#af42a37387d1666bca44bf42e62332506" title="souffle::profile::InputReader\l::setPrompt" alt="" coords="485,267,687,308"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1profile_1_1_input_reader.html#a52add3f27ef26681e310ef5741860f40" title="souffle::profile::InputReader\l::getInput" alt="" coords="485,332,687,373"/>
+<area shape="rect" id="node22" href="$namespacesouffle_1_1profile_1_1_tools.html#af94b32d00e251be9167bf74c5a50d968" title="souffle::profile::Tools\l::trimWhitespace" alt="" coords="508,136,664,177"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1profile_1_1_input_reader.html#a0058a208c97ed608a02a5226ed7e061a" title="souffle::profile::InputReader\l::addHistory" alt="" coords="485,201,687,243"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1profile_1_1_input_reader.html#ac74597f9639943f8554013f09e92aa39" title="souffle::profile::InputReader\l::readchar" alt="" coords="735,449,936,491"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1profile_1_1_input_reader.html#afbe82264bff4493fe2859b93d8493a17" title="souffle::profile::InputReader\l::moveCursor" alt="" coords="735,332,936,373"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1profile_1_1_input_reader.html#afacd909a6d021400f57961951b8bcd27" title="souffle::profile::InputReader\l::tabComplete" alt="" coords="984,528,1185,569"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1profile_1_1_input_reader.html#a5e322b63728d04b784ac53907806e4ad" title="souffle::profile::InputReader\l::backspace" alt="" coords="735,267,936,308"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1profile_1_1_input_reader.html#a37e5eb98efab4a607969ee49c7b1b4c7" title="souffle::profile::InputReader\l::showFullText" alt="" coords="984,201,1185,243"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1profile_1_1_input_reader.html#adbb874fe2059c0008af1dc418cbe3559" title="souffle::profile::InputReader\l::historyUp" alt="" coords="984,332,1185,373"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1profile_1_1_input_reader.html#ae772c175c42f2abf1dfb8e342ef62307" title="souffle::profile::InputReader\l::historyDown" alt="" coords="984,463,1185,504"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1profile_1_1_input_reader.html#ac5df07fa72f6f005127009f3fc9d173e" title="souffle::profile::InputReader\l::moveCursorRight" alt="" coords="984,397,1185,439"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1profile_1_1_input_reader.html#abd36b727544195f5b9e417f4c49712c2" title="souffle::profile::InputReader\l::moveCursorLeft" alt="" coords="984,267,1185,308"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1profile_1_1_input_reader.html#a3a919eddf6b8aee0e04810ac1b8c34e1" title="souffle::profile::InputReader\l::clearPrompt" alt="" coords="1233,397,1435,439"/>
+</map>

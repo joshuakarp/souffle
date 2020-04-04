@@ -1,0 +1,13 @@
+<map id="souffle::Relation::iterator::operator!=" name="souffle::Relation::iterator::operator!=">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation.html#af6866f5c83061e31947ed2bd0f6d22e0" title="Return an iterator pointing to the first tuple of the relation. " alt="" coords="216,5,351,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation.html#a6f8ce381c8fc38ac6486015c961e3ef6" title="Check whether a tuple exists in a relation. " alt="" coords="216,71,351,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_relation.html#a48aa809188e822ba6a4c7309a9567fbd" title="Return an iterator pointing to next to the last tuple of the relation. " alt="" coords="204,137,363,163"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_relation.html#a8e8e6b38e1d621e9cccd365eaedbd7e1" title="Return the arity of a relation. " alt="" coords="216,188,351,229"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_relation.html#a25392b4674d7c7cbdc0de340b196e193" title="Get the attribute name of a relation at the column specified by the parameter. " alt="" coords="216,253,351,295"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_relation.html#a2607e76650b5045cd84babfdd0bd64f3" title="Get the attribute type of a relation at the column specified by the parameter. " alt="" coords="216,319,351,360"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_relation.html#a8f1f622f85fe0c662f00c42d5416de14" title="Return the number of auxiliary attributes. " alt="" coords="216,384,351,425"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_relation.html#a36b722447994202be331f76186abfa0a" title="Get the name of a relation. " alt="" coords="216,449,351,491"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_relation.html#aafe66b5dd0bb775432f884bc47741a52" title="Get the symbol table of a relation. " alt="" coords="216,515,351,556"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_relation.html#a4f118226c04197b2efa9901c91873b09" title="Insert a new tuple into the relation. " alt="" coords="216,580,351,621"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_relation.html#a7943e499688e4c73e293ed9db53bc329" title="Get the number of tuples in a relation. " alt="" coords="203,646,364,673"/>
+</map>

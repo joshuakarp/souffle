@@ -1,0 +1,12 @@
+<map id="souffle::NodeGenerator::visitProject" name="souffle::NodeGenerator::visitProject">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#adf4918592473b561987de722d422b1f6" title="Encode and create the relation, return the relation id. " alt="" coords="249,71,423,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_project.html#a0c3f02573774d908d063127ce646972f" title="Get relation. " alt="" coords="261,136,411,177"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ram_project.html#a83eb912db2d67c556d4e4e28cd8a2a11" title="Get expressions. " alt="" coords="261,201,411,243"/>
+<area shape="rect" id="node11" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="227,267,445,323"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_node_generator.html#a8e245239bff0eff10b84f20914bdfc3f" title="souffle::NodeGenerator\l::createRelation" alt="" coords="504,5,677,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="493,71,688,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_node_generator.html#af575fa077e975e36f3f0fe216fcbbfd9" title="Get a valid relation id for encoding. " alt="" coords="504,136,677,177"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#acd9ba22f7f5dfc45efc499c6d9932b50" title="souffle::createBTreeProvenance\lIndex" alt="" coords="736,5,963,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_order.html#acba06648b910cba7978cca29cbf87ed1" title="souffle::Order::size" alt="" coords="1011,13,1155,39"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="517,209,664,235"/>
+</map>

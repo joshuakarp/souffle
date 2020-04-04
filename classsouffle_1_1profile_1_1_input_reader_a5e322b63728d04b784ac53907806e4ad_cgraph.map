@@ -1,0 +1,5 @@
+<map id="souffle::profile::InputReader::backspace" name="souffle::profile::InputReader::backspace">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_input_reader.html#abd36b727544195f5b9e417f4c49712c2" title="souffle::profile::InputReader\l::moveCursorLeft" alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_input_reader.html#a37e5eb98efab4a607969ee49c7b1b4c7" title="souffle::profile::InputReader\l::showFullText" alt="" coords="255,71,456,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_input_reader.html#a3a919eddf6b8aee0e04810ac1b8c34e1" title="souffle::profile::InputReader\l::clearPrompt" alt="" coords="504,71,705,112"/>
+</map>

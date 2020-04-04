@@ -1,0 +1,4 @@
+<map id="souffle::PiggyList&lt; T &gt;::iterator" name="souffle::PiggyList&lt; T &gt;::iterator">
+<area shape="rect" id="node3" href="$classsouffle_1_1_piggy_list.html" title="{souffle::PiggyList\&lt; T \&gt;\n||+ append()\l+ begin()\l+ clear()\l+ createNode()\l+ end()\l+ freeList()\l+ get()\l+ getBlock()\l+ operator=()\l+ PiggyList()\l+ PiggyList()\l+ PiggyList()\l+ PiggyList()\l+ size()\l+ ~PiggyList()\l}" alt="" coords="343,233,514,516"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_spin_lock.html" title="A &#39;sequential&#39; non&#45;locking implementation for a spin lock. " alt="" coords="373,5,505,127"/>
+</map>

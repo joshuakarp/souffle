@@ -1,0 +1,13 @@
+<map id="souffle::RemoveRedundantRelationsTransformer::transform" name="souffle::RemoveRedundantRelationsTransformer::transform">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_translation_unit.html#af396e44c83e5ad410c9ec3e2f6b91758" title="get analysis: analysis is generated on the fly if not present " alt="" coords="254,35,447,76"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="254,100,447,141"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_redundant_relations.html#a7fed5d3c1860640f753fb341f1ac552b" title="souffle::RedundantRelations\l::getRedundantRelations" alt="" coords="249,165,452,207"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_program.html#a8bd39fbf78f6e4b5347bab4c90486bfd" title="remove relation " alt="" coords="275,231,426,272"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_debug_report.html#a4e6fe0a6d9854ce570d008772daa9aba" title="souffle::DebugReport\l::addSection" alt="" coords="535,5,693,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="533,71,695,98"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a503032b9def6267059072aea913780bc" title="Removes the set of clauses with the given relation name. " alt="" coords="500,238,728,265"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="778,209,925,235"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_program.html#a0bde67af569811987d8e21929163d132" title="remove a clause " alt="" coords="776,260,927,301"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="975,201,1125,243"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1173,209,1320,235"/>
+</map>

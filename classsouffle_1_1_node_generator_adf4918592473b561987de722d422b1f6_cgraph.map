@@ -1,0 +1,7 @@
+<map id="souffle::NodeGenerator::encodeRelation" name="souffle::NodeGenerator::encodeRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#a8e245239bff0eff10b84f20914bdfc3f" title="souffle::NodeGenerator\l::createRelation" alt="" coords="237,5,411,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="227,71,421,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_node_generator.html#af575fa077e975e36f3f0fe216fcbbfd9" title="Get a valid relation id for encoding. " alt="" coords="237,136,411,177"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#acd9ba22f7f5dfc45efc499c6d9932b50" title="souffle::createBTreeProvenance\lIndex" alt="" coords="469,5,696,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_order.html#acba06648b910cba7978cca29cbf87ed1" title="souffle::Order::size" alt="" coords="744,13,888,39"/>
+</map>

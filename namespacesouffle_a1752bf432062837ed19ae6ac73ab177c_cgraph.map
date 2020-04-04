@@ -1,0 +1,5 @@
+<map id="souffle::executeBinary" name="souffle::executeBinary">
+<area shape="rect" id="node2" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="221,5,384,32"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a64753e143a37bb9414121fc75987cb14" title="Check whether a given file exists and it is an executable. " alt="" coords="224,56,381,83"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a673608e9453179d30f6607384f54463a" title="Splits a string given a delimiter. " alt="" coords="233,107,373,133"/>
+</map>

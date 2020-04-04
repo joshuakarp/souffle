@@ -1,0 +1,5 @@
+<map id="souffle::ast_visitor_tag" name="souffle::ast_visitor_tag">
+<area shape="rect" id="node2" href="$structsouffle_1_1_ast_visitor.html" title="{souffle::AstVisitor\l\&lt; void \&gt;\n||+ operator()()\l+ visit()\l+ ~AstVisitor()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# LINK()\l# visitNode()\l}" alt="" coords="33,131,170,472"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_ast_visitor.html" title="The generic base type of all AstVisitors realizing the dispatching of visitor calls. " alt="" coords="194,131,331,472"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1_lambda_ast_visitor.html" title="A specialized visitor wrapping a lambda function – an auxiliary type required for visitor convenienc..." alt="" coords="5,520,197,627"/>
+</map>

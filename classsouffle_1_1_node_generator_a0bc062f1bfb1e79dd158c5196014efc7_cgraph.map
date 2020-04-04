@@ -1,0 +1,5 @@
+<map id="souffle::NodeGenerator::visitUserDefinedOperator" name="souffle::NodeGenerator::visitUserDefinedOperator">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_abstract_operator.html#a5af3fa1bfb6f144e04a9274ee0f9592c" title="Get argument values. " alt="" coords="250,5,465,47"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="248,71,467,127"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="515,13,661,39"/>
+</map>

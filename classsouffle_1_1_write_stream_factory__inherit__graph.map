@@ -1,0 +1,6 @@
+<map id="souffle::WriteStreamFactory" name="souffle::WriteStreamFactory">
+<area shape="rect" id="node2" href="$classsouffle_1_1_write_cout_c_s_v_factory.html" title="{souffle::WriteCoutCSVFactory\n||+ getName()\l+ getWriter()\l+ ~WriteCoutCSVFactory()\l}" alt="" coords="5,167,216,274"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_write_cout_print_size_factory.html" title="{souffle::WriteCoutPrintSize\lFactory\n||+ getName()\l+ getWriter()\l+ ~WriteCoutPrintSizeFactory()\l}" alt="" coords="240,160,467,281"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_write_file_c_s_v_factory.html" title="{souffle::WriteFileCSVFactory\n||+ getName()\l+ getWriter()\l+ ~WriteFileCSVFactory()\l}" alt="" coords="491,167,693,274"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_write_s_q_lite_factory.html" title="{souffle::WriteSQLiteFactory\n||+ getName()\l+ getWriter()\l+ ~WriteSQLiteFactory()\l}" alt="" coords="717,167,915,274"/>
+</map>

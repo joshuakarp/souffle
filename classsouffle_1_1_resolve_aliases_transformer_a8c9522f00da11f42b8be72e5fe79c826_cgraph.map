@@ -1,0 +1,11 @@
+<map id="souffle::ResolveAliasesTransformer::resolveAliases" name="souffle::ResolveAliasesTransformer::resolveAliases">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_clause.html#aef9cb574a067db73c83fd9c9f63d297f" title="Create a clone (i.e. " alt="" coords="337,5,475,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_binary_constraint.html#a72b9e10473e1748d720bbf68a3e7f471" title="get LHS argument " alt="" coords="304,71,508,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_binary_constraint.html#aec8d30b8684b3a2f5f715204999776a0" title="get binary operator " alt="" coords="304,136,508,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_binary_constraint.html#a61055c91c04bcbe4d03873044c6bf4b8" title="get RHS argument " alt="" coords="304,201,508,243"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a6befeedfd76433e1bd51a1f6cd42afec" title="souffle::isEqConstraint" alt="" coords="322,267,490,294"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="322,318,490,345"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="556,13,756,39"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="572,311,740,352"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="804,311,995,352"/>
+</map>

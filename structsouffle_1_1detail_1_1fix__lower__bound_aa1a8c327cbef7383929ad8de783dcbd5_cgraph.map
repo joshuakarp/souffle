@@ -1,0 +1,4 @@
+<map id="souffle::detail::fix_lower_bound::operator()" name="souffle::detail::fix_lower_bound::operator()">
+<area shape="rect" id="node2" href="$classsouffle_1_1_sparse_bit_map.html#af6650db8e126f35065cefe3f0e041b7e" title="Returns an iterator referencing the position after the last set bit. " alt="" coords="239,5,433,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_sparse_bit_map.html#a1ec140be1d263b677e2911b1e5389341" title="Locates an iterator to the first element in this sparse bit map not less than the given index..." alt="" coords="255,57,417,98"/>
+</map>

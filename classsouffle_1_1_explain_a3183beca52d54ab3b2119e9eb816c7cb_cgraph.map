@@ -1,0 +1,14 @@
+<map id="souffle::Explain::processCommand" name="souffle::Explain::processCommand">
+<area shape="rect" id="node2" href="$classsouffle_1_1_explain_provenance.html#a340ed47f995b5172ab9f346babc4bfd7" title="souffle::ExplainProvenance\l::explain" alt="" coords="244,5,443,47"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#ab5c20b82d0becb6b4e3b780c2c87cc62" title="souffle::explain" alt="" coords="282,71,405,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_explain_provenance.html#a79f3bc16ad57361ed2590509f579d169" title="souffle::ExplainProvenance\l::explainNegation" alt="" coords="244,123,443,164"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_explain_provenance.html#a69f6e64a87fdd6e392c7d29a50c72556" title="souffle::ExplainProvenance\l::explainNegationGetVariables" alt="" coords="233,188,453,229"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_explain_provenance.html#a64e3165acb1b13e24e5f1974d8c29cf2" title="souffle::ExplainProvenance\l::explainSubproof" alt="" coords="244,253,443,295"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_explain_config.html#a09302d18324fc2d82e3d3eaf354fc377" title="souffle::ExplainConfig\l::getExplainConfig" alt="" coords="262,319,425,360"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_explain_provenance.html#aadcec6224703d8b59f7743ce97bf7f03" title="souffle::ExplainProvenance\l::getRule" alt="" coords="244,384,443,425"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_explain_provenance.html#a673a11cad7ca9189d74525974b750f71" title="souffle::ExplainProvenance\l::getRules" alt="" coords="244,449,443,491"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_explain_provenance.html#af1571b104107b98bf2a2d73b984709f1" title="souffle::ExplainProvenance\l::measureRelation" alt="" coords="244,515,443,556"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_explain_provenance.html#a5358f914c827c4dd7a64acc24e52b5ad" title="Process query with given arguments. " alt="" coords="244,580,443,621"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a2925d5d1ec64b003a6b111ed29a2392b" title="utility function to split a string " alt="" coords="292,646,395,673"/>
+<area shape="rect" id="node13" href="$namespacesouffle.html#a0fff2be077dd5d1105f3a6e718339f2f" title="A utility printing a given value multiple times. " alt="" coords="501,646,612,673"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="souffle::DisjointSet::updateRoot" name="souffle::DisjointSet::updateRoot">
+<area shape="rect" id="node2" href="$classsouffle_1_1_disjoint_set.html#a72c6d822d03f4f5c29b7a487e0ad6858" title="Extract parent from block. " alt="" coords="199,5,376,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_disjoint_set.html#a2537a5caf8cbb4ac1461528479558abd" title="Extract rank from block. " alt="" coords="200,56,375,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_disjoint_set.html#ae892a7febe8076794433d5546a9a3b94" title="Yield a block given parent and rank. " alt="" coords="215,107,360,149"/>
+</map>

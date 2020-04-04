@@ -1,0 +1,15 @@
+<map id="souffle::AstSemanticChecker::checkRelationDeclaration" name="souffle::AstSemanticChecker::checkRelationDeclaration">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="289,5,436,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_relation.html#a54bd8f26d113f3141d49e926a030b52d" title="Return the arity of this relation. " alt="" coords="289,71,437,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_attribute.html#a70476bca0428b39cf9fe8b3aa6e2d4c0" title="get attribute name " alt="" coords="287,136,439,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_relation.html#ae27800d5845e8ac6df95b20bfc51aecf" title="Get relation attributes. " alt="" coords="537,195,685,236"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="263,253,463,279"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="548,307,673,334"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ast_attribute.html#abd0d0fac076ada4cf65ebdabaeeca3cd" title="get type name " alt="" coords="287,355,439,396"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_type_environment.html#a61c5e103c9fd8677104db9b8dd58820c" title="souffle::TypeEnvironment\l::isPredefinedType" alt="" coords="269,420,456,461"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="300,486,425,513"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="511,5,711,47"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="957,257,1104,283"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="782,253,886,279"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="759,304,909,345"/>
+</map>

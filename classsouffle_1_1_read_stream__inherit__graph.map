@@ -1,0 +1,5 @@
+<map id="souffle::ReadStream" name="souffle::ReadStream">
+<area shape="rect" id="node2" href="$classsouffle_1_1_read_stream_c_s_v.html" title="{souffle::ReadStreamCSV\n|# delimiter\l# file\l# inputMap\l# lineNumber\l|+ ReadStreamCSV()\l+ ~ReadStreamCSV()\l# getInputColumnMap()\l# nextElement()\l# readNextTuple()\l# readRamUnsigned()\l}" alt="" coords="5,321,184,516"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_read_stream_s_q_lite.html" title="{souffle::ReadStreamSQLite\n|# db\l# dbFilename\l# relationName\l# selectStatement\l|+ ReadStreamSQLite()\l+ ~ReadStreamSQLite()\l# checkTableExists()\l# executeSQL()\l# openDB()\l# prepareSelectStatement()\l# readNextTuple()\l# throwError()\l}" alt="" coords="208,307,413,531"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_read_file_c_s_v.html" title="{souffle::ReadFileCSV\n|# baseName\l# fileHandle\l|+ ReadFileCSV()\l+ readNextTuple()\l+ ~ReadFileCSV()\l# getFileName()\l}" alt="" coords="17,579,172,715"/>
+</map>

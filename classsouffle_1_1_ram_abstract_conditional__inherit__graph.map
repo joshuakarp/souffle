@@ -1,0 +1,7 @@
+<map id="souffle::RamAbstractConditional" name="souffle::RamAbstractConditional">
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_break.html" title="Breaks out of the loop if a condition holds. " alt="" coords="5,829,148,936"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_filter.html" title="Checks whether a given condition holds. " alt="" coords="173,829,309,936"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_nested_operation.html" title="Abstract class for a nesting operations in a loop&#45;nest. " alt="" coords="51,417,265,597"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_operation.html" title="Abstract class for a relational algebra operation. " alt="" coords="74,248,242,369"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="87,5,229,200"/>
+</map>

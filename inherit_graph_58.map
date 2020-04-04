@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1detail_1_1btree.html" title="souffle::detail::btree\l\&lt; PairStore, EqrelMapComparator\l\&lt; PairStore \&gt;, std::allocator\l\&lt; PairStore \&gt;, blockSize, typename\l detail::default_strategy\&lt; PairStore\l \&gt;::type, isSet, EqrelMapComparator\l\&lt; PairStore \&gt;, detail::updater\&lt; PairStore \&gt; \&gt;" alt="" coords="5,5,321,120"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1detail_1_1_lambda_b_tree.html" title="souffle::detail::LambdaBTree\l\&lt; PairStore, EqrelMapComparator\l\&lt; PairStore \&gt;, std::allocator\l\&lt; PairStore \&gt;, 256, typename detail\l::default_strategy\&lt; PairStore \&gt;::type,\l true, std::function\&lt; parent_t(PairStore &amp;)\&gt; \&gt;" alt="" coords="369,13,688,113"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_lambda_b_tree_set.html" title="souffle::LambdaBTreeSet\l\&lt; PairStore, std::function\l\&lt; parent_t(PairStore &amp;)\&gt;,\l EqrelMapComparator\&lt; PairStore \&gt; \&gt;" alt="" coords="736,27,1003,98"/>
+</map>

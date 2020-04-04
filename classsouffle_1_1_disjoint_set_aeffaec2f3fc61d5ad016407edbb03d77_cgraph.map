@@ -1,0 +1,5 @@
+<map id="souffle::DisjointSet::makeNode" name="souffle::DisjointSet::makeNode">
+<area shape="rect" id="node2" href="$classsouffle_1_1_piggy_list.html#acb3509a8a16a695117d887b353cfb6b7" title="souffle::PiggyList\l::createNode" alt="" coords="213,5,347,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_piggy_list.html#a42d37008bbace7c10f6448824a35aa5b" title="Retrieve a reference to the stored value at index. " alt="" coords="199,71,361,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_disjoint_set.html#ae892a7febe8076794433d5546a9a3b94" title="Yield a block given parent and rank. " alt="" coords="207,123,353,164"/>
+</map>

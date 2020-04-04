@@ -1,0 +1,15 @@
+<map id="souffle::RamExpression" name="souffle::RamExpression">
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_abstract_operator.html" title="Abstract class for an operator/functor. " alt="" coords="257,388,471,524"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_auto_increment.html" title="Increment a counter and return its value. " alt="" coords="511,410,711,502"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_constant.html" title="Represents a Ram Constant. " alt="" coords="735,403,897,509"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_ram_pack_record.html" title="Packs a record&#39;s arguments into a reference. " alt="" coords="921,373,1100,539"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ram_subroutine_argument.html" title="Access argument of a subroutine. " alt="" coords="1125,388,1363,524"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ram_tuple_element.html" title="Access element from the current tuple in a tuple environment. " alt="" coords="1388,373,1580,539"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ram_undef_value.html" title="An undefined expression. " alt="" coords="1604,410,1783,502"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="939,5,1082,200"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_intrinsic_operator.html" title="Operator that represents an intrinsic (built&#45;in) functor. " alt="" coords="5,609,219,759"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_user_defined_operator.html" title="Operator that represents an extrinsic (user&#45;defined) functor. " alt="" coords="243,587,485,781"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_float_constant.html" title="Represents a float constant. " alt="" coords="509,623,704,745"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ram_signed_constant.html" title="Represents a signed constant. " alt="" coords="729,623,935,745"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ram_unsigned_constant.html" title="Represents a unsigned constant. " alt="" coords="959,623,1182,745"/>
+</map>

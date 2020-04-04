@@ -1,0 +1,8 @@
+<map id="souffle::RamScan" name="souffle::RamScan">
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_parallel_scan.html" title="Iterate all tuples of a relation in parallel. " alt="" coords="25,1168,207,1275"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation_operation.html" title="Abstract class for operations on relations. " alt="" coords="5,829,227,965"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_tuple_operation.html" title="Abstract class for relation searches and lookups. " alt="" coords="15,645,217,781"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_nested_operation.html" title="Abstract class for a nesting operations in a loop&#45;nest. " alt="" coords="9,417,223,597"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_operation.html" title="Abstract class for a relational algebra operation. " alt="" coords="32,248,200,369"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="45,5,187,200"/>
+</map>

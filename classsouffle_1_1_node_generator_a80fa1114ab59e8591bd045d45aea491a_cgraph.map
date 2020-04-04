@@ -1,0 +1,9 @@
+<map id="souffle::NodeGenerator::visitClear" name="souffle::NodeGenerator::visitClear">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#adf4918592473b561987de722d422b1f6" title="Encode and create the relation, return the relation id. " alt="" coords="253,71,426,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_relation_statement.html#a77d30eb0482a72bef77c865a91d14871" title="Get RAM relation. " alt="" coords="227,136,452,177"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_node_generator.html#a8e245239bff0eff10b84f20914bdfc3f" title="souffle::NodeGenerator\l::createRelation" alt="" coords="511,5,684,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="500,71,695,112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_node_generator.html#af575fa077e975e36f3f0fe216fcbbfd9" title="Get a valid relation id for encoding. " alt="" coords="511,136,684,177"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#acd9ba22f7f5dfc45efc499c6d9932b50" title="souffle::createBTreeProvenance\lIndex" alt="" coords="743,5,969,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_order.html#acba06648b910cba7978cca29cbf87ed1" title="souffle::Order::size" alt="" coords="1017,13,1161,39"/>
+</map>

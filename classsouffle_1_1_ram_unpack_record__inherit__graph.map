@@ -1,0 +1,6 @@
+<map id="souffle::RamUnpackRecord" name="souffle::RamUnpackRecord">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_tuple_operation.html" title="Abstract class for relation searches and lookups. " alt="" coords="11,645,214,781"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_nested_operation.html" title="Abstract class for a nesting operations in a loop&#45;nest. " alt="" coords="5,417,220,597"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_operation.html" title="Abstract class for a relational algebra operation. " alt="" coords="29,248,197,369"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="41,5,184,200"/>
+</map>

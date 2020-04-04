@@ -1,0 +1,4 @@
+<map id="souffle::IndirectIndex::IndirectIndexView::range" name="souffle::IndirectIndex::IndirectIndexView::range">
+<area shape="rect" id="node2" href="$classsouffle_1_1detail_1_1btree.html#a9f2966547a580bb08d4175f8cd5d1b89" title="Obtains a lower boundary for the given key – hence an iterator referencing the smallest value that i..." alt="" coords="244,5,397,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1detail_1_1btree.html#af2377002c4237d3fe5103981bb1515de" title="Obtains an upper boundary for the given key – hence an iterator referencing the first element that t..." alt="" coords="244,71,397,112"/>
+</map>

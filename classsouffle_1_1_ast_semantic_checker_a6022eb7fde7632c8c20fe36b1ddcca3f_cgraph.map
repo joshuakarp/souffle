@@ -1,0 +1,8 @@
+<map id="souffle::AstSemanticChecker::checkConstant" name="souffle::AstSemanticChecker::checkConstant">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="291,5,437,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="264,71,464,98"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#a2d324369b5fc672d6cde86cb6c20e304" title="souffle::isConstantArithExpr" alt="" coords="263,122,465,149"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="513,5,713,47"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#a14b5f9eb9ec09c40e558b242e75de872" title="A generic test checking whether all elements within a container satisfy a certain predicate..." alt="" coords="558,97,669,123"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#aa91abe89b1490abcc00848fc5d9daf3a" title="Check if type is numeric. " alt="" coords="528,147,699,174"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="souffle::DisjointSet::unionNodes" name="souffle::DisjointSet::unionNodes">
+<area shape="rect" id="node2" href="$classsouffle_1_1_disjoint_set.html#a2537a5caf8cbb4ac1461528479558abd" title="Extract rank from block. " alt="" coords="393,5,568,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_disjoint_set.html#aed80ba6959ac42fae1ea8985a55d6c89" title="Equivalent to the find() function in union/find Find the highest ancestor of the provided node &#45; flat..." alt="" coords="199,115,344,157"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_disjoint_set.html#a8b751defd8700b68f6ce352b24099eb2" title="Update the root of the tree of which x is, to have y as the base instead. " alt="" coords="199,50,344,91"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_disjoint_set.html#a72c6d822d03f4f5c29b7a487e0ad6858" title="Extract parent from block. " alt="" coords="392,123,569,149"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_disjoint_set.html#ae892a7febe8076794433d5546a9a3b94" title="Yield a block given parent and rank. " alt="" coords="408,57,553,98"/>
+</map>

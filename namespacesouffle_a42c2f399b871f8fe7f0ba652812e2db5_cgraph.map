@@ -1,0 +1,5 @@
+<map id="souffle::combineAggregators" name="souffle::combineAggregators">
+<area shape="rect" id="node2" href="$namespacesouffle.html#a1193e67992e4f0591e4011faccb4abe2" title="Checks whether a functor operation can have a given argument count. " alt="" coords="263,5,446,47"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#af790a6a39a388c256d64af7140f3a961" title="Renames all variables in a given argument uniquely. " alt="" coords="263,71,447,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_node.html#ad7c4f8ce0322749e72ed60f543c6fd93" title="Apply the mapper to all child nodes. " alt="" coords="495,71,668,98"/>
+</map>

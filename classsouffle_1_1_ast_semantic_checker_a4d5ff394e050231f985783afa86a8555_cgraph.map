@@ -1,0 +1,23 @@
+<map id="souffle::AstSemanticChecker::checkRelation" name="souffle::AstSemanticChecker::checkRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_error_report.html#a699dc9231cef74ac54573e3c79de7143" title="Adds an error with the given message and location. " alt="" coords="547,59,693,100"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_error_report.html#aafbdd26e7ec9ee493c536c48062659dd" title="Adds a warning with the given message and location. " alt="" coords="294,5,441,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_semantic_checker.html#aa6c3b81e692bd870fd5485a5d5de5123" title="souffle::AstSemanticChecker\l::checkRelationDeclaration" alt="" coords="263,315,472,356"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_relation.html#ae27800d5845e8ac6df95b20bfc51aecf" title="Get relation attributes. " alt="" coords="546,124,694,165"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_relation.html#a54bd8f26d113f3141d49e926a030b52d" title="Return the arity of this relation. " alt="" coords="546,189,694,231"/>
+<area shape="rect" id="node15" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="557,502,683,529"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_ast_node.html#ae84bf084ceca6ac36dc4be406f42870f" title="Return source location of the AstNode. " alt="" coords="520,553,720,579"/>
+<area shape="rect" id="node17" href="$namespacesouffle.html#a4d9e53888640a9abfd7ea7c43715152a" title="Returns a vector of clauses in the program describing the relation with the given name..." alt="" coords="294,482,441,509"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_ast_relation.html#a5db8b505969c2f75286a54875c4aaed1" title="get qualified relation name " alt="" coords="293,533,441,575"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_ast_relation.html#ad2025f014882934287fbf5bf05a9ced7" title="Get relation representation. " alt="" coords="293,599,442,640"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1_ast_relation.html#a698481c4da3f71880cb2cf8c622a9cdc" title="check for a relation qualifier " alt="" coords="293,664,441,705"/>
+<area shape="rect" id="node22" href="$classsouffle_1_1_i_o_type.html#a802a8fbac8c20b25f4b85acb23c26bc0" title="souffle::IOType::isInput" alt="" coords="282,730,453,757"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_diagnostic_message.html#ad3fd6ab90856d9cdd9bbba3140440362" title="souffle::DiagnosticMessage\l::DiagnosticMessage" alt="" coords="768,29,968,71"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ast_attribute.html#abd0d0fac076ada4cf65ebdabaeeca3cd" title="get type name " alt="" coords="544,320,696,361"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_type_environment.html#a61c5e103c9fd8677104db9b8dd58820c" title="souffle::TypeEnvironment\l::isPredefinedType" alt="" coords="527,385,713,427"/>
+<area shape="rect" id="node11" href="$namespacesouffle.html#a0df5320dfcc5fe6ad9bbda0edc5876bc" title="Returns the type with the given name in the program. " alt="" coords="805,422,931,449"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ast_attribute.html#a70476bca0428b39cf9fe8b3aa6e2d4c0" title="get attribute name " alt="" coords="544,255,696,296"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="1215,422,1361,449"/>
+<area shape="rect" id="node12" href="$namespacesouffle.html#a62f80c157a6a365d78a43592732a8efa" title="Returns the first element in a container that satisfies a given predicate, nullptr otherwise..." alt="" coords="1039,363,1143,390"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_ast_program.html#a0eca120e93df25229f5a39e6895137c2" title="get types " alt="" coords="1016,415,1167,456"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_ast_program.html#aa04b430e385f40c6fe2bf7ad2ca31bb3" title="get clauses " alt="" coords="793,520,943,561"/>
+</map>

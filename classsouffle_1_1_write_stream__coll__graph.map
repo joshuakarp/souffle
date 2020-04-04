@@ -1,0 +1,6 @@
+<map id="souffle::WriteStream" name="souffle::WriteStream">
+<area shape="rect" id="node3" href="$classsouffle_1_1_record_table.html" title="{souffle::RecordTable\n||+ pack()\l+ RecordTable()\l+ unpack()\l+ ~RecordTable()\l&#45; lookupArity()\l}" alt="" coords="189,263,341,399"/>
+<area shape="rect" id="node6" href="$classjson11_1_1_json.html" title="{json11::Json\n||+ array_items()\l+ bool_value()\l+ dump()\l+ dump()\l+ has_shape()\l+ int_value()\l+ is_array()\l+ is_bool()\l+ is_null()\l+ is_number()\land 31 more...\l+ parse()\l+ parse()\l+ parse_multi()\l+ parse_multi()\l}" alt="" coords="439,189,565,472"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="589,204,757,457"/>
+<area shape="rect" id="node10" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="754,5,858,127"/>
+</map>

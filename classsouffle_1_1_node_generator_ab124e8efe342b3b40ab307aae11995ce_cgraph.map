@@ -1,0 +1,7 @@
+<map id="souffle::NodeGenerator::visitProvenanceExistenceCheck" name="souffle::NodeGenerator::visitProvenanceExistenceCheck">
+<area shape="rect" id="node2" href="$classsouffle_1_1_node_generator.html#ae5998d60cfa261b3365b92f142b80d10" title="Encode and return the View id of an operation. " alt="" coords="315,5,488,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_abstract_existence_check.html#a57ebfd4b0567435a67b37fa58d0adc37" title="Get arguments of the tuple/pattern A null pointer element in the vector denotes an unspecified patter..." alt="" coords="291,71,512,112"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="292,137,511,193"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_node_generator.html#ab2d2abaafc36c12c125d50c75237383d" title="Get a valid view id for encoding. " alt="" coords="560,5,733,47"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="573,78,720,105"/>
+</map>

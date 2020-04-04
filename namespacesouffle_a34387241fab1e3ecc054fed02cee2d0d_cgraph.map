@@ -1,0 +1,11 @@
+<map id="souffle::getSipsFunction" name="souffle::getSipsFunction">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_atom.html#a6728012e15c7e2be0b626c477c5018fd" title="get arity of the atom " alt="" coords="241,5,432,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_variable.html#a2b73a95c7b59624d956dee0ed4e13884" title="souffle::AstVariable\l::getName" alt="" coords="533,54,681,95"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a1c608d44d9d95373b73915fd555eeb60" title="souffle::isProposition" alt="" coords="257,107,416,133"/>
+<area shape="rect" id="node7" href="$namespacesouffle.html#a84b8ff6e096476fd6097c05b4eb12386" title="Counts the number of bound arguments in a given atom. " alt="" coords="229,157,444,184"/>
+<area shape="rect" id="node8" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="523,191,691,217"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_atom.html#a9c726c597d7921245dd97dcc72b8aeed" title="get arguments " alt="" coords="492,124,723,151"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="781,124,928,151"/>
+<area shape="rect" id="node9" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="771,183,939,225"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="987,183,1177,225"/>
+</map>

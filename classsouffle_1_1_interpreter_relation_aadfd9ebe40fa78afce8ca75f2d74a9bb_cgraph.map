@@ -1,0 +1,7 @@
+<map id="souffle::InterpreterRelation::end" name="souffle::InterpreterRelation::end">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_relation.html#a72ef02d8fe8cf64d9076d28842c6494b" title="Obtains a view on an index of this relation, facilitating hint&#45;supported accesses. " alt="" coords="281,5,477,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_relation.html#aadf4e0a1fa2c21d88544b42622a7f168" title="Add the given tuple to this relation. " alt="" coords="281,71,477,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_relation_1_1_iterator.html#a3385fb6e80fa74b5daa4cc211e8fc50c" title="souffle::InterpreterRelation\l::Iterator::Iterator" alt="" coords="281,136,477,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_interpreter_relation.html#ab8e09b4e61ccc1cfbf672fbd47df649f" title="Drops an index from the maintained indexes. " alt="" coords="281,201,477,243"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_index.html#a2b14aad64a996e9664a135bad4cf843c" title="Inserts a tuple into this index. " alt="" coords="525,71,704,112"/>
+</map>

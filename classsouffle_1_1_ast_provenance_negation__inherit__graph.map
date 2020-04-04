@@ -1,0 +1,5 @@
+<map id="souffle::AstProvenanceNegation" name="souffle::AstProvenanceNegation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_negation.html" title="Subclass of Literal that represents a negated atom, * e.g., !parent(x,y). " alt="" coords="43,417,198,583"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_literal.html" title="Literal e.g. " alt="" coords="53,292,189,369"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="49,5,192,244"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="souffle::WriteCoutPrintSize::WriteCoutPrintSize" name="souffle::WriteCoutPrintSize::WriteCoutPrintSize">
+<area shape="rect" id="node2" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="253,5,413,32"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a1f3d2bbfbcd58c76463920d43a29b3d0" title="Obtains a reference to the lock synchronizing output operations. " alt="" coords="248,56,417,83"/>
+</map>

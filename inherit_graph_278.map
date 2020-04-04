@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_type.html" title="An abstract base class for types to be covered within a type environment. " alt="" coords="5,81,109,108"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1_predefined_type.html" title="PredefinedType = Number/Unsigned/Float/Symbol. " alt="" coords="157,5,331,32"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_record_type.html" title="A record type combining a list of fields into a new, aggregated type. " alt="" coords="170,56,318,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_subset_type.html" title="A primitive type. " alt="" coords="170,107,318,133"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_union_type.html" title="A union type combining a list of types into a new, aggregated type. " alt="" coords="173,157,315,184"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::Trie&lt; 1u &gt;::partition" name="souffle::Trie&lt; 1u &gt;::partition">
+<area shape="rect" id="node2" href="$classsouffle_1_1_sparse_bit_map.html#a27568e5266b6bef98bb4a231c7fea29a" title="Obtains an iterator pointing to the first index set to 1. " alt="" coords="212,5,375,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_sparse_bit_map.html#af6650db8e126f35065cefe3f0e041b7e" title="Returns an iterator referencing the position after the last set bit. " alt="" coords="196,71,391,98"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#acea8a37cc1681f657054f3b30af55003" title="A utility function enabling the construction of ranges without explicitly specifying the iterator typ..." alt="" coords="216,122,371,149"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_sparse_bit_map.html#ab518c080867b8d7d365c94bae2eb31f0" title="Determines the number of bits set. " alt="" coords="212,173,375,215"/>
+</map>

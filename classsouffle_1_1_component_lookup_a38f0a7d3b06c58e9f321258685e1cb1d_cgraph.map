@@ -1,0 +1,7 @@
+<map id="souffle::ComponentLookup::getComponent" name="souffle::ComponentLookup::getComponent">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_qualified_name.html#ab6a8a48aa56c1fcbc40aef38fbcc3737" title="check for emptiness " alt="" coords="249,5,441,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_type_binding.html#ad3a49aa19869c50923d88ad3d43862d6" title="Returns binding for given name or empty string if such binding does not exist. " alt="" coords="269,71,422,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_component.html#a2452704d4602f1681d90f07b98f31973" title="get components " alt="" coords="260,136,431,177"/>
+<area shape="rect" id="node6" href="$namespacesouffle.html#aecc08c83ad9634fc515b7aa094702949" title="A generic function converting strings into strings (trivial case). " alt="" coords="283,202,408,229"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="489,143,636,170"/>
+</map>

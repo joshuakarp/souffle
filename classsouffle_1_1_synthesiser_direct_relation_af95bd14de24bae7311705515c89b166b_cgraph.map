@@ -1,0 +1,7 @@
+<map id="souffle::SynthesiserDirectRelation::computeIndices" name="souffle::SynthesiserDirectRelation::computeIndices">
+<area shape="rect" id="node2" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="263,5,425,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_min_index_selection.html#a4f8d529628ad2c96f87bcf7f22b2131d" title="Get all indexes " alt="" coords="247,57,441,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_synthesiser_relation.html#afd3980c934874ff018fe69a363dc2f19" title="Get arity of relation. " alt="" coords="243,122,445,163"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_relation.html#a7451fa7143767d84523951505d7d1562" title="Get number of auxiliary attributes. " alt="" coords="265,187,423,229"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_relation.html#aa2d201d636a8b01283b5996a56d7abb8" title="Get arity of relation. " alt="" coords="493,122,651,163"/>
+</map>

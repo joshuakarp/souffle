@@ -1,0 +1,15 @@
+<map id="souffle::AstTranslator::ClauseTranslator" name="souffle::AstTranslator::ClauseTranslator">
+<area shape="rect" id="node2" href="$classsouffle_1_1_auxiliary_arity.html" title="Determine the auxiliary arity for relations. " alt="" coords="759,1395,921,1531"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_ast_translator.html" title="Main class for AST Translator. " alt="" coords="1195,1667,1461,1935"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_analysis.html" title="Abstract class for a AST Analysis. " alt="" coords="765,976,915,1112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_program.html" title="Intermediate representation of a datalog program that consists of relations, clauses and types..." alt="" coords="1084,844,1316,1244"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="359,543,502,781"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_src_location.html" title="A class describing a range in an input file. " alt="" coords="291,359,440,480"/>
+<area shape="rect" id="node10" href="$structsouffle_1_1_src_location_1_1_point.html" title="A class locating a single point in an input file. " alt="" coords="291,160,440,281"/>
+<area shape="rect" id="node24" href="$classjson11_1_1_json.html" title="{json11::Json\n||+ array_items()\l+ bool_value()\l+ dump()\l+ dump()\l+ has_shape()\l+ int_value()\l+ is_array()\l+ is_bool()\l+ is_null()\l+ is_number()\land 31 more...\l+ parse()\l+ parse()\l+ parse_multi()\l+ parse_multi()\l}" alt="" coords="1417,1321,1543,1604"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="1567,1336,1735,1589"/>
+<area shape="rect" id="node28" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="1703,983,1807,1105"/>
+<area shape="rect" id="node30" href="$classsouffle_1_1_type_environment.html" title="A type environment is a set of types. " alt="" coords="1759,1336,1961,1589"/>
+<area shape="rect" id="node32" href="$structsouffle_1_1_type_set.html" title="A collection to represent sets of types. " alt="" coords="2108,917,2233,1171"/>
+<area shape="rect" id="node35" href="$classsouffle_1_1_ast_translator_1_1_value_index.html" title="A class indexing the location of variables and record references within a loop nest resulting from th..." alt="" coords="1726,1667,1922,1935"/>
+</map>

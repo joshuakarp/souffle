@@ -1,0 +1,11 @@
+<map id="souffle::SynthesiserDirectRelation::generateTypeStruct" name="souffle::SynthesiserDirectRelation::generateTypeStruct">
+<area shape="rect" id="node2" href="$classsouffle_1_1_min_index_selection.html#a4f8d529628ad2c96f87bcf7f22b2131d" title="Get all indexes " alt="" coords="267,5,461,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_synthesiser_relation.html#afd3980c934874ff018fe69a363dc2f19" title="Get arity of relation. " alt="" coords="263,71,465,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_relation.html#a7451fa7143767d84523951505d7d1562" title="Get number of auxiliary attributes. " alt="" coords="285,136,443,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_synthesiser_relation.html#adca518f5c4f4c61f6193eaf3636ad681" title="Get list of indices used for relation, guaranteed that original indices in MinIndexSelection come bef..." alt="" coords="263,201,465,243"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_min_index_selection.html#a0bed1c260e53273fa559c32dd62390ab" title="Get index for a search " alt="" coords="267,267,461,308"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_synthesiser_relation.html#a0fd3157aec1599daa8fb7998c818abae" title="Get stored MinIndexSelection. " alt="" coords="263,332,465,373"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_synthesiser_relation.html#a74707da19a164f072fc345c86678faaf" title="Print type name. " alt="" coords="263,397,465,439"/>
+<area shape="rect" id="node10" href="$namespacesouffle.html#abe4e3f19879707216a2758b03f4e2deb" title="Creates an object to be forwarded to some output stream for printing sequences of elements interspers..." alt="" coords="315,463,413,490"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_relation.html#aa2d201d636a8b01283b5996a56d7abb8" title="Get arity of relation. " alt="" coords="513,71,671,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="souffle::DebugReporter::generateDebugReport" name="souffle::DebugReporter::generateDebugReport">
+<area shape="rect" id="node2" href="$classsouffle_1_1_debug_report.html#a4e6fe0a6d9854ce570d008772daa9aba" title="souffle::DebugReport\l::addSection" alt="" coords="243,5,401,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_debug_reporter.html#aea44fe33eb840a92ba3e277820377ff6" title="Generate a full&#45;content diff between two sources. " alt="" coords="237,71,407,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ast_translation_unit.html#a2c05c0d93e34800167034b1aa423c4a0" title="get debug report " alt="" coords="225,136,419,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="225,201,419,243"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a5e22287be4345c05c5f70b1d37eaec77" title="souffle::execStdOut" alt="" coords="481,49,631,75"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_temp_file_stream.html#ad08440393409d55efbf08ddeaa06a218" title="souffle::TempFileStream\l::getFileName" alt="" coords="467,100,645,141"/>
+</map>

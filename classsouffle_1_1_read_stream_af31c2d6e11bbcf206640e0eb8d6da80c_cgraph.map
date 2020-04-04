@@ -1,0 +1,4 @@
+<map id="souffle::ReadStream::readStringInRecord" name="souffle::ReadStream::readStringInRecord">
+<area shape="rect" id="node2" href="$classsouffle_1_1_symbol_table.html#a46a7fcfb933d111b38bc474415c5c986" title="Find the index of a symbol in the table, inserting a new symbol if it does not exist there already..." alt="" coords="207,5,364,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_symbol_table.html#a3ada80bb01130f70001918c386d3ab21" title="Convenience method to place a new symbol in the table, if it does not exist, and return the index of ..." alt="" coords="412,5,569,47"/>
+</map>

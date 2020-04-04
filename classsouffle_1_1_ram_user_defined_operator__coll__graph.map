@@ -1,0 +1,5 @@
+<map id="souffle::RamUserDefinedOperator" name="souffle::RamUserDefinedOperator">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_abstract_operator.html" title="Abstract class for an operator/functor. " alt="" coords="103,404,317,540"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_expression.html" title="Abstract class for describing scalar values in RAM. " alt="" coords="5,257,180,334"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="21,5,164,200"/>
+</map>

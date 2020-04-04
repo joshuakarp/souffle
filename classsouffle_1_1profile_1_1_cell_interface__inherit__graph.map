@@ -1,0 +1,7 @@
+<map id="souffle::profile::CellInterface" name="souffle::profile::CellInterface">
+<area shape="rect" id="node2" href="$classsouffle_1_1profile_1_1_cell.html" title="{souffle::profile::Cell\&lt; T \&gt;\n|&#45; value\l|+ Cell()\l+ ~Cell()\l}" alt="" coords="5,241,192,333"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1profile_1_1_cell_3_01double_01_4.html" title="{souffle::profile::Cell\l\&lt; double \&gt;\n|&#45; value\l|+ Cell()\l+ getDoubleVal()\l+ getLongVal()\l+ getStringVal()\l+ getTimeVal()\l+ toString()\l}" alt="" coords="217,204,365,369"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1profile_1_1_cell_3_01long_01_4.html" title="{souffle::profile::Cell\l\&lt; long \&gt;\n|&#45; value\l|+ Cell()\l+ getDoubleVal()\l+ getLongVal()\l+ getStringVal()\l+ getTimeVal()\l+ toString()\l}" alt="" coords="389,204,537,369"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1profile_1_1_cell_3_01std_1_1chrono_1_1microseconds_01_4.html" title="{souffle::profile::Cell\l\&lt; std::chrono::microseconds \&gt;\n|&#45; value\l|+ Cell()\l+ getDoubleVal()\l+ getLongVal()\l+ getStringVal()\l+ getTimeVal()\l+ toString()\l}" alt="" coords="561,204,783,369"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1profile_1_1_cell_3_01void_01_4.html" title="{souffle::profile::Cell\l\&lt; void \&gt;\n||+ Cell()\l+ getDoubleVal()\l+ getLongVal()\l+ getStringVal()\l+ getTimeVal()\l+ toString()\l}" alt="" coords="979,204,1127,369"/>
+</map>

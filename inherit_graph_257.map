@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_stream_1_1_source.html" title="souffle::Stream::Source" alt="" coords="5,78,179,105"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_generic_index_1_1_source.html" title="souffle::GenericIndex\l\&lt; Structure \&gt;::Source" alt="" coords="227,5,389,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_indirect_index_1_1_source.html" title="souffle::IndirectIndex\l::Source" alt="" coords="229,71,387,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_nullary_index_1_1_source.html" title="souffle::NullaryIndex\l::Source" alt="" coords="229,136,387,177"/>
+</map>

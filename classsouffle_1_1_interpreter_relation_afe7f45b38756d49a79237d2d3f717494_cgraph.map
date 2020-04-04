@@ -1,0 +1,6 @@
+<map id="souffle::InterpreterRelation::insert" name="souffle::InterpreterRelation::insert">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_relation.html#aadf4e0a1fa2c21d88544b42622a7f168" title="Add the given tuple to this relation. " alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_relation.html#ac91af58bb2f5ab34317ad97b86f4cebc" title="Obtains a stream to scan the entire relation. " alt="" coords="249,71,445,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_index.html#a2b14aad64a996e9664a135bad4cf843c" title="Inserts a tuple into this index. " alt="" coords="493,5,672,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_index.html#aabda35de2db639236fbcbdf8e4d9d1e5" title="Returns a stream covering the entire index content. " alt="" coords="493,71,672,112"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::WriteStreamSQLite::createTables" name="souffle::WriteStreamSQLite::createTables">
+<area shape="rect" id="node2" href="$classsouffle_1_1_write_stream_s_q_lite.html#ad9b1f6a934b1105af22c21a134151611" title="souffle::WriteStreamSQLite\l::createRelationTable" alt="" coords="251,5,448,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_write_stream_s_q_lite.html#a8a6e5019f956fc0461560d59ef031311" title="souffle::WriteStreamSQLite\l::createRelationView" alt="" coords="251,71,448,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_write_stream_s_q_lite.html#a57ea636e28f397bb91aeb43adcf543a9" title="souffle::WriteStreamSQLite\l::createSymbolTable" alt="" coords="251,136,448,177"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_write_stream_s_q_lite.html#a153d8ef90077834746b1e5a76c6420a5" title="souffle::WriteStreamSQLite\l::executeSQL" alt="" coords="496,71,693,112"/>
+</map>

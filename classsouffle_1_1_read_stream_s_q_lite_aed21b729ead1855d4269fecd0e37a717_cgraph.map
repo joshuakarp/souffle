@@ -1,0 +1,7 @@
+<map id="souffle::ReadStreamSQLite::ReadStreamSQLite" name="souffle::ReadStreamSQLite::ReadStreamSQLite">
+<area shape="rect" id="node2" href="$classsouffle_1_1_read_stream_s_q_lite.html#a634fb16200bfe5541a889f1e226ace1c" title="souffle::ReadStreamSQLite\l::checkTableExists" alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_read_stream_s_q_lite.html#ac5143bb50b68e5cfe2ff790ea7171d66" title="souffle::ReadStreamSQLite\l::openDB" alt="" coords="248,136,443,177"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_read_stream_s_q_lite.html#aaf15b3f5f8dd63882481732ddca0da88" title="souffle::ReadStreamSQLite\l::prepareSelectStatement" alt="" coords="248,71,443,112"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_read_stream_s_q_lite.html#a3c7d32f00ea52aaf76c7f5b98b3509f1" title="souffle::ReadStreamSQLite\l::throwError" alt="" coords="491,71,685,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_read_stream_s_q_lite.html#ad37f2d993ca72fd87bb5df03b675c49f" title="souffle::ReadStreamSQLite\l::executeSQL" alt="" coords="491,136,685,177"/>
+</map>

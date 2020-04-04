@@ -1,0 +1,6 @@
+<map id="souffle::GenericIndex&lt; Structure &gt;::GenericIndexView" name="souffle::GenericIndex&lt; Structure &gt;::GenericIndexView">
+<area shape="rect" id="node2" href="$classsouffle_1_1_index_view.html" title="A view on a relation caching local access patterns (not thread safe!). " alt="" coords="5,571,148,707"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_generic_index.html" title="A generic data structure index adapter handling the boundary level order conversion as well as iterat..." alt="" coords="319,491,479,788"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_index.html" title="An index is an abstraction of a data structure. " alt="" coords="114,145,293,428"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_order.html" title="An order to be enforced for storing tuples within indexes. " alt="" coords="485,175,609,399"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1detail_1_1btree.html" title="souffle::detail::btree\l\&lt; t_tuple\&lt; Arity \&gt;, comparator\l\&lt; Arity \&gt;, std::allocator\&lt;\l t_tuple\&lt; Arity \&gt; \&gt;, blockSize,\l detail::default_strategy\&lt; t_tuple\l\&lt; Arity \&gt; \&gt;::type, true, comparator\l\&lt; Arity &#45; 2 \&gt;, InterpreterProvenanceUpdater\&lt; Arity \&gt; \&gt;" alt="" coords="5,20,391,135"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1btree__set.html" title="souffle::btree_set\l\&lt; t_tuple\&lt; Arity \&gt;,\l comparator\&lt; Arity \&gt;,\l std::allocator\&lt; t_tuple\l\&lt; Arity \&gt; \&gt;, 256, detail\l::default_strategy\&lt; t_tuple\l\&lt; Arity \&gt; \&gt;::type, comparator\l\&lt; Arity &#45; 2 \&gt;, InterpreterProvenanceUpdater\l\&lt; Arity \&gt; \&gt;" alt="" coords="439,5,748,149"/>
+</map>

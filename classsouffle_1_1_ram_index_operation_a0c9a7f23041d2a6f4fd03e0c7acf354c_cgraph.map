@@ -1,0 +1,5 @@
+<map id="souffle::RamIndexOperation::getChildNodes" name="souffle::RamIndexOperation::getChildNodes">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation_operation.html#af817c699c6dfe9cad4590f9c2a18e8e4" title="Obtain list of all embedded child nodes. " alt="" coords="257,5,479,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_tuple_operation.html#a3327ca121453c4159cd147da499de858" title="Obtain list of all embedded child nodes. " alt="" coords="527,5,729,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_nested_operation.html#a5c5dcfbd4903184023fd3c7a874c54cb" title="Obtain list of all embedded child nodes. " alt="" coords="777,5,992,47"/>
+</map>

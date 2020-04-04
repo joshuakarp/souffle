@@ -1,0 +1,6 @@
+<map id="souffle::RamAbstractParallel" name="souffle::RamAbstractParallel">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_parallel_choice.html" title="{souffle::RamParallelChoice\n||+ clone()\l+ RamParallelChoice()\l# print()\l}" alt="" coords="5,138,201,245"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_parallel_index_choice.html" title="Use an index to find a tuple in a relation such that a given condition holds in parallel. " alt="" coords="226,131,431,252"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_parallel_index_scan.html" title="Search for tuples of a relation matching a criteria. " alt="" coords="455,138,674,245"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_parallel_scan.html" title="Iterate all tuples of a relation in parallel. " alt="" coords="699,138,881,245"/>
+</map>

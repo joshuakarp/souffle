@@ -1,0 +1,6 @@
+<map id="souffle::Relation::iterator_base::operator==" name="souffle::Relation::iterator_base::operator==">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation_1_1iterator__base.html#a1cc6a6f4cc59a83375f6d109b4391737" title="Clone the iterator_base. " alt="" coords="247,5,398,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation_1_1iterator__base.html#a7436b8e5dcc40cef6ed56684fbbc126e" title="Check if the passed&#45;in object of o is the the same as the current iterator_base. " alt="" coords="247,71,399,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_relation_1_1iterator__base.html#a6ff02f8a975c858f6d31941f19e95f08" title="Get the ID of the iterator_base object. " alt="" coords="248,136,397,177"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_relation.html#aacc1e39d61e80905f92a20c6589776a4" title="Destructor. " alt="" coords="255,201,390,243"/>
+</map>

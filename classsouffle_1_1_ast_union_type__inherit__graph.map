@@ -1,0 +1,4 @@
+<map id="souffle::AstUnionType" name="souffle::AstUnionType">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_type.html" title="{souffle::AstType\n|&#45; name\l|+ AstType()\l+ clone()\l+ getQualifiedName()\l+ setQualifiedName()\l}" alt="" coords="5,292,171,413"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="17,5,159,244"/>
+</map>

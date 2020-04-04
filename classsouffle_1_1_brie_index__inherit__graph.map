@@ -1,0 +1,4 @@
+<map id="souffle::BrieIndex&lt; Arity &gt;" name="souffle::BrieIndex&lt; Arity &gt;">
+<area shape="rect" id="node2" href="$classsouffle_1_1_generic_index.html" title="{souffle::GenericIndex\l\&lt; Trie\&lt; Arity \&gt; \&gt;\n|# data\l# order\l# Arity\l|+ clear()\l+ contains()\l+ contains()\l+ createView()\l+ empty()\l+ GenericIndex()\l+ getArity()\l+ insert()\l+ insert()\l+ partitionRange()\l+ partitionScan()\l+ range()\l+ scan()\l+ size()\l# bounds()\l}" alt="" coords="15,336,175,663"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_index.html" title="An index is an abstraction of a data structure. " alt="" coords="5,5,184,288"/>
+</map>

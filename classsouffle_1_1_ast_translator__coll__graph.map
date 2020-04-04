@@ -1,0 +1,13 @@
+<map id="souffle::AstTranslator" name="souffle::AstTranslator">
+<area shape="rect" id="node3" href="$classsouffle_1_1_auxiliary_arity.html" title="Determine the auxiliary arity for relations. " alt="" coords="861,1395,1024,1531"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_analysis.html" title="Abstract class for a AST Analysis. " alt="" coords="301,976,451,1112"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ast_program.html" title="Intermediate representation of a datalog program that consists of relations, clauses and types..." alt="" coords="967,844,1199,1244"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ast_node.html" title="Abstract class for syntactic elements in a Datalog program. " alt="" coords="89,543,231,781"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_src_location.html" title="A class describing a range in an input file. " alt="" coords="85,359,235,480"/>
+<area shape="rect" id="node11" href="$structsouffle_1_1_src_location_1_1_point.html" title="A class locating a single point in an input file. " alt="" coords="209,160,359,281"/>
+<area shape="rect" id="node23" href="$classjson11_1_1_json.html" title="{json11::Json\n||+ array_items()\l+ bool_value()\l+ dump()\l+ dump()\l+ has_shape()\l+ int_value()\l+ is_array()\l+ is_bool()\l+ is_null()\l+ is_number()\land 31 more...\l+ parse()\l+ parse()\l+ parse_multi()\l+ parse_multi()\l}" alt="" coords="1531,1321,1656,1604"/>
+<area shape="rect" id="node25" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="1680,1336,1848,1589"/>
+<area shape="rect" id="node27" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="1712,983,1816,1105"/>
+<area shape="rect" id="node29" href="$classsouffle_1_1_type_environment.html" title="A type environment is a set of types. " alt="" coords="2021,1336,2224,1589"/>
+<area shape="rect" id="node31" href="$structsouffle_1_1_type_set.html" title="A collection to represent sets of types. " alt="" coords="2245,917,2371,1171"/>
+</map>

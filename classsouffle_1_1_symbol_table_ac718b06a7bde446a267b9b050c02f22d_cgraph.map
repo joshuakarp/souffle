@@ -1,0 +1,5 @@
+<map id="souffle::SymbolTable::insert" name="souffle::SymbolTable::insert">
+<area shape="rect" id="node2" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="211,5,371,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_symbol_table.html#a0e9cd8797c462161176e1179c7561634" title="Convenience method to place a new symbol in the table, if it does not exist. " alt="" coords="212,57,369,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_symbol_table.html#af10a87da32dbca31c798a5e975dbe267" title="Empty constructor. " alt="" coords="419,57,576,98"/>
+</map>

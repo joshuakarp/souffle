@@ -1,0 +1,5 @@
+<map id="souffle::InterpreterRelation::setLevel" name="souffle::InterpreterRelation::setLevel">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_relation.html#a4e2873d76c1948e4c6212a39467ad7b1" title="Return the attribute types. " alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_relation.html#a04b409bde082f3b3772ced746db27269" title="Return the level of the relation. " alt="" coords="249,71,445,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_relation.html#aa7080de8c68731a25f4ceea14ea2ad6d" title="Return the relation name. " alt="" coords="249,136,445,177"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="souffle::RamIndexAnalysis::getSearchSignature" name="souffle::RamIndexAnalysis::getSearchSignature">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation.html#a7451fa7143767d84523951505d7d1562" title="Get number of auxiliary attributes. " alt="" coords="280,5,437,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_abstract_existence_check.html#aec9920ffd29371b7d99eb3429f725172" title="Get relation. " alt="" coords="248,71,469,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_abstract_existence_check.html#a57ebfd4b0567435a67b37fa58d0adc37" title="Get arguments of the tuple/pattern A null pointer element in the vector denotes an unspecified patter..." alt="" coords="248,136,469,177"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#ad62d4e824a9d74c7462da546a21780fe" title="A utility function enabling the creation of a vector of pointers. " alt="" coords="517,143,664,170"/>
+</map>

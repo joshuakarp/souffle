@@ -1,0 +1,6 @@
+<map id="souffle::RecursiveClauses::run" name="souffle::RecursiveClauses::run">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_translation_unit.html#a85862a5fcfecdf63c7367926cdedde23" title="get the AST program " alt="" coords="271,5,464,47"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a307bae61c898715dccb57c9732335000" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="283,71,451,98"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#a030c754119d60ea72cff8af5b62710e6" title="A utility function visiting all nodes within the ast rooted by the given node recursively in a depth&#45;..." alt="" coords="512,64,680,105"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ast_node.html#a07dd728cde93a2b1d72d987cf54cbd8e" title="Obtain a list of all embedded AST child nodes. " alt="" coords="728,64,919,105"/>
+</map>

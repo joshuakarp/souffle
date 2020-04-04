@@ -1,0 +1,5 @@
+<map id="souffle::TopologicallySortedSCCGraph::run" name="souffle::TopologicallySortedSCCGraph::run">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ast_translation_unit.html#af396e44c83e5ad410c9ec3e2f6b91758" title="get analysis: analysis is generated on the fly if not present " alt="" coords="255,35,448,76"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_debug_report.html#a4e6fe0a6d9854ce570d008772daa9aba" title="souffle::DebugReport\l::addSection" alt="" coords="498,5,657,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="496,71,659,98"/>
+</map>

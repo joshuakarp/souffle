@@ -1,0 +1,5 @@
+<map id="souffle::IOType::isIO" name="souffle::IOType::isIO">
+<area shape="rect" id="node2" href="$classsouffle_1_1_i_o_type.html#a802a8fbac8c20b25f4b85acb23c26bc0" title="souffle::IOType::isInput" alt="" coords="216,5,387,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_i_o_type.html#af6eeaf8c4708b6f593addcc6f3604518" title="souffle::IOType::isOutput" alt="" coords="211,56,392,83"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_i_o_type.html#ab79082869df16c30dac754566427c41f" title="souffle::IOType::isPrintSize" alt="" coords="204,107,399,133"/>
+</map>

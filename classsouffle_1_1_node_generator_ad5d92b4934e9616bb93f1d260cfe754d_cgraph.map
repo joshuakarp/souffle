@@ -1,0 +1,4 @@
+<map id="souffle::NodeGenerator::visitExit" name="souffle::NodeGenerator::visitExit">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_exit.html#a16006a89a5246419bb27b9446c02e74b" title="Get exit condition. " alt="" coords="227,5,447,32"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1_ram_visitor.html#a2313337e10a8cad47d87dbc46f9efac9" title="The main entry for a visit process conducting the dispatching of a visit to the various sub&#45;types of ..." alt="" coords="227,56,446,112"/>
+</map>

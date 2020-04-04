@@ -1,0 +1,6 @@
+<map id="souffle::SCCGraph::print" name="souffle::SCCGraph::print">
+<area shape="rect" id="node2" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="200,5,363,32"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ast_analysis.html#a2e38d6802cefb0840075763d41580b63" title="get name of the analysis " alt="" coords="206,57,357,98"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ast_relation.html#a5db8b505969c2f75286a54875c4aaed1" title="get qualified relation name " alt="" coords="207,122,355,163"/>
+<area shape="rect" id="node5" href="$namespacesouffle.html#abe4e3f19879707216a2758b03f4e2deb" title="Creates an object to be forwarded to some output stream for printing sequences of elements interspers..." alt="" coords="232,188,331,215"/>
+</map>

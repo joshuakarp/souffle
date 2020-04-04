@@ -1,0 +1,19 @@
+<map id="souffle::InterpreterRelInterface::iterator_base::operator*" name="souffle::InterpreterRelInterface::iterator_base::operator*">
+<area shape="rect" id="node2" href="$classsouffle_1_1_interpreter_rel_interface.html#af6ae75be958d6b71c493733f09febfc9" title="Get arity. " alt="" coords="544,169,765,211"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_interpreter_rel_interface.html#aff9c4aedae21f4668406bf0268faba13" title="Get attribute type. " alt="" coords="275,199,496,240"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_interpreter_rel_interface.html#a3fadc78b4d8644b280cffe161eed75d6" title="Get symbol table. " alt="" coords="275,264,496,305"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_symbol_table.html#a438d450330bc4128144f08c6ae0c4989" title="Find a symbol in the table by its index, note that this gives an error if the index is out of bounds..." alt="" coords="307,329,464,371"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1tuple.html#a178e16d502713964b96c2346592255a1" title="Reset the index giving the &quot;current element&quot; of the tuple to zero. " alt="" coords="306,395,465,422"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_interpreter_relation.html#a7efc6f29e2a86d262b6e71c6e549effe" title="Return arity. " alt="" coords="813,169,1009,211"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_interpreter_relation.html#a0fc33bf274670d6bdc004511f6f044c0" title="Check if the relation is empty. " alt="" coords="1057,5,1253,47"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_interpreter_relation.html#a8757cab66c0dfe27c31bf8e50e1c5e03" title="Check if a tuple exists in relation. " alt="" coords="1057,71,1253,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_interpreter_relation.html#ac3bd78e2071d9ad58111cacbcfd8766f" title="Extend another relation. " alt="" coords="1057,136,1253,177"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_interpreter_relation.html#a006b1bfcd01807c86b901542c68e465b" title="Return arity. " alt="" coords="1057,201,1253,243"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_interpreter_relation.html#a5d59c8a0adc778f4615a57bb94e7b166" title="Clear all indexes. " alt="" coords="1057,267,1253,308"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_interpreter_relation.html#a3d11d2c3a467ebabc18f62ceb5afdff9" title="Return number of tuples in relation (full&#45;order) " alt="" coords="1057,332,1253,373"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_interpreter_index.html#ab7d99c5517ad2fc2a97485950662287c" title="Tests whether this index is empty or not. " alt="" coords="1301,5,1480,47"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_interpreter_index.html#acdd680159baf0f54af714d02e358b96f" title="Tests whether the given tuple is present in this index or not. " alt="" coords="1301,71,1480,112"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_interpreter_index.html#afe4a05661411b890f714e827ca439914" title="Obtains the number of elements stored in this index. " alt="" coords="1301,332,1480,373"/>
+<area shape="rect" id="node16" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="575,307,735,334"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_symbol_table.html#ab9b012e60e61e149cfc430a9eccc20ea" title="souffle::SymbolTable\l::size" alt="" coords="576,359,733,400"/>
+</map>

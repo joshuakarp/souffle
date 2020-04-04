@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structsouffle_1_1detail_1_1strategy__selection.html" title="souffle::detail::strategy\l_selection\&lt; binary_search \&gt;" alt="" coords="5,136,215,177"/>
+<area shape="rect" id="node2" href="$structsouffle_1_1detail_1_1binary.html" title="souffle::detail::binary" alt="" coords="263,143,423,170"/>
+<area shape="rect" id="node3" href="$structsouffle_1_1detail_1_1default__strategy.html" title="souffle::detail::default\l_strategy\&lt; PairStore \&gt;" alt="" coords="495,5,665,47"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1detail_1_1default__strategy.html" title="souffle::detail::default\l_strategy\&lt; StorePair \&gt;" alt="" coords="495,71,665,112"/>
+<area shape="rect" id="node5" href="$structsouffle_1_1detail_1_1default__strategy.html" title="souffle::detail::default\l_strategy\&lt; t_tuple\&lt; Arity \&gt; \&gt;" alt="" coords="471,136,689,177"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1detail_1_1default__strategy.html" title="souffle::detail::default\l_strategy\&lt; TupleRef \&gt;" alt="" coords="496,201,664,243"/>
+<area shape="rect" id="node7" href="$structsouffle_1_1detail_1_1default__strategy.html" title="souffle::detail::default\l_strategy\&lt; Key \&gt;" alt="" coords="497,267,663,308"/>
+</map>
