@@ -138,6 +138,7 @@
 "<="                                  { return yy::parser::make_LE(yylloc); }
 ">="                                  { return yy::parser::make_GE(yylloc); }
 "!="                                  { return yy::parser::make_NE(yylloc); }
+"->"                                  { return yy::parser::make_RIGHTARROW(yylloc); }
 "="                                   { return yy::parser::make_EQUALS(yylloc); }
 "!"                                   { return yy::parser::make_EXCLAMATION(yylloc); }
 "*"                                   { return yy::parser::make_STAR(yylloc); }

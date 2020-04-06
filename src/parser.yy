@@ -153,6 +153,7 @@
 %token SUBTYPE                   "<:"
 %token LT                        "<"
 %token GT                        ">"
+%token RIGHTARROW                "->"
 %token LE                        "<="
 %token GE                        ">="
 %token NE                        "!="
@@ -889,6 +890,12 @@ constraint
         $left = nullptr;
         $right = nullptr;
     }
+
+    /* choice constraint */ 
+  | IDENT RIGHTARROW IDENT  {
+        $$ = new AstBooleanConstraint(true);
+        $$->setSrcLoc(@$);
+  }
 
     /* zero-arity constraints */
   | TRUE {
