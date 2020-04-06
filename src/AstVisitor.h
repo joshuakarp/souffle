@@ -94,6 +94,7 @@ struct AstVisitor : public ast_visitor_tag {
         FORWARD(ProvenanceNegation)
         FORWARD(BooleanConstraint)
         FORWARD(BinaryConstraint)
+        FORWARD(FunctionalConstraint)
 
         // components
         FORWARD(ComponentType);
@@ -160,6 +161,7 @@ protected:
 
     LINK(BooleanConstraint, Constraint)
     LINK(BinaryConstraint, Constraint)
+    LINK(FunctionalConstraint, Constraint)
     LINK(Constraint, Literal)
 
     // components

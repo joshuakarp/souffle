@@ -18,6 +18,7 @@
 #pragma once
 
 #include "AstAbstract.h"
+#include "AstArgument.h"
 #include "AstNode.h"
 #include "AstQualifiedName.h"
 #include "BinaryConstraintOps.h"
@@ -223,6 +224,53 @@ protected:
 
     /** truth value */
     bool truthValue;
+};
+
+/**
+ * Functional Constraint
+ *
+ */
+class AstFunctionalConstraint : public AstConstraint {
+public:
+    AstFunctionalConstraint(
+            std::unique_ptr<AstVariable> ls, std::unique_ptr<AstVariable> rs)
+            : lhs(std::move(ls)), rhs(std::move(rs)) {}
+
+    /** get left-hand side of functional constraint */ 
+    const AstVariable *getLHS() const {
+        return lhs.get(); 
+    }
+
+    /** get left-hand side of functional constraint */ 
+    const AstVariable *getRHS() const {
+        return rhs.get(); 
+    }
+
+    AstFunctionalConstraint* clone() const override {
+        auto* res = new AstFunctionalConstraint(
+                 std::unique_ptr<AstVariable>(lhs->clone()), 
+                 std::unique_ptr<AstVariable>(rhs->clone()));
+        res->setSrcLoc(getSrcLoc());
+        return res;
+        return nullptr;
+    }
+
+protected:
+    void print(std::ostream& os) const override {
+        os << *lhs << "->" << *rhs; 
+    }
+
+    bool equal(const AstNode& node) const override {
+        assert(nullptr != dynamic_cast<const AstFunctionalConstraint*>(&node));
+        const auto& other = static_cast<const AstFunctionalConstraint&>(node);
+        return equal_ptr(lhs, other.lhs) && equal_ptr(rhs,other.rhs);
+    }
+
+    /* lhs of functional constraint */ 
+    std::unique_ptr<AstVariable> lhs; 
+
+    /* rhs of functional constraint */ 
+    std::unique_ptr<AstVariable> rhs;
 };
 
 /**

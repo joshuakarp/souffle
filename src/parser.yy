@@ -892,8 +892,11 @@ constraint
     }
 
     /* choice constraint */ 
-  | IDENT RIGHTARROW IDENT  {
-        $$ = new AstBooleanConstraint(true);
+  | IDENT[left] RIGHTARROW IDENT[right]  {
+        // TODO (b-scholz): source location for lhs/rhs not set!
+        $$ = new AstFunctionalConstraint(
+              std::make_unique<AstVariable>($left),
+              std::make_unique<AstVariable>($right)); 
         $$->setSrcLoc(@$);
   }
 
