@@ -131,11 +131,8 @@ void AstSemanticChecker::checkProgram(AstTranslationUnit& translationUnit) {
         auto isGrounded = getGroundedTerms(clause);
 
         // all terms in head need to be grounded
-        report.addWarning("Head: ", clause.getHead()->getSrcLoc());
         std::set<std::string> reportedVars;
         for (const AstVariable* cur : getVariables(clause)) {
-            std::cout << "Loop iteration on rule variables \n";
-            report.addWarning("Found variable " + cur->getName(), cur->getSrcLoc());
             if (!isGrounded[cur] && reportedVars.insert(cur->getName()).second) {
                 report.addError("Ungrounded variable " + cur->getName(), cur->getSrcLoc());
             }

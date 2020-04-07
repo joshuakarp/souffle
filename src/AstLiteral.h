@@ -250,8 +250,6 @@ public:
     }
 
     std::vector<const AstNode*> getChildNodes() const override {
-        std::cout << "Call to getChildNodes() \n";
-        std::cout << lhs.get()->getName() << " -> " << rhs.get()->getName() << "\n";
         return {lhs.get(), rhs.get()};
     }
 
@@ -261,7 +259,6 @@ public:
                  std::unique_ptr<AstVariable>(rhs->clone()));
         res->setSrcLoc(getSrcLoc());
         return res;
-        return nullptr;
     }
 
 protected:
