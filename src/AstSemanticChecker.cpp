@@ -131,8 +131,11 @@ void AstSemanticChecker::checkProgram(AstTranslationUnit& translationUnit) {
         auto isGrounded = getGroundedTerms(clause);
 
         // all terms in head need to be grounded
+        report.addWarning("Head: ", clause.getHead()->getSrcLoc());
         std::set<std::string> reportedVars;
         for (const AstVariable* cur : getVariables(clause)) {
+            std::cout << "Loop iteration on rule variables \n";
+            report.addWarning("Found variable " + cur->getName(), cur->getSrcLoc());
             if (!isGrounded[cur] && reportedVars.insert(cur->getName()).second) {
                 report.addError("Ungrounded variable " + cur->getName(), cur->getSrcLoc());
             }
@@ -439,6 +442,9 @@ static bool hasUnnamedVariable(const AstLiteral* lit) {
         }
         if (const auto* br = dynamic_cast<const AstBinaryConstraint*>(lit)) {
             return hasUnnamedVariable(br->getLHS()) || hasUnnamedVariable(br->getRHS());
+        }
+        if (const auto* fn = dynamic_cast<const AstFunctionalConstraint*>(lit)) {
+            return hasUnnamedVariable(fn->getLHS()) || hasUnnamedVariable(fn->getRHS());
         }
     }
     std::cout << "Unsupported Literal type: " << typeid(lit).name() << "\n";

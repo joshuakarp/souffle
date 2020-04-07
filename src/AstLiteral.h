@@ -229,6 +229,9 @@ protected:
 /**
  * Functional Constraint
  *
+ * Representing a functional dependency (choice construct)
+ * eg. x -> y
+ * x uniquely identifies some y value
  */
 class AstFunctionalConstraint : public AstConstraint {
 public:
@@ -244,6 +247,12 @@ public:
     /** get left-hand side of functional constraint */ 
     const AstVariable *getRHS() const {
         return rhs.get(); 
+    }
+
+    std::vector<const AstNode*> getChildNodes() const override {
+        std::cout << "Call to getChildNodes() \n";
+        std::cout << lhs.get()->getName() << " -> " << rhs.get()->getName() << "\n";
+        return {lhs.get(), rhs.get()};
     }
 
     AstFunctionalConstraint* clone() const override {
