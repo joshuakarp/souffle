@@ -399,6 +399,8 @@ std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
                     binRel.getOperator(), std::move(valLHS), std::move(valRHS));
         }
 
+        
+
         /** for negations */
         std::unique_ptr<RamCondition> visitNegation(const AstNegation& neg) override {
             const auto* atom = neg.getAtom();
