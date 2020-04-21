@@ -395,8 +395,17 @@ std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
         std::unique_ptr<RamCondition> visitBinaryConstraint(const AstBinaryConstraint& binRel) override {
             std::unique_ptr<RamExpression> valLHS = translator.translateValue(binRel.getLHS(), index);
             std::unique_ptr<RamExpression> valRHS = translator.translateValue(binRel.getRHS(), index);
+            std::cout << "Creating RamCondition from binary constraint \n";
             return std::make_unique<RamConstraint>(
                     binRel.getOperator(), std::move(valLHS), std::move(valRHS));
+        }
+
+        /** for functional constraints */
+        std::unique_ptr<RamCondition> visitFunctionalConstraint(const AstFunctionalConstraint& fnCons) override {
+            std::unique_ptr<RamExpression> valLHS = translator.translateValue(fnCons.getLHS(), index);
+            std::unique_ptr<RamExpression> valRHS = translator.translateValue(fnCons.getRHS(), index);
+            return std::make_unique<RamFunctionalConstraint>(
+                    std::move(valLHS), std::move(valRHS));
         }
 
         /** for negations */

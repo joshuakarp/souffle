@@ -45,6 +45,7 @@ enum InterpreterNodeType {
     I_ExistenceCheck,
     I_ProvenanceExistenceCheck,
     I_Constraint,
+    I_FunctionalConstraint,
     I_TupleOperation,
     I_Scan,
     I_ParallelScan,

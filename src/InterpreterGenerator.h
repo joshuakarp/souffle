@@ -164,6 +164,13 @@ public:
         return std::make_unique<InterpreterNode>(I_Constraint, &relOp, std::move(children));
     }
 
+    NodePtr visitFunctionalConstraint(const RamFunctionalConstraint& functional) override {
+        NodePtrVec children;
+        children.push_back(visit(functional.getLHS()));
+        children.push_back(visit(functional.getRHS()));
+        return std::make_unique<InterpreterNode>(I_FunctionalConstraint, &functional, std::move(children));
+    }
+
     NodePtr visitNestedOperation(const RamNestedOperation& nested) override {
         return visit(nested.getOperation());
     }

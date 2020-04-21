@@ -177,6 +177,11 @@ int RamLevelAnalysis::getLevel(const RamNode* node) const {
             return std::max(visit(binRel.getLHS()), visit(binRel.getRHS()));
         }
 
+        // functional constraint
+        int visitFunctionalConstraint(const RamFunctionalConstraint& func) override {
+            return std::max(visit(func.getLHS()), visit(func.getRHS()));
+        }
+
         // existence check
         int visitExistenceCheck(const RamExistenceCheck& exists) override {
             int level = -1;

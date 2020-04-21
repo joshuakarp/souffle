@@ -102,6 +102,7 @@ struct RamVisitor : public ram_visitor_tag {
         FORWARD(Conjunction);
         FORWARD(Negation);
         FORWARD(Constraint);
+        FORWARD(FunctionalConstraint);
 
         // Operations
         FORWARD(Filter);
@@ -211,6 +212,7 @@ protected:
     LINK(Conjunction, Condition);
     LINK(Negation, Condition);
     LINK(Constraint, Condition);
+    LINK(FunctionalConstraint, Condition);
     LINK(ExistenceCheck, AbstractExistenceCheck);
     LINK(ProvenanceExistenceCheck, AbstractExistenceCheck);
     LINK(EmptinessCheck, Condition);

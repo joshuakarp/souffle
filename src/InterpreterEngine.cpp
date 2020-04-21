@@ -735,6 +735,11 @@ RamDomain InterpreterEngine::execute(const InterpreterNode* node, InterpreterCon
 #undef COMPARE_EQ_NE
         ESAC(Constraint)
 
+        CASE(FunctionalConstraint)
+            std::cout << "Functional constraint in InterpreterEngine \n";
+            return true;
+        ESAC(FunctionalConstraint)
+
         CASE(TupleOperation)
             bool result = execute(node->getChild(0), ctxt);
 

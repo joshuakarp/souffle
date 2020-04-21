@@ -259,6 +259,67 @@ protected:
 };
 
 /**
+ * @class RamFunctionalConstraint
+ * @brief Evaluates a functional constraint with respect to two RamExpressions
+ *
+ * Condition is true if there exists a functional dependency to create
+ *
+ * The following example checks the equality of
+ * the two given tuple elements:
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * t0.1 = t1.0
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+class RamFunctionalConstraint : public RamCondition {
+public:
+    RamFunctionalConstraint(std::unique_ptr<RamExpression> l, std::unique_ptr<RamExpression> r)
+            : lhs(std::move(l)), rhs(std::move(r)) {
+        assert(lhs != nullptr && "left-hand side of functional constraint is a null-pointer");
+        assert(rhs != nullptr && "right-hand side of functional constraint is a null-pointer");
+    }
+
+    /** @brief Get left-hand side */
+    const RamExpression& getLHS() const {
+        return *lhs;
+    }
+
+    /** @brief Get right-hand side */
+    const RamExpression& getRHS() const {
+        return *rhs;
+    }
+
+    std::vector<const RamNode*> getChildNodes() const override {
+        return {lhs.get(), rhs.get()};
+    }
+
+    RamFunctionalConstraint* clone() const override {
+        return new RamFunctionalConstraint(std::unique_ptr<RamExpression>(lhs->clone()),
+                std::unique_ptr<RamExpression>(rhs->clone()));
+    }
+
+    void apply(const RamNodeMapper& map) override {
+        lhs = map(std::move(lhs));
+        rhs = map(std::move(rhs));
+    }
+
+protected:
+    void print(std::ostream& os) const override {
+        os << "(" << *lhs << " -> " << *rhs << ")";
+    }
+
+    bool equal(const RamNode& node) const override {
+        const auto& other = static_cast<const RamFunctionalConstraint&>(node);
+        return equal_ptr(lhs, other.lhs) && equal_ptr(rhs, other.rhs);
+    }
+
+    /** Left-hand side of constraint*/
+    std::unique_ptr<RamExpression> lhs;
+
+    /** Right-hand side of constraint */
+    std::unique_ptr<RamExpression> rhs;
+};
+
+/**
  * @class RamAbstractExistenceCheck
  * @brief Abstract existence check for a tuple in a relation
  */
