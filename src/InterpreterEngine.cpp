@@ -655,6 +655,34 @@ RamDomain InterpreterEngine::execute(const InterpreterNode* node, InterpreterCon
             return ctxt.getView(viewPos)->contains(TupleRef(low, arity), TupleRef(high, arity));
         ESAC(ProvenanceExistenceCheck)
 
+        CASE(FDExistenceCheck)
+            // construct the pattern tuple
+            size_t arity = cur.getRelation().getArity();
+
+            size_t viewPos = node->getData(0);
+
+            if (profileEnabled && !cur.getRelation().isTemp()) {
+                reads[cur.getRelation().getName()]++;
+            }
+            // for total we use the exists test
+            if (isa->isTotalSignature(&cur)) {
+                RamDomain tuple[arity];
+                for (size_t i = 0; i < arity; i++) {
+                    tuple[i] = execute(node->getChild(i), ctxt);
+                }
+                return ctxt.getView(viewPos)->contains(TupleRef(tuple, arity));
+            }
+
+            // for partial we search for lower and upper boundaries
+            RamDomain low[arity];
+            RamDomain high[arity];
+            for (size_t i = 0; i < node->getChildren().size(); ++i) {
+                low[i] = node->getChild(i) != nullptr ? execute(node->getChild(i), ctxt) : MIN_RAM_SIGNED;
+                high[i] = node->getChild(i) != nullptr ? low[i] : MAX_RAM_SIGNED;
+            }
+            return ctxt.getView(viewPos)->contains(TupleRef(low, arity), TupleRef(high, arity));
+        ESAC(FDExistenceCheck)
+
         CASE(Constraint)
         // clang-format off
 #define EVAL_CHILD(ty, idx) ramBitCast<ty>(execute(node->getChild(idx), ctxt))
@@ -734,6 +762,13 @@ RamDomain InterpreterEngine::execute(const InterpreterNode* node, InterpreterCon
 #undef COMPARE
 #undef COMPARE_EQ_NE
         ESAC(Constraint)
+
+        // CASE(FunctionalConstraint)
+
+        //     std::cout << "Interpreter\n";
+        //     return true;
+
+        // ESAC(FunctionalConstraint)
 
         CASE(TupleOperation)
             bool result = execute(node->getChild(0), ctxt);

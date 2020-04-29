@@ -195,6 +195,15 @@ int RamLevelAnalysis::getLevel(const RamNode* node) const {
             return level;
         }
 
+        // functional dependency existence check
+        int visitFDExistenceCheck(const RamFDExistenceCheck& exists) override {
+            int level = INT_MAX;
+            for (const auto& cur : exists.getValues()) {
+                level = std::max(level, visit(cur));
+            }
+            return level;
+        }
+
         // emptiness check
         int visitEmptinessCheck(const RamEmptinessCheck&) override {
             return -1;  // can be in the top level

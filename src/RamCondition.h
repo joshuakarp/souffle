@@ -258,6 +258,77 @@ protected:
     std::unique_ptr<RamExpression> rhs;
 };
 
+// /**
+//  * @class RamFunctionalConstraint
+//  * @brief Evaluates a functional constraint (choice) with respect to two RamExpressions 
+//  * (TODO: Should this be 2 RamExpressions, or something else?)
+//  *
+//  * Condition is true if the lhs element doesn't already have an entry in the respective
+//  * 'chosen' relation
+//  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  * A -> B
+//  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  */
+// class RamFunctionalConstraint : public RamCondition {
+// public:
+//     RamFunctionalConstraint(/*std::unique_ptr<RamExistenceCheck> exists, */
+//     std::unique_ptr<RamExpression> l, std::unique_ptr<RamExpression> r)
+//             : /*existence(std::move(exists)),*/ lhs(std::move(l)), rhs(std::move(r)) {
+//         /*assert(exists != nullptr && "existence check of functional constraint is a null-pointer");*/
+//         assert(lhs != nullptr && "left-hand side of functional constraint is a null-pointer");
+//         assert(rhs != nullptr && "right-hand side of functional constraint is a null-pointer");
+//     }
+
+//     // /** @brief Get existence check */
+//     // const RamExistenceCheck& getExistence() const {
+//     //     return *existence;
+//     // }
+
+//     /** @brief Get left-hand side */
+//     const RamExpression& getLHS() const {
+//         return *lhs;
+//     }
+
+//     /** @brief Get right-hand side */
+//     const RamExpression& getRHS() const {
+//         return *rhs;
+//     }
+
+//     std::vector<const RamNode*> getChildNodes() const override {
+//         return {lhs.get(), rhs.get()};
+//     }
+
+//     RamFunctionalConstraint* clone() const override {
+//         return new RamFunctionalConstraint(/*std::unique_ptr<RamExistenceCheck>(existence->clone()),*/
+//                 std::unique_ptr<RamExpression>(lhs->clone()),
+//                 std::unique_ptr<RamExpression>(rhs->clone()));
+//     }
+
+//     void apply(const RamNodeMapper& map) override {
+//         lhs = map(std::move(lhs));
+//         rhs = map(std::move(rhs));
+//     }
+
+// protected:
+//     void print(std::ostream& os) const override {
+//         os << "(" << *lhs << " -> " << *rhs << ")";
+//     }
+
+//     bool equal(const RamNode& node) const override {
+//         const auto& other = static_cast<const RamFunctionalConstraint&>(node);
+//         return equal_ptr(lhs, other.lhs) && equal_ptr(rhs, other.rhs);
+//     }
+
+//     /** Existence check for whether the lhs element  */
+//     //std::unique_ptr<RamExistenceCheck> existence;
+
+//     /** Left-hand side of constraint*/
+//     std::unique_ptr<RamExpression> lhs;
+
+//     /** Right-hand side of constraint */
+//     std::unique_ptr<RamExpression> rhs;
+// };
+
 /**
  * @class RamAbstractExistenceCheck
  * @brief Abstract existence check for a tuple in a relation
@@ -379,6 +450,34 @@ protected:
     void print(std::ostream& os) const override {
         os << "prov";
         RamAbstractExistenceCheck::print(os);
+    }
+};
+
+/**
+ * @class RamFDExistenceCheck
+ * @brief Existence check for a tuple(-pattern) in a relation, for use with a functional dependency
+ *
+ * Returns true if the tuple is in the relation
+ *
+ * The following condition is evaluated to true if the
+ * tuple element t0.1 is in the relation A:
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * t0.1 IN A
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+class RamFDExistenceCheck : public RamAbstractExistenceCheck {
+public:
+    RamFDExistenceCheck(
+            std::unique_ptr<RamRelationReference> relRef, std::vector<std::unique_ptr<RamExpression>> vals)
+            : RamAbstractExistenceCheck(std::move(relRef), std::move(vals)) {}
+
+    RamFDExistenceCheck* clone() const override {
+        std::vector<std::unique_ptr<RamExpression>> newValues;
+        for (auto& cur : values) {
+            newValues.emplace_back(cur->clone());
+        }
+        return new RamFDExistenceCheck(
+                std::unique_ptr<RamRelationReference>(relationRef->clone()), std::move(newValues));
     }
 };
 

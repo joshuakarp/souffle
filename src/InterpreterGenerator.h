@@ -156,6 +156,17 @@ public:
                 I_ProvenanceExistenceCheck, &provExists, std::move(children), nullptr, std::move(data));
     }
 
+    NodePtr visitFDExistenceCheck(const RamFDExistenceCheck& exists) override {
+        NodePtrVec children;
+        for (const auto& value : exists.getValues()) {
+            children.push_back(visit(value));
+        }
+        std::vector<size_t> data;
+        data.push_back(encodeView(&exists));
+        return std::make_unique<InterpreterNode>(
+                I_FDExistenceCheck, &exists, std::move(children), nullptr, std::move(data));
+    }
+
     // -- comparison operators --
     NodePtr visitConstraint(const RamConstraint& relOp) override {
         NodePtrVec children;

@@ -331,7 +331,7 @@ private:
     std::unique_ptr<RamExpression> translateValue(const AstArgument* arg, const ValueIndex& index);
 
     /** translate an AST constraint to a RAM condition */
-    std::unique_ptr<RamCondition> translateConstraint(const AstLiteral* arg, const ValueIndex& index);
+    std::unique_ptr<RamCondition> translateConstraint(const AstLiteral* arg, const ValueIndex& index, const AstAtom* head);
 
     /** translate AST clause to RAM code */
     class ClauseTranslator {
