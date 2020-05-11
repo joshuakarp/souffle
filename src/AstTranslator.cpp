@@ -377,15 +377,16 @@ std::unique_ptr<RamExpression> AstTranslator::translateValue(
 }
 
 std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
-        const AstLiteral* lit, const ValueIndex& index, const AstAtom* head) {
+        const AstLiteral* lit, const ValueIndex& index, const AstAtom* head, const AstAtom* originalHead) {
     class ConstraintTranslator : public AstVisitor<std::unique_ptr<RamCondition>> {
         AstTranslator& translator;
         const ValueIndex& index;
         const AstAtom* head;
+        const AstAtom* originalHead;
 
     public:
-        ConstraintTranslator(AstTranslator& translator, const ValueIndex& index, const AstAtom* head)
-                : translator(translator), index(index), head(head) {}
+        ConstraintTranslator(AstTranslator& translator, const ValueIndex& index, const AstAtom* head, const AstAtom* originalHead)
+                : translator(translator), index(index), head(head), originalHead(originalHead) {}
 
         /** for atoms */
         std::unique_ptr<RamCondition> visitAtom(const AstAtom&) override {
@@ -405,12 +406,28 @@ std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
             // For B(x,y) :- A(x,y), x -> y.
             // Return an existence check for whether x already exists in B.
             std::vector<std::unique_ptr<RamExpression>> vals;
+            std::vector<std::unique_ptr<RamExpression>> valsCopy;
             // Insert LHS
             vals.push_back(translator.translateValue(func.getLHS(), index));
+            valsCopy.push_back(translator.translateValue(func.getLHS(), index));
             // Insert ⊥
             vals.push_back(std::make_unique<RamUndefValue>());
-            return std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
-                translator.translateRelation(head), std::move(vals)));
+            valsCopy.push_back(std::make_unique<RamUndefValue>());
+
+            // If both heads are equal, then we know we are in a non-recursive clause
+            if (*head == *originalHead) {
+                return std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(head), std::move(vals)));
+            // Otherwise, if not equal, then in recursive clause, and needing conjunction
+            } else {
+                return std::make_unique<RamConjunction>(
+                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(originalHead), std::move(valsCopy))), 
+                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(head), std::move(vals))));
+            }
+            
+            
         }
 
         /** for negations */
@@ -461,7 +478,7 @@ std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
                     translator.translateRelation(atom), std::move(values)));
         }
     };
-    return ConstraintTranslator(*this, index, head)(*lit);
+    return ConstraintTranslator(*this, index, head, originalHead)(*lit);
 }
 
 std::unique_ptr<AstClause> AstTranslator::ClauseTranslator::getReorderedClause(
@@ -724,6 +741,7 @@ std::unique_ptr<RamStatement> AstTranslator::ClauseTranslator::translateClause(
 
     // get extract some details
     const AstAtom* head = clause.getHead();
+    const AstAtom* origHead = originalClause.getHead();
 
     // handle facts
     if (isFact(clause)) {
@@ -765,7 +783,7 @@ std::unique_ptr<RamStatement> AstTranslator::ClauseTranslator::translateClause(
 
     /* add conditions caused by atoms, negations, and binary relations */
     for (const auto& lit : clause.getBodyLiterals()) {
-        if (auto condition = translator.translateConstraint(lit, valueIndex, head)) {
+        if (auto condition = translator.translateConstraint(lit, valueIndex, head, origHead)) {
             op = std::make_unique<RamFilter>(std::move(condition), std::move(op));
         }
     }
@@ -809,7 +827,7 @@ std::unique_ptr<RamStatement> AstTranslator::ClauseTranslator::translateClause(
 
         // translate constraints of sub-clause
         for (const auto& lit : cur->getBodyLiterals()) {
-            if (auto newCondition = translator.translateConstraint(lit, valueIndex, head)) {
+            if (auto newCondition = translator.translateConstraint(lit, valueIndex, head, origHead)) {
                 addAggCondition(newCondition);
             }
         }
@@ -1502,7 +1520,7 @@ std::unique_ptr<RamStatement> AstTranslator::makeNegationSubproofSubroutine(cons
             con->apply(varsToArgs);
 
             // translate to a RamCondition
-            auto condition = translateConstraint(con, ValueIndex(), clause.getHead());
+            auto condition = translateConstraint(con, ValueIndex(), clause.getHead(), clause.getHead());
             auto negativeCondition =
                     std::make_unique<RamNegation>(std::unique_ptr<RamCondition>(condition->clone()));
 
