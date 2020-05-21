@@ -105,6 +105,7 @@
 %token TRUE                      "true literal constraint"
 %token FALSE                     "false literal constraint"
 %token PLAN                      "plan keyword"
+%token CONSTRAINS                "relational functional dependencies declaration"
 %token IF                        ":-"
 %token DECL                      "relation declaration"
 %token FUNCTOR                   "functor declaration"
@@ -194,6 +195,7 @@
 %type <std::vector<AstIO *>>                io_head
 %type <std::vector<AstArgument *>>          non_empty_arg_list
 %type <std::vector<AstAttribute *>>         non_empty_attributes
+%type <std::vector<AstFunctionalConstraint *>> dependencies
 %type <AstExecutionOrder *>                 non_empty_exec_order_list
 %type <std::vector<TypeAttribute>>          non_empty_functor_arg_type_list
 %type <std::vector<std::pair
@@ -492,6 +494,28 @@ relation_decl
 
         $relation_list.clear();
     }
+  | DECL relation_list LPAREN non_empty_attributes RPAREN relation_tags CONSTRAINS dependencies {
+        for (auto* rel : $relation_list) {
+            for (auto tag : $relation_tags) {
+                if (isRelationQualifierTag(tag)) {
+                    rel->addQualifier(getRelationQualifierFromTag(tag));
+                } else if (isRelationRepresentationTag(tag)) {
+                    rel->setRepresentation(getRelationRepresentationFromTag(tag));
+                } else {
+                    assert(false && "unhandled tag");
+                }
+            }
+            for (auto* attr : $non_empty_attributes) {
+                rel->addAttribute(std::unique_ptr<AstAttribute>(attr->clone()));
+            }
+            for (auto* fd : $dependencies) {
+                rel->addDependency(std::unique_ptr<AstFunctionalConstraint>(fd->clone()));
+            }
+        }
+        $$ = $relation_list;
+
+        $relation_list.clear();
+    }
   ;
 
 /* List of relation names to declare */
@@ -598,6 +622,29 @@ relation_tags
     }
   | %empty {
         $$ = std::set<RelationTag>();
+    }
+  ;
+
+/* List of functional dependencies on relation */
+dependencies
+  : IDENT[left] RIGHTARROW IDENT[right] {
+        auto fd = new AstFunctionalConstraint(
+              std::make_unique<AstVariable>($left),
+              std::make_unique<AstVariable>($right));
+        fd->setSrcLoc(@$);
+
+        $$.push_back(fd);
+    }
+  | dependencies[curr_list] COMMA IDENT[left] RIGHTARROW IDENT[right] {
+        auto fd = new AstFunctionalConstraint(
+              std::make_unique<AstVariable>($left),
+              std::make_unique<AstVariable>($right));
+        fd->setSrcLoc(@$);
+
+        $$ = $curr_list;
+        $$.push_back(fd);
+
+        $curr_list.clear();
     }
   ;
 

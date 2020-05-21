@@ -89,6 +89,11 @@ public:
         qualifiers.erase(q);
     }
 
+    /** Add functional dependency to this relation */
+    void addDependency(std::unique_ptr<AstFunctionalConstraint> fd) {
+        functionalDependencies.push_back(std::move(fd));
+    }
+
     /** Get relation representation */
     RelationRepresentation getRepresentation() const {
         return representation;
@@ -144,6 +149,12 @@ protected:
         os << ") ";
 
         os << join(qualifiers, " ") << " ";
+        if (!functionalDependencies.empty()) {
+            os << " constrains ";
+            for (size_t i = 0; i < functionalDependencies.size(); i++) {
+                os << functionalDependencies[i]->getLHS()->getName() << " -> " << functionalDependencies[i]->getRHS()->getName();
+            }
+        }
         os << representation;
     }
 
@@ -157,6 +168,9 @@ protected:
 
     /** Attributes of the relation */
     std::vector<std::unique_ptr<AstAttribute>> attributes;
+
+    /** Functional dependencies of the relation */
+    std::vector<std::unique_ptr<AstFunctionalConstraint>> functionalDependencies;
 
     /** Qualifiers of relation */
     std::set<RelationQualifier> qualifiers;

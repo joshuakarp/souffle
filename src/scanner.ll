@@ -122,6 +122,7 @@
 "to_string"                           { return yy::parser::make_TOSTRING(yylloc); }
 "to_number"                           { return yy::parser::make_TONUMBER(yylloc); }
 ".plan"                               { return yy::parser::make_PLAN(yylloc); }
+"constrains"                          { return yy::parser::make_CONSTRAINS(yylloc); }
 "|"                                   { return yy::parser::make_PIPE(yylloc); }
 "["                                   { return yy::parser::make_LBRACKET(yylloc); }
 "]"                                   { return yy::parser::make_RBRACKET(yylloc); }
