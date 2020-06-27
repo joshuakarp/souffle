@@ -93,6 +93,10 @@ public:
     void addDependency(std::unique_ptr<AstFunctionalConstraint> fd) {
         functionalDependencies.push_back(std::move(fd));
     }
+    
+    std::vector<AstFunctionalConstraint*> getFunctionalDependencies() const {
+        return toPtrVector(functionalDependencies);
+    }
 
     /** Get relation representation */
     RelationRepresentation getRepresentation() const {

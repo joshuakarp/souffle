@@ -261,6 +261,16 @@ public:
         return res;
     }
 
+    /* get index position of LHS (source) in relation arguments (0-indexed) */ 
+    int getPosition() const {
+        return position;
+    }
+
+    /* set index position of LHS (source) in relation arguments (0-indexed) */
+    void setPosition (int pos) {
+        position = pos;
+    }
+
 protected:
     void print(std::ostream& os) const override {
         os << *lhs << "->" << *rhs; 
@@ -277,6 +287,12 @@ protected:
 
     /* rhs of functional constraint */ 
     std::unique_ptr<AstVariable> rhs;
+
+    /** index position of LHS (source) in relation arguments (0-indexed)
+     * eg. A(x,y,z) constrains y->z 
+     * Dependency y->z has position 1
+     **/
+    int position;
 };
 
 /**

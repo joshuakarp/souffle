@@ -724,6 +724,37 @@ void AstSemanticChecker::checkRelationDeclaration(ErrorReport& report, const Typ
             }
         }
     }
+
+    /* check that each functional dependency argument appears in the relation */
+    for (int i = 0; i < relation.getFunctionalDependencies().size(); i++) {
+        AstFunctionalConstraint* fd = relation.getFunctionalDependencies()[i];
+        bool leftFound = false;
+        bool rightFound = false;
+        // Check that LHS and RHS of FD appear in relation arguments
+        for (const auto& a : relation.getAttributes()) {
+            if (a->getAttributeName() == fd->getLHS()->getName()) {
+                leftFound = true;
+                // Set the source location
+                fd->setPosition(i);
+            }
+            if (a->getAttributeName() == fd->getRHS()->getName()) {
+                rightFound = true;
+            }
+
+            if (leftFound && rightFound) {
+                break;
+            }
+        }
+
+        if (!leftFound) {
+            report.addError("LHS of functional dependency not found in relation definition: " + fd->getLHS()->getName(),
+                fd->getSrcLoc());
+        }
+        if (!rightFound) {
+            report.addError("RHS of functional dependency not found in relation definition: " + fd->getRHS()->getName(),
+                fd->getSrcLoc());
+        }
+    }
 }
 
 void AstSemanticChecker::checkRelation(ErrorReport& report, const TypeEnvironment& typeEnv,
