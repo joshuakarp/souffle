@@ -401,35 +401,6 @@ std::unique_ptr<RamCondition> AstTranslator::translateConstraint(
                     binRel.getOperator(), std::move(valLHS), std::move(valRHS));
         }
 
-        /** for functional constraints (choice construct) */
-        std::unique_ptr<RamCondition> visitFunctionalConstraint(const AstFunctionalConstraint& func) override {
-            // For B(x,y) :- A(x,y), x -> y.
-            // Return an existence check for whether x already exists in B.
-            std::vector<std::unique_ptr<RamExpression>> vals;
-            std::vector<std::unique_ptr<RamExpression>> valsCopy;
-            // Insert LHS
-            vals.push_back(translator.translateValue(func.getLHS(), index));
-            valsCopy.push_back(translator.translateValue(func.getLHS(), index));
-            // Insert ⊥
-            vals.push_back(std::make_unique<RamUndefValue>());
-            valsCopy.push_back(std::make_unique<RamUndefValue>());
-
-            // If both heads are equal, then we know we are in a non-recursive clause
-            if (*head == *originalHead) {
-                return std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
-                        translator.translateRelation(head), std::move(vals)));
-            // Otherwise, if not equal, then in recursive clause, and needing conjunction
-            } else {
-                return std::make_unique<RamConjunction>(
-                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
-                        translator.translateRelation(originalHead), std::move(valsCopy))), 
-                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
-                        translator.translateRelation(head), std::move(vals))));
-            }
-            
-            
-        }
-
         /** for negations */
         std::unique_ptr<RamCondition> visitNegation(const AstNegation& neg) override {
             const auto* atom = neg.getAtom();
@@ -603,8 +574,11 @@ void AstTranslator::ClauseTranslator::createValueIndex(const AstClause& clause) 
     });
 }
 
-std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(const AstClause& clause) {
+std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(
+    const AstClause& clause, const AstClause& originalClause) {
     const auto head = clause.getHead();
+    const auto originalHead = originalClause.getHead();
+    const AstRelation* originalHeadRelation = getHeadRelation(&originalClause, translator.program);
 
     std::vector<std::unique_ptr<RamExpression>> values;
     for (AstArgument* arg : head->getArguments()) {
@@ -617,6 +591,59 @@ std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(c
     if (head->getArity() == 0) {
         project = std::make_unique<RamFilter>(
                 std::make_unique<RamEmptinessCheck>(translator.translateRelation(head)), std::move(project));
+    }
+
+    // Impose the functional dependencies of the relation on each PROJECT
+    if (!originalHeadRelation->getFunctionalDependencies().empty()) {
+        std::unique_ptr<RamCondition> dependencyConditions = nullptr;
+        for (const AstFunctionalConstraint* fd : originalHeadRelation->getFunctionalDependencies()) {
+            // For .decl B(x, y) constrains x -> y
+            // B(x,y) :- A(x,y).
+            // Return an existence check for whether x already exists in B.
+            std::vector<std::unique_ptr<RamExpression>> vals;
+            std::vector<std::unique_ptr<RamExpression>> valsCopy;
+
+            // Populate the values for our functional dependency condition
+            // eg. A(x,y,z) constrains x->y:
+            //  vals should contain (t0.0,⊥,⊥) to be used for the following condition before PROJECT:
+            //  IF (NOT (t0.0,⊥,⊥) ∈ A)
+            for (int i = 0; i < head->getArguments().size(); i++) {
+                // The source argument (t0.0) should be inserted when found
+                if (i == fd->getPosition()) {
+                    vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                    valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                // Otherwise insert ⊥
+                } else {
+                    vals.push_back(std::make_unique<RamUndefValue>());
+                    valsCopy.push_back(std::make_unique<RamUndefValue>());
+                }
+            }
+
+            std::unique_ptr<RamCondition> currDependencyCondition = nullptr;
+            // If both heads are equal, then we know we are in a non-recursive clause
+            if (*head == *originalHead) {
+                currDependencyCondition = std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(head), std::move(vals)));
+            // Otherwise, if not equal, then in recursive clause, and needing conjunction
+            } else {
+                currDependencyCondition = std::make_unique<RamConjunction>(
+                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(originalHead), std::move(valsCopy))), 
+                    std::make_unique<RamNegation>(std::make_unique<RamFDExistenceCheck>(
+                        translator.translateRelation(head), std::move(vals))));
+            }
+
+            // Add the current functional dependency condition to the rest
+            if (dependencyConditions == nullptr) {
+                dependencyConditions = std::move(currDependencyCondition);
+            } else {
+                dependencyConditions = std::make_unique<RamConjunction>(
+                    std::move(dependencyConditions), std::move(currDependencyCondition));
+            }
+        }
+
+        // Wrap PROJECT with our functional dependencies 'layer'
+        project = std::make_unique<RamFilter>(std::move(dependencyConditions), std::move(project));
     }
 
     // check existence for original tuple if we have provenance
@@ -653,7 +680,7 @@ std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(c
 }
 
 std::unique_ptr<RamOperation> AstTranslator::ProvenanceClauseTranslator::createOperation(
-        const AstClause& clause) {
+        const AstClause& clause, const AstClause& originalClause) {
     std::vector<std::unique_ptr<RamExpression>> values;
 
     // get all values in the body
@@ -763,7 +790,7 @@ std::unique_ptr<RamStatement> AstTranslator::ClauseTranslator::translateClause(
 
     // -- create RAM statement --
 
-    std::unique_ptr<RamOperation> op = createOperation(clause);
+    std::unique_ptr<RamOperation> op = createOperation(clause, originalClause);
 
     /* add equivalence constraints imposed by variable binding */
     for (const auto& cur : valueIndex.getVariableReferences()) {

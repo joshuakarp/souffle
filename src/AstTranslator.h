@@ -363,7 +363,7 @@ private:
         // current nesting level
         int level = 0;
 
-        virtual std::unique_ptr<RamOperation> createOperation(const AstClause& clause);
+        virtual std::unique_ptr<RamOperation> createOperation(const AstClause& clause, const AstClause& originalClause);
         virtual std::unique_ptr<RamCondition> createCondition(const AstClause& originalClause);
 
         /** translate RAM code for a constant value */
@@ -382,7 +382,7 @@ private:
 
     class ProvenanceClauseTranslator : public ClauseTranslator {
     protected:
-        std::unique_ptr<RamOperation> createOperation(const AstClause& clause) override;
+        std::unique_ptr<RamOperation> createOperation(const AstClause& clause, const AstClause& originalClause) override;
         std::unique_ptr<RamCondition> createCondition(const AstClause& originalClause) override;
 
     public:
