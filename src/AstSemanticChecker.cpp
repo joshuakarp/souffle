@@ -726,12 +726,12 @@ void AstSemanticChecker::checkRelationDeclaration(ErrorReport& report, const Typ
     }
 
     /* check that each functional dependency argument appears in the relation */
-    for (int i = 0; i < relation.getFunctionalDependencies().size(); i++) {
-        AstFunctionalConstraint* fd = relation.getFunctionalDependencies()[i];
+    for (const auto& fd : relation.getFunctionalDependencies()) {
         bool leftFound = false;
         bool rightFound = false;
         // Check that LHS and RHS of FD appear in relation arguments
-        for (const auto& a : relation.getAttributes()) {
+        for (int i = 0; i < relation.getAttributes().size(); i++) {
+            AstAttribute* a = relation.getAttributes().at(i);
             if (a->getAttributeName() == fd->getLHS()->getName()) {
                 leftFound = true;
                 // Set the source location
