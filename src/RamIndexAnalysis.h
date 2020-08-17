@@ -356,6 +356,13 @@ public:
     SearchSignature getSearchSignature(const RamExistenceCheck* existCheck) const;
 
     /**
+     * @Brief Get the index signature for a FDExistence check
+     * @param FDExistence check
+     * @result index signature of FDExistence check
+     */
+    SearchSignature getSearchSignature(const RamFDExistenceCheck* fdExistCheck) const;
+
+    /**
      * @Brief Get the index signature for a provenance existence check
      * @param Provenance-existence check
      * @result index signature of provenance-existence check

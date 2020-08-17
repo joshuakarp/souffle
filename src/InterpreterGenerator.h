@@ -60,6 +60,9 @@ public:
             } else if (const auto* provExists = dynamic_cast<const RamProvenanceExistenceCheck*>(&node)) {
                 encodeIndexPos(*provExists);
                 encodeView(provExists);
+            } else if (const auto* fdExists = dynamic_cast<const RamFDExistenceCheck*>(&node)) {
+                encodeIndexPos(*fdExists);
+                encodeView(fdExists);
             }
         });
         // Parse program

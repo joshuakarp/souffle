@@ -248,6 +248,9 @@ void RamIndexAnalysis::run(const RamTranslationUnit& translationUnit) {
         } else if (const auto* provExists = dynamic_cast<const RamProvenanceExistenceCheck*>(&node)) {
             MinIndexSelection& indexes = getIndexes(provExists->getRelation());
             indexes.addSearch(getSearchSignature(provExists));
+        } else if (const auto* fdExistCheck = dynamic_cast<const RamFDExistenceCheck*>(&node)) {
+            MinIndexSelection& indexes = getIndexes(fdExistCheck->getRelation());
+            indexes.addSearch(getSearchSignature(fdExistCheck));
         } else if (const auto* ramRel = dynamic_cast<const RamRelation*>(&node)) {
             MinIndexSelection& indexes = getIndexes(*ramRel);
             indexes.addSearch(getSearchSignature(ramRel));
@@ -377,6 +380,10 @@ SearchSignature RamIndexAnalysis::getSearchSignature(
 
 SearchSignature RamIndexAnalysis::getSearchSignature(const RamExistenceCheck* existCheck) const {
     return searchSignature(existCheck->getValues());
+}
+
+SearchSignature RamIndexAnalysis::getSearchSignature(const RamFDExistenceCheck* fdExistCheck) const {
+    return searchSignature(fdExistCheck->getValues());
 }
 
 SearchSignature RamIndexAnalysis::getSearchSignature(const RamRelation* ramRel) const {
