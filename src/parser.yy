@@ -180,6 +180,7 @@
 %type <AstComponent *>                      component_head
 %type <RuleBody *>                          conjunction
 %type <AstConstraint *>                     constraint
+%type <std::vector<AstFunctionalConstraint *>> dependencies
 %type <RuleBody *>                          disjunction
 %type <AstExecutionOrder *>                 exec_order_list
 %type <AstExecutionPlan *>                  exec_plan
@@ -195,7 +196,7 @@
 %type <std::vector<AstIO *>>                io_head
 %type <std::vector<AstArgument *>>          non_empty_arg_list
 %type <std::vector<AstAttribute *>>         non_empty_attributes
-%type <std::vector<AstFunctionalConstraint *>> dependencies
+%type <std::vector<std::string>>            non_empty_variables
 %type <AstExecutionOrder *>                 non_empty_exec_order_list
 %type <std::vector<TypeAttribute>>          non_empty_functor_arg_type_list
 %type <std::vector<std::pair
@@ -223,6 +224,7 @@
 %destructor { delete $$; }                                  component_head
 %destructor { delete $$; }                                  conjunction
 %destructor { delete $$; }                                  constraint
+%destructor { for (auto* cur : $$) { delete cur; } }        dependencies
 %destructor { delete $$; }                                  disjunction
 %destructor { delete $$; }                                  exec_order_list
 %destructor { delete $$; }                                  exec_plan
@@ -625,6 +627,20 @@ relation_tags
     }
   ;
 
+/* List of variables */
+non_empty_variables
+  : IDENT {
+        $$.push_back($IDENT);
+  }
+  
+  | non_empty_variables[curr_var_list] COMMA IDENT {
+        $$ = $curr_var_list;
+        $$.push_back($IDENT);
+        std::cout << "Found " << $IDENT << "\n";
+        $curr_var_list.clear();
+    }
+  ;
+
 /* List of functional dependencies on relation */
 dependencies
   : IDENT[left] RIGHTARROW IDENT[right] {
@@ -635,6 +651,9 @@ dependencies
 
         $$.push_back(fd);
     }
+  | LPAREN non_empty_variables RPAREN RIGHTARROW IDENT[right] {
+        
+  }
   | dependencies[curr_list] COMMA IDENT[left] RIGHTARROW IDENT[right] {
         auto fd = new AstFunctionalConstraint(
               std::make_unique<AstVariable>($left),
