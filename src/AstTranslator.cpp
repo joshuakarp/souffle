@@ -602,21 +602,38 @@ std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(
             // Return an existence check for whether x already exists in B.
             std::vector<std::unique_ptr<RamExpression>> vals;
             std::vector<std::unique_ptr<RamExpression>> valsCopy;
-
+            std::cout << "Translating" << std::endl;
             // Populate the values for our functional dependency condition
             // eg. A(x,y,z) constrains x->y:
             //  vals should contain (t0.0,⊥,⊥) to be used for the following condition before PROJECT:
             //  IF (NOT (t0.0,⊥,⊥) ∈ A)
-            for (int i = 0; i < head->getArguments().size(); i++) {
+            std::cout << "FD arity: " << fd->getArity() << "\n";
+            std::cout << "vals:\n";
+            for (size_t i = 0; i < head->getArguments().size(); i++) {
                 // The source argument (t0.0) should be inserted when found
-                if (i == fd->getPosition()) {
-                    vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
-                    valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
-                // Otherwise insert ⊥
-                } else {
-                    vals.push_back(std::make_unique<RamUndefValue>());
-                    valsCopy.push_back(std::make_unique<RamUndefValue>());
+                // Need to add all source arguments of the dependency.
+                for (size_t j = 0; j < fd->getArity(); j++) {
+                    if (i == fd->getPosition(j)) {
+                        std::cout << "Pushing " << head->getArguments()[i] << "\n";
+                        vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                        valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                    // Otherwise insert ⊥
+                    } else {
+                        std::cout << "Pushing ⊥\n";
+                        vals.push_back(std::make_unique<RamUndefValue>());
+                        valsCopy.push_back(std::make_unique<RamUndefValue>());
+                    }
+                    
                 }
+
+                // if (i == 0){//fd->getPosition()) {
+                //     vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                //     valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                // // Otherwise insert ⊥
+                // } else {
+                //     vals.push_back(std::make_unique<RamUndefValue>());
+                //     valsCopy.push_back(std::make_unique<RamUndefValue>());
+                // }
             }
 
             std::unique_ptr<RamCondition> currDependencyCondition = nullptr;
@@ -641,7 +658,7 @@ std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(
                     std::move(dependencyConditions), std::move(currDependencyCondition));
             }
         }
-
+        std::cout << "Wrapped project\n";
         // Wrap PROJECT with our functional dependencies 'layer'
         project = std::make_unique<RamFilter>(std::move(dependencyConditions), std::move(project));
     }

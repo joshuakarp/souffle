@@ -153,12 +153,12 @@ protected:
         os << ") ";
 
         os << join(qualifiers, " ") << " ";
-        if (!functionalDependencies.empty()) {
-            os << " constrains ";
-            for (size_t i = 0; i < functionalDependencies.size(); i++) {
-                os << functionalDependencies[i]->getLHS()->getName() << " -> " << functionalDependencies[i]->getRHS()->getName();
-            }
-        }
+        // if (!functionalDependencies.empty()) {
+        //     os << " constrains ";
+        //     for (size_t i = 0; i < functionalDependencies.size(); i++) {
+        //         os << functionalDependencies[i]->getLHS()->getName() << " -> " << functionalDependencies[i]->getRHS()->getName();
+        //     }
+        // }
         os << representation;
     }
 

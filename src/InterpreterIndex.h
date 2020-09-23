@@ -84,6 +84,8 @@ public:
 
     template <std::size_t Arity>
     const Tuple<RamDomain, Arity>& asTuple() const {
+        std::cout << "arity: " << arity << " Arity: " << Arity << "\n";
+        std::cout << "Base " << getBase() << " " << *getBase() << "\n";
         assert(arity == Arity);
         return *reinterpret_cast<const Tuple<RamDomain, Arity>*>(base);
     }

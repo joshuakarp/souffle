@@ -232,16 +232,34 @@ protected:
  * Representing a functional dependency (choice construct)
  * eg. x -> y
  * x uniquely identifies some y value
+ * LHS of dependency stored as a vector of pairs: 
+ *      - first: pointer to LHS of dependency variable
+ *      - second: index position of this LHS variable in relation arguments (0-indexed)
+ * Stored in a vector to support n-ary dependencies.
+ * eg. (x,y) -> z
  */
 class AstFunctionalConstraint : public AstConstraint {
 public:
     AstFunctionalConstraint(
+            std::vector<std::unique_ptr<AstVariable>> ls, std::unique_ptr<AstVariable> rs)
+            : lhs(std::move(ls)), positions(lhs.size(), 0), rhs(std::move(rs)) {}
+
+    // Unsure if the "std::make_pair" is allowed in an initialiser list
+    AstFunctionalConstraint(
             std::unique_ptr<AstVariable> ls, std::unique_ptr<AstVariable> rs)
-            : lhs(std::move(ls)), rhs(std::move(rs)) {}
+            : positions(1, 0), rhs(std::move(rs)) 
+            {
+                lhs.push_back(std::move(ls));
+            }
 
     /** get left-hand side of functional constraint */ 
-    const AstVariable *getLHS() const {
-        return lhs.get(); 
+    const AstVariable *getLHS(size_t lhsNum) const {
+        return lhs.at(lhsNum).get();
+    }
+
+    /** get arity of the functional constraint (i.e. number of source nodes: (x,y)->z has an arity of 2) */
+    const size_t getArity() const {
+        return lhs.size();
     }
 
     /** get left-hand side of functional constraint */ 
@@ -250,49 +268,94 @@ public:
     }
 
     std::vector<const AstNode*> getChildNodes() const override {
-        return {lhs.get(), rhs.get()};
+        std::vector<const AstNode*> res;
+        for (auto& cur : lhs) {
+            res.push_back(cur.get());
+        }
+        res.push_back(rhs.get());
+        return res;
     }
 
     AstFunctionalConstraint* clone() const override {
+        std::vector<std::unique_ptr<AstVariable>> newLHS;
+        // TODO: should include positions to deep clone
+        for (size_t i = 0; i < lhs.size(); i++) {
+            newLHS.push_back(std::unique_ptr<AstVariable>(lhs.at(i)->clone()));
+        }
         auto* res = new AstFunctionalConstraint(
-                 std::unique_ptr<AstVariable>(lhs->clone()), 
-                 std::unique_ptr<AstVariable>(rhs->clone()));
+            std::move(newLHS), // parsing newLHS on its own giving "use of deleted function" error
+            std::unique_ptr<AstVariable>(rhs->clone()));
         res->setSrcLoc(getSrcLoc());
         return res;
     }
 
     /* get index position of LHS (source) in relation arguments (0-indexed) */ 
-    int getPosition() const {
-        return position;
+    // int getPosition() const {
+    //     return position;
+    // }
+    size_t getPosition(size_t lhsNum) const {
+        return positions.at(lhsNum);
     }
 
     /* set index position of LHS (source) in relation arguments (0-indexed) */
-    void setPosition (int pos) {
-        position = pos;
+    // void setPosition (int pos) {
+    //     position = pos;
+    // }
+    /** set index position of LHS (source) in relation arguments (0-indexed) 
+     * lhsNum = the LHS source currently wanting to be set
+     * i.e. (x,y)->z: to set y, lhsNum = 1
+     * pos: the attribute's index position in relation (0-indexed)
+    */
+    void setPosition (size_t lhsNum, size_t pos) {
+        std::cout << "lhsNum (j): " << lhsNum << " pos (i): " << pos << "\n";
+        positions.at(lhsNum) = pos;
     }
 
 protected:
     void print(std::ostream& os) const override {
-        os << *lhs << "->" << *rhs; 
+        // if (lhs.size() > 1) {
+        //     os << "(";
+        // }
+        // os << join(lhs, ",", print_deref<std::unique_ptr<AstVariable>>());
+        // if (lhs.size() > 1) {
+        //     os << ")";
+        // }
+        // os << "->" << *rhs;
     }
 
     bool equal(const AstNode& node) const override {
         assert(nullptr != dynamic_cast<const AstFunctionalConstraint*>(&node));
         const auto& other = static_cast<const AstFunctionalConstraint&>(node);
-        return equal_ptr(lhs, other.lhs) && equal_ptr(rhs,other.rhs);
+        if (lhs.size() != other.lhs.size()) {
+            return false;
+        }
+        bool lhsMatch = true;
+        // Check that each pointer and position match in LHS
+        for (size_t i = 0; i < lhs.size(); i++) {
+            if (!equal_ptr(lhs.at(i), other.lhs.at(i))) {
+                lhsMatch = false;
+                break;
+            }
+
+            if (positions.at(i) != other.positions.at(i)) {
+                lhsMatch = false;
+                break;
+            }
+        }
+        return lhsMatch && equal_ptr(rhs,other.rhs);
     }
 
     /* lhs of functional constraint */ 
-    std::unique_ptr<AstVariable> lhs; 
+    std::vector<std::unique_ptr<AstVariable>> lhs; 
 
-    /* rhs of functional constraint */ 
-    std::unique_ptr<AstVariable> rhs;
-
-    /** index position of LHS (source) in relation arguments (0-indexed)
+    /** index positions of LHS (source) nodes in relation arguments (0-indexed)
      * eg. A(x,y,z) constrains y->z 
      * Dependency y->z has position 1
      **/
-    int position;
+    std::vector<size_t> positions;
+
+    /* rhs of functional constraint */ 
+    std::unique_ptr<AstVariable> rhs;
 };
 
 /**

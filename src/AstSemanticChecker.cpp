@@ -440,9 +440,9 @@ static bool hasUnnamedVariable(const AstLiteral* lit) {
         if (const auto* br = dynamic_cast<const AstBinaryConstraint*>(lit)) {
             return hasUnnamedVariable(br->getLHS()) || hasUnnamedVariable(br->getRHS());
         }
-        if (const auto* fn = dynamic_cast<const AstFunctionalConstraint*>(lit)) {
-            return hasUnnamedVariable(fn->getLHS()) || hasUnnamedVariable(fn->getRHS());
-        }
+        // if (const auto* fn = dynamic_cast<const AstFunctionalConstraint*>(lit)) {
+        //     return hasUnnamedVariable(fn->getLHS()) || hasUnnamedVariable(fn->getRHS());
+        // }
     }
     std::cout << "Unsupported Literal type: " << typeid(lit).name() << "\n";
     assert(false && "Unsupported Argument Type!");
@@ -727,34 +727,50 @@ void AstSemanticChecker::checkRelationDeclaration(ErrorReport& report, const Typ
 
     /* check that each functional dependency argument appears in the relation */
     for (const auto& fd : relation.getFunctionalDependencies()) {
-        bool leftFound = false;
+        //bool leftFound = false;
+        size_t leftFound = 0;
         bool rightFound = false;
         // Check that LHS and RHS of FD appear in relation arguments
-        for (int i = 0; i < relation.getAttributes().size(); i++) {
+        std::cout << "AstSemanticChecker\n";
+        for (size_t i = 0; i < relation.getAttributes().size(); i++) {
+            std::cout << "AstSemanticChecker: loop over relation attributes\n";
             AstAttribute* a = relation.getAttributes().at(i);
-            if (a->getAttributeName() == fd->getLHS()->getName()) {
-                leftFound = true;
-                // Set the source location
-                fd->setPosition(i);
+            // if (a->getAttributeName() == fd->getLHS()->getName()) {
+            //     leftFound = true;
+            //     // Set the source location
+            //     fd->setPosition(i);
+            // }
+            for (size_t j = 0; j < fd->getArity(); j++) {
+                std::cout << "AstSemanticChecker: loop over fd nodes\n";
+                if (a->getAttributeName() == fd->getLHS(j)->getName()) {
+                    std::cout << "AstSemanticChecker: before set position\n";
+                    std::cout << "i: " << i << " j: " << j << "\n";
+                    fd->setPosition(j, i);
+                    std::cout << "AstSemanticChecker: after set position\n";
+                    leftFound++;
+                }
+                
             }
+
             if (a->getAttributeName() == fd->getRHS()->getName()) {
                 rightFound = true;
             }
 
-            if (leftFound && rightFound) {
+            if (leftFound == fd->getArity() && rightFound) {
                 break;
             }
         }
+        std::cout << "AstSemanticChecker: exited loop over relation attributes\n";
 
-        if (!leftFound) {
-            report.addError("LHS of functional dependency not found in relation definition: " + fd->getLHS()->getName(),
-                fd->getSrcLoc());
+        if (leftFound != fd->getArity()) {
+            report.addError("LHS of functional dependency not found in relation definition.", fd->getSrcLoc());
         }
         if (!rightFound) {
             report.addError("RHS of functional dependency not found in relation definition: " + fd->getRHS()->getName(),
                 fd->getSrcLoc());
         }
     }
+    
 }
 
 void AstSemanticChecker::checkRelation(ErrorReport& report, const TypeEnvironment& typeEnv,

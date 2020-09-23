@@ -652,7 +652,17 @@ dependencies
         $$.push_back(fd);
     }
   | LPAREN non_empty_variables RPAREN RIGHTARROW IDENT[right] {
+        std::vector<std::unique_ptr<AstVariable>> lhs;
+        for (std::string s : $non_empty_variables) {
+          std::cout << "Adding " << s << "\n";
+          lhs.push_back(std::make_unique<AstVariable>(s));
+        }
+        auto fd = new AstFunctionalConstraint(
+              std::move(lhs),
+              std::make_unique<AstVariable>($right));
+        fd->setSrcLoc(@$);
         
+        $$.push_back(fd);
   }
   | dependencies[curr_list] COMMA IDENT[left] RIGHTARROW IDENT[right] {
         auto fd = new AstFunctionalConstraint(

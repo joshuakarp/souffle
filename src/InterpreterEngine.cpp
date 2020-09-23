@@ -659,6 +659,9 @@ RamDomain InterpreterEngine::execute(const InterpreterNode* node, InterpreterCon
             // construct the pattern tuple
             size_t arity = cur.getRelation().getArity();
 
+            std::cout << "====================\nFDExistenceCheck\n";
+            std::cout << "relation arity: " << arity << "\n";
+            std::cout << "node children size: " << node->getChildren().size() << "\n";
             size_t viewPos = node->getData(0);
 
             if (profileEnabled && !cur.getRelation().isTemp()) {
@@ -679,7 +682,9 @@ RamDomain InterpreterEngine::execute(const InterpreterNode* node, InterpreterCon
             for (size_t i = 0; i < node->getChildren().size(); ++i) {
                 low[i] = node->getChild(i) != nullptr ? execute(node->getChild(i), ctxt) : MIN_RAM_SIGNED;
                 high[i] = node->getChild(i) != nullptr ? low[i] : MAX_RAM_SIGNED;
+                //std::cout << "i: " << i << " low[i] = " << low[i] << " high[i] = " << high[i] << "\n";
             }
+            std::cout << "============================================================\n";
             return ctxt.getView(viewPos)->contains(TupleRef(low, arity), TupleRef(high, arity));
         ESAC(FDExistenceCheck)
 

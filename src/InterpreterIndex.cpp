@@ -270,8 +270,12 @@ protected:
     };
 
     virtual souffle::range<iter> bounds(const TupleRef& low, const TupleRef& high, Hints& hints) const {
+        std::cout << "Before bounds()::a: \n";
         Entry a = order.encode(low.asTuple<Arity>());
+        std::cout << "After bounds()::a: \n";
+        std::cout << "Before bounds()::b: \n";
         Entry b = order.encode(high.asTuple<Arity>());
+        std::cout << "After bounds()::b: \n";
         return {data.lower_bound(a, hints), data.upper_bound(b, hints)};
     }
 
@@ -283,10 +287,12 @@ protected:
         GenericIndexView(const GenericIndex& index) : index(index) {}
 
         bool contains(const TupleRef& tuple) const override {
+            std::cout << "Before contains(): \n";
             return index.data.contains(index.order.encode(tuple.asTuple<Arity>()), hints);
         }
 
         bool contains(const TupleRef& low, const TupleRef& high) const override {
+            std::cout << "Before contains(): \n";
             return !index.bounds(low, high, hints).empty();
         }
 
@@ -320,6 +326,7 @@ public:
     }
 
     bool insert(const TupleRef& tuple) override {
+        std::cout << "Before insert(): \n";
         return data.insert(order.encode(tuple.asTuple<Arity>()));
     }
 
