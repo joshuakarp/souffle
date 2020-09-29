@@ -610,20 +610,32 @@ std::unique_ptr<RamOperation> AstTranslator::ClauseTranslator::createOperation(
             std::cout << "FD arity: " << fd->getArity() << "\n";
             std::cout << "vals:\n";
             for (size_t i = 0; i < head->getArguments().size(); i++) {
+                std::cout << "i: " << i << "\n";
                 // The source argument (t0.0) should be inserted when found
                 // Need to add all source arguments of the dependency.
+                bool fdFound = false;
                 for (size_t j = 0; j < fd->getArity(); j++) {
+                    std::cout << "j: " << j << "\n";
                     if (i == fd->getPosition(j)) {
-                        std::cout << "Pushing " << head->getArguments()[i] << "\n";
-                        vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
-                        valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                        // std::cout << "Pushing " << head->getArguments()[i] << "\n";
+                        // vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                        // valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                        fdFound = true;
                     // Otherwise insert ⊥
-                    } else {
-                        std::cout << "Pushing ⊥\n";
-                        vals.push_back(std::make_unique<RamUndefValue>());
-                        valsCopy.push_back(std::make_unique<RamUndefValue>());
-                    }
+                    }// else {
+                    //     std::cout << "Pushing ⊥\n";
+                    //     vals.push_back(std::make_unique<RamUndefValue>());
+                    //     valsCopy.push_back(std::make_unique<RamUndefValue>());
+                    // }
                     
+                }
+
+                if (fdFound) {
+                    vals.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                    valsCopy.push_back(translator.translateValue(head->getArguments()[i], valueIndex));
+                } else {
+                    vals.push_back(std::make_unique<RamUndefValue>());
+                    valsCopy.push_back(std::make_unique<RamUndefValue>());
                 }
 
                 // if (i == 0){//fd->getPosition()) {
