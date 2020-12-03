@@ -1,0 +1,13 @@
+// Returns whether there are more boys than girls.
+.decl boy,girl(name:symbol)
+.input boy,girl
+.decl more_boys()
+
+//boy("Peter").
+//boy("Liam").
+//boy("Harrison").
+//girl("Lynette").
+
+more_boys() :- b = count : {boy(_)}, g = count : {girl(_)}, b > g.
+
+.output more_boys

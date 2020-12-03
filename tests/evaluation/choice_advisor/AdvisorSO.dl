@@ -1,0 +1,18 @@
+// 
+.decl student(S:symbol, Majr:symbol, Yr: number)
+.input student
+.decl professor(P:symbol, Majr:symbol)
+.input professor
+.decl advisor(S:symbol, P:symbol)
+// Domain of advisor
+.decl dAdvisor(S:symbol)
+// Assign numbers to all tuples in advisor
+.decl lAdvisor(S:symbol, P:symbol, ticker:number)
+.decl choiceAdvisor(S:symbol, P:symbol)
+
+advisor(S,P) :- student(S,Majr,Yr), professor(P,Majr).
+dAdvisor(S) :- advisor(S,_).
+lAdvisor(S,P,$) :- advisor(S,P).
+choiceAdvisor(S,P) :- dAdvisor(S), m = min n : {lAdvisor(S,_,n)}, lAdvisor(S,P,m).
+
+.output choiceAdvisor

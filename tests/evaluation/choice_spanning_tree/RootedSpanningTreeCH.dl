@@ -1,0 +1,8 @@
+.decl graph(x:symbol, y:symbol, c:number)
+.input graph
+.decl st(x:symbol, y:symbol, c:number) constrains y->x, y->c
+
+st("root", "aa", 0).
+
+st(X,Y,C) :- st(_,X,_), graph(X,Y,C), Y != "aa".
+.output st

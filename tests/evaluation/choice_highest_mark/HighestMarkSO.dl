@@ -1,0 +1,23 @@
+// Returns the highest mark for both male and female in each grade.
+.decl mark(student:symbol, mark:number, grade:number, sex:symbol)
+.input mark
+.decl highest(student:symbol, mark:number, grade:number, sex:symbol)
+.decl dHighest(student:symbol, mark:number)
+.decl cHighest(student:symbol, mark:number, grade:number, sex:symbol, ticker:number)
+.decl choiceHighest(student:symbol, mark:number, grade:number, sex:symbol)
+
+//mark("Jack", 60, 1, "m").
+//mark("Jill", 80, 1, "f").
+//mark("John", 50, 1, "m").
+//mark("David", 70, 1, "m").
+//mark("Olivia", 65, 1, "f").
+//mark("Grant", 30, 2, "m").
+//mark("Sally", 70, 2, "f").
+//mark("OtherSally", 70, 2, "f").
+
+highest(student,hm,grade,sex) :- hm = max n : {mark(_,n,grade,sex)}, mark(student,hm,grade,sex).
+dHighest(s,m) :- highest(s,m,_,_).
+cHighest(stu,m,g,s,$) :- highest(stu,m,g,s).
+choiceHighest(stu,mark,g,s) :- dHighest(stu,mark), m = min n : {cHighest(_,_,g,s,n)}, cHighest(stu,mark,g,s,m).
+
+.output choiceHighest

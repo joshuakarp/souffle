@@ -1,0 +1,20 @@
+//
+.decl student(S:symbol, Majr:symbol, Yr: number)
+.input student
+.decl professor(P:symbol, Majr:symbol)
+.input professor
+.decl advisor(S:symbol, P:symbol) constrains S -> P
+
+//student("Josh", "aa", 2).
+//student("John", "pp", 2).
+//student("JimBlack", "ee", 1).
+//student("Jack", "aa", 2).
+
+//professor("ohm", "ee").
+//professor("bell", "aa").
+//professor("holmes", "pp").
+//professor("smith", "ee").
+
+advisor(S,P) :- student(S,Majr,Yr), professor(P,Majr).
+
+.output advisor

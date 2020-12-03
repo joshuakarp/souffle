@@ -1,0 +1,20 @@
+// 
+.decl g(source:symbol, destination:symbol, cost:number)
+.input g
+.decl reach(node:symbol, cost:number) constrains node->cost
+
+
+//g("a", "b", 2).
+//g("a", "d", 1).
+
+//g("b", "c", 1).
+
+//g("c", "d", 1).
+
+//g("d", "b", 1).
+
+reach("aa", 0).
+
+reach(Y,C) :- reach(X, C1), g(X, Y, C2), Y != "a", C = C1 + C2.
+
+.output reach

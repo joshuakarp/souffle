@@ -1,0 +1,173 @@
+#define FALSE 0
+#define TRUE 1
+
+/* INPUT: graph, where (x,y) are directed edges with a given weight */
+.decl graph(x:symbol, y:symbol, weight:number)
+.input graph()
+
+/****
+ * GRAPH SETUP
+ ****/
+/* Read out the nodes */
+.decl node(node_id:symbol)
+node(x) :- graph(x,_,_) ; graph(_,x,_).
+
+/* Assign an id to each edge */
+.decl edge(id:number, x:symbol, y:symbol, weight:number)
+edge($,x,y,weight) :- graph(x,y,weight).
+
+/* Assign a total order among edges - based on the weight (from 0 to m-1) and then id */
+.decl edgePosition(id:number, pos:number)
+edgePosition(id, pos) :-
+    edge(id, _, _, _),
+    pos = count : { edgeLess(_, id) }.
+
+.decl edgeLess(id1:number, id2:number)
+edgeLess(id1, id2) :-
+    edge(id1, _, _, w1),
+    edge(id2, _, _, w2),
+    ((w1 < w2) ; (w1 = w2, id1 < id2)).
+
+/* Assign a start node arbitrarily */
+// Just choose the outgoing node from the first edge
+.decl startNode(node_id: symbol)
+startNode(node_id) :- edge(0, node_id, _, _).
+
+/* Keep track of the number of valid steps possible */
+.decl validStep(step:number)
+validStep(0).
+validStep(step+1) :- validStep(step), step < count : node(_).
+
+/****
+ * VALID NODE DETECTION
+ ****/
+/* Determine the nodes in the tree at this step */
+// A growing set where each chosen node is added per step
+// Initially contains only the start node, then adds in each chosen node
+.decl addedNode(step:number, node_id:symbol)
+addedNode(0, start) :- startNode(start).
+addedNode(step+1, node_id) :-
+    validStep(step+1),
+    (addedNode(step, node_id) ; chosenNode(step, node_id)).
+
+/* Determine the invalid nodes in this step */
+// A shrinking set where only non-added nodes remain
+// Initially contains all non-start nodes, then removes any nodes that are now reachable
+.decl unaddedNode(step:number, node_id:symbol)
+unaddedNode(0, node_id) :- node(node_id), !startNode(node_id).
+unaddedNode(prev_step+1, node_id) :-
+    unaddedNode(prev_step, node_id),
+    chosenEdge(prev_step, new_edge_id),
+    edge(new_edge_id, _, y, _),
+    node_id != y.
+
+/****
+ * VALID EDGE DETECTION
+ ****/
+/* Determine the edges we can choose from */
+.decl validEdge(step:number, edge_id: number)
+validEdge(step, edge_id) :-
+    reachableEdge(step, edge_id),
+    edge(edge_id, _, node_id, _),
+    unaddedNode(step, node_id),
+    unusedEdge(step, edge_id).
+
+/* Determine the edges reachable from our added node set */
+.decl reachableEdge(step:number, edge_id:number)
+reachableEdge(step, edge_id) :-
+    addedNode(step, node_id),
+    edge(edge_id, node_id, _, _).
+
+/* Determine the edges that have not been used yet */
+// A shrinking set where only unused edges remain
+.decl unusedEdge(step:number, edge_id:number)
+unusedEdge(0, edge_id) :- edge(edge_id,_,_,_).
+unusedEdge(prev_step+1, edge_id) :-
+    unusedEdge(prev_step, edge_id),
+    chosenEdge(prev_step, new_edge_id),
+    new_edge_id != edge_id.
+
+/* Determine the edges that we cannot choose from */
+// Constructed complement to validEdge
+// Contains:
+//  (1) edges already used
+//  (2) edges coming out of invalid nodes
+//  (3) edges going into added nodes
+.decl notValidEdge(step:number, edge_id:number)
+// (1) edges that have already been used
+notValidEdge(step, edge_id) :-
+    validStep(step),
+    chosenEdge(prev_step, edge_id),
+    prev_step < step.
+// (2) edges coming out of unadded nodes
+notValidEdge(step, edge_id) :-
+    unaddedNode(step, node_id),
+    edge(edge_id, node_id, _, _).
+// (3) edges going to already used nodes
+notValidEdge(step, edge_id) :-
+    addedNode(step, node_id),
+    edge(edge_id, _, node_id, _).
+
+/****
+ * EDGE CHOICE 
+ ****/
+/* Determine the next edge to be chosen in the sequence */
+.decl chosenEdge(step:number, edge_id:number)
+chosenEdge(step, edge_id) :-
+    chosenEdgeInductive(step, edge_position, TRUE),
+    edgePosition(edge_id, edge_position).
+
+/* Inductive helper relation to find the next edge to choose */
+// Go through our list of potential edges to choose in order until we hit the one we want
+.decl chosenEdgeInductive(step:number, edge_position:number, is_chosen:number)
+
+// Dummy base case
+chosenEdgeInductive(step, -1, FALSE) :- validStep(step).
+
+// Inductive case
+chosenEdgeInductive(step, cur_edge_pos, is_chosen) :-
+    // Keep going if needed
+    chosenEdgeInductive(step, prev_edge_pos, FALSE),
+    edgePosition(edge_id, cur_edge_pos),
+    cur_edge_pos = prev_edge_pos + 1,
+
+    // Decide if it can be chosen
+    ((validEdge(step, edge_id), is_chosen = TRUE) ;
+     (notValidEdge(step, edge_id), is_chosen = FALSE)).
+
+/****
+ * NODE CHOICE
+ ****/
+/* Determine the next node to be added */
+// Entirely based on edge choice
+.decl chosenNode(step:number, node_id:symbol)
+chosenNode(step, node_id) :-
+    chosenEdge(step, edge_id),
+    edge(edge_id, _, node_id, _).
+
+/****
+ * PRIM'S ALGORITHM
+ ****/
+/* Show a trace of prim's algorithm! */
+.decl prims_trace(step:number, edge_id:number, x:symbol, y:symbol, weight:number)
+prims_trace(step, edge_id, x, y, weight) :-
+    chosenEdge(step, edge_id),
+    edge(edge_id, x, y, weight).
+.output prims_trace()
+
+/****
+ * ASSERTIONS
+ ****/
+// Some assertions to ensure things are working as expected
+.decl fail()
+fail() :- validEdge(step, edge_id), notValidEdge(step, edge_id).
+fail() :- addedNode(step, node_id), unaddedNode(step, node_id).
+fail() :- validStep(step), edge(edge_id,_,_,_), !validEdge(step, edge_id), !notValidEdge(step, edge_id).
+fail() :- validStep(step), node(node_id), !addedNode(step, node_id), !unaddedNode(step, node_id).
+fail() :- node(node_id), !startNode(node_id), !chosenNode(_, node_id).
+
+.decl assertions(result:symbol)
+.output assertions()
+assertions("Assertions passed!") :- !fail().
+assertions("Assertions failed.") :- fail().
+

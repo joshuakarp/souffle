@@ -1,0 +1,14 @@
+// Constructs a total order over domain, d (i.e. a chain of unary elements).
+// Ultimately, represents a list of elements, with a single head element.
+.decl d(x:symbol)
+.input d
+.decl list(prev:symbol, data:symbol) constrains prev->data, data->prev
+
+list("nil", "head").
+
+//d("b").
+//d("c").
+//d("a").
+
+list(x,y) :- d(y), list(_,x).
+.output list

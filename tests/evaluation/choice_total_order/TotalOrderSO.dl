@@ -1,0 +1,28 @@
+.decl d(x:symbol)
+.input d
+
+//d("a").
+//d("b").
+//d("c").
+//d("d").
+//d("e").
+//d("f").
+
+.decl less(x:symbol, y:symbol) 
+less(x,y) :- 
+ d(x), 
+ d(y),  
+ ord(x) < ord(y).
+
+.decl transitiveLess(x:symbol, y:symbol) 
+transitiveLess(x,z) :- 
+  less(x,y), 
+  less(y,z). 
+
+.decl list(x:symbol, y:symbol) 
+list(x,y) :- less(x,y), !transitiveLess(x,y). 
+
+
+.printsize less
+.printsize transitiveLess
+.printsize list

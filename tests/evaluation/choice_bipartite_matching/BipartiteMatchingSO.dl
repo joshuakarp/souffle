@@ -1,0 +1,106 @@
+// 
+#define FALSE 0
+#define TRUE 1
+
+/**
+ * SET UP
+ */
+.decl graph(x:symbol, y:symbol)
+.input graph()
+
+
+.decl v1(x:symbol)
+.input v1()
+
+.decl v2(x:symbol)
+.input v2()
+
+.decl edge(id:number, x:symbol, y:symbol)
+edge($,x,y) :- graph(x,y), v1(x), v2(y).
+
+.decl validStep(step:number)
+validStep(0).
+validStep(step+1) :- validStep(step), step < count : v1(_).
+
+/**
+ * EDGE VALIDITY
+ */
+// Shrinking set
+// Starts off with every edge, then discards the ones going to a known node each step
+.decl validEdge(step:number, edge_id:number)
+validEdge(0, edge_id) :- edge(edge_id,_,_).
+validEdge(step, edge_id) :-
+    step = prev_step + 1,
+    validStep(step),
+
+    // Check every previous valid edge
+    validEdge(prev_step, edge_id),
+    edge(edge_id, src_node, dest_node),
+
+    // Discard them if they have endpoints in common with the chosen edge
+    chosenEdge(prev_step, chosen_edge_id),
+    edge(chosen_edge_id, chosen_src_node, chosen_dest_node),
+    dest_node != chosen_dest_node,
+    src_node != chosen_src_node.
+
+// Growing set of invalid edges
+// Starts off with nothing then starts adding more "bad" edges
+.decl notValidEdge(step:number, edge_id:number)
+
+// (1) any already invalid edge
+notValidEdge(step, edge_id) :-
+    step = prev_step + 1,
+    validStep(step),
+    notValidEdge(prev_step, edge_id).
+
+// (2) + any edge going to a node just explored
+notValidEdge(step, edge_id) :-
+    step = prev_step + 1,
+    validStep(step),
+    edge(edge_id, _, dest_node),
+    chosenEdge(prev_step, chosen_edge_id),
+    edge(chosen_edge_id, _, dest_node).
+
+// (3) + any edge coming from a node just explored
+notValidEdge(step, edge_id) :-
+    step = prev_step + 1,
+    validStep(step),
+    edge(edge_id, src_node, _),
+    chosenEdge(prev_step, chosen_edge_id),
+    edge(chosen_edge_id, src_node, _).
+
+/**
+ * CHOICE - INDUCTION
+ */
+.decl chosenEdge(step:number, edge_id:number)
+chosenEdge(step, edge_id) :- chosenEdgeInductive(step, edge_id, TRUE).
+
+// Keep looking if and only if no valid edge has been found
+.decl chosenEdgeInductive(step:number, edge_position:number, is_chosen:number)
+
+// Dummy base case
+chosenEdgeInductive(step, -1, FALSE) :- validStep(step).
+
+// Inductive case - keep going until a valid edge found
+chosenEdgeInductive(step, cur_id, is_chosen) :-
+    chosenEdgeInductive(step, prev_id, FALSE),
+    cur_id = prev_id + 1,
+    ((validEdge(step, cur_id), is_chosen = TRUE) ;
+     (notValidEdge(step, cur_id), is_chosen = FALSE)).
+
+/**
+ * MATCHING
+ */
+// Get the chosen edge at each step
+.decl bipartiteTrace(step:number, x:symbol, y:symbol)
+bipartiteTrace(step, x, y) :-
+    chosenEdge(step, edge_id),
+    edge(edge_id, x, y).
+
+// Pretty-print them
+.decl bipartite(result:symbol)
+bipartite(cat(x, "->", y)) :- bipartiteTrace(_, x, y).
+
+//.output edge, validEdge, notValidEdge, validStep, chosenEdge, chosenEdgeInductive
+.output bipartiteTrace()
+.output bipartite()

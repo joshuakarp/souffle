@@ -1,0 +1,16 @@
+// Returns the highest mark for both male and female in each grade.
+.decl mark(student:symbol, mark:number, grade:number, sex:symbol)
+.input mark
+.decl highest_mark(student:symbol, mark:number, grade:number, sex:symbol) constrains (grade,sex)->mark
+
+//mark("Jack", 60, 1, "m").
+//mark("Jill", 80, 1, "f").
+//mark("John", 50, 1, "m").
+//mark("David", 70, 1, "m").
+//mark("Olivia", 65, 1, "f").
+//mark("Grant", 30, 2, "m").
+//mark("Sally", 70, 2, "f").
+
+highest_mark(student,hm,grade,sex) :- mark(student,hm,grade,sex).
+
+.output highest_mark

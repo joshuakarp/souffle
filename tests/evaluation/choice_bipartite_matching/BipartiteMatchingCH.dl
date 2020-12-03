@@ -1,0 +1,19 @@
+// Nodes in a graph are split into two disjoint subsets: V1 and V2
+// An edge between nodes of the disjoint subsets is denoted by edge(node from V1, node from V2)
+.decl edge(node1:symbol, node2:symbol)
+.input edge
+// Matching constraints ensures no two edges share an endpoint (i.e. the bipartite matching problem)
+.decl matching(x:symbol, y:symbol) constrains x->y, y->x
+
+// i.e. V1: {a,b,c}
+//	V2: {x,y,z}
+//edge("a", "z").
+//edge("a", "x").
+//edge("a", "y").
+//edge("b", "y").
+//edge("c", "x").
+//edge("c", "z").
+
+matching(x,y) :- edge(x,y).
+
+.output matching

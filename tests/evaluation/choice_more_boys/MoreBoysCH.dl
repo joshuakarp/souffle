@@ -1,0 +1,17 @@
+// Returns whether there are more boys than girls.
+.decl boy,girl(name:symbol)
+.input boy,girl
+.decl pairs(bname:symbol, gname:symbol) constrains bname->gname, gname->bname
+.decl paired_boys(name:symbol)
+.decl more_boys()
+
+//boy("Peter").
+//boy("Liam").
+//boy("Harrison").
+//girl("Lynette").
+
+pairs(bname, gname) :- boy(bname), girl(gname).
+paired_boys(bname) :- pairs(bname, _).
+more_boys() :- boy(bname), !paired_boys(bname).
+
+.output more_boys
